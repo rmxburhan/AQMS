@@ -130,7 +130,6 @@ namespace AQMS
             this.chart2.Size = new System.Drawing.Size(1006, 240);
             this.chart2.TabIndex = 47;
             this.chart2.Text = "chart2";
-            this.chart2.Click += new System.EventHandler(this.chart2_Click);
             // 
             // button1
             // 

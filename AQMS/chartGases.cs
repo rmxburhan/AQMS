@@ -20,14 +20,12 @@ namespace AQMS
             {
                 chart2.Series[i].Points.AddXY(x, y[i]);
             }
+            refreshChart("");
         }
      
         private void button6_Click(object sender, EventArgs e)
         {
-            if (!_form1.serialPortUtama.IsOpen)
-            {
-                refreshChart();
-            }
+            refreshChart("halo");
             chart2.Series[0].Enabled = (chart2.Series[0].Enabled == true ? false : true);
             button6.BackColor = (chart2.Series[0].Enabled == true ? Color.FromArgb(44, 69, 157) : Color.LightGray);
             button6.ForeColor = (chart2.Series[0].Enabled == true ? Color.White : Color.Black);
@@ -35,50 +33,34 @@ namespace AQMS
 
         private void button5_Click(object sender, EventArgs e)
         {
-            if (!_form1.serialPortUtama.IsOpen)
-            {
-                refreshChart();
-
-            }
             chart2.Series[1].Enabled = (chart2.Series[1].Enabled == true ? false : true);
             button5.BackColor = (chart2.Series[1].Enabled == true ? Color.FromArgb(44, 69, 157) : Color.LightGray);
             button5.ForeColor = (chart2.Series[1].Enabled == true ? Color.White : Color.Black);
+            refreshChart("halo");
         }
 
         private void button4_Click(object sender, EventArgs e)
         {
-            if (!_form1.serialPortUtama.IsOpen)
-            {
-                refreshChart();
-
-            }
             chart2.Series[2].Enabled = (chart2.Series[2].Enabled == true ? false : true);
             button4.BackColor = (chart2.Series[2].Enabled == true ? Color.FromArgb(44, 69, 157) : Color.LightGray);
             button4.ForeColor = (chart2.Series[2].Enabled == true ? Color.White : Color.Black);
+            refreshChart("halo");
         }
 
         private void button3_Click(object sender, EventArgs e)
         {
-            if (!_form1.serialPortUtama.IsOpen)
-            {
-                refreshChart();
-
-            }
             chart2.Series[3].Enabled = (chart2.Series[3].Enabled == true ? false : true);
             button3.BackColor = (chart2.Series[3].Enabled == true ? Color.FromArgb(44, 69, 157) : Color.LightGray);
             button3.ForeColor = (chart2.Series[3].Enabled == true ? Color.White : Color.Black);
+            refreshChart("halo");
         }
 
         private void button2_Click(object sender, EventArgs e)
         {
-            if (!_form1.serialPortUtama.IsOpen)
-            {
-                refreshChart();
-
-            }
             chart2.Series[4].Enabled = (chart2.Series[4].Enabled == true ? false : true);
             button2.BackColor = (chart2.Series[4].Enabled == true ? Color.FromArgb(44, 69, 157) : Color.LightGray);
             button2.ForeColor = (chart2.Series[4].Enabled == true ? Color.White : Color.Black);
+            refreshChart("halo");
         }
 
         private void button1_Click(object sender, EventArgs e)
@@ -102,26 +84,42 @@ namespace AQMS
             button6.ForeColor = Color.White;
         }
 
-        private void refreshChart()
+        private void refreshChart(string halo)
         {
-            if (!_form1.serialPortUtama.IsOpen)
+            double[] value = new double[5];
+            value[0] = (chart2.Series[0].Enabled == true ? Convert.ToDouble(chart2.Series[0].Points.FindMaxByValue().YValues[0]) : 0);
+            value[1] = (chart2.Series[1].Enabled == true ? Convert.ToDouble(chart2.Series[1].Points.FindMaxByValue().YValues[0]) : 0);
+            value[2] = (chart2.Series[2].Enabled == true ? Convert.ToDouble(chart2.Series[2].Points.FindMaxByValue().YValues[0]) : 0);
+            value[3] = (chart2.Series[3].Enabled == true ? Convert.ToDouble(chart2.Series[3].Points.FindMaxByValue().YValues[0]) : 0);
+            value[4] = (chart2.Series[4].Enabled == true ? Convert.ToDouble(chart2.Series[4].Points.FindMaxByValue().YValues[0]) : 0);
+
+            double maxValue = 0;
+            for (int i = 0; i < value.Length - 1; i++)
             {
-                chart2.Series[0].Points.AddXY("0", 0);
-                chart2.Series[1].Points.AddXY("0", 0);
-                chart2.Series[2].Points.AddXY("0", 0);
-                chart2.Series[3].Points.AddXY("0", 0);
-                chart2.Series[4].Points.AddXY("0", 0);
-                chart2.Series[0].Points.RemoveAt(chart2.Series[0].Points.Count - 1);
-                chart2.Series[1].Points.RemoveAt(chart2.Series[1].Points.Count - 1);
-                chart2.Series[2].Points.RemoveAt(chart2.Series[2].Points.Count - 1);
-                chart2.Series[3].Points.RemoveAt(chart2.Series[3].Points.Count - 1);
-                chart2.Series[4].Points.RemoveAt(chart2.Series[4].Points.Count - 1);
+                if (maxValue < value[i])
+                {
+                    maxValue = value[i];
+                }
             }
-        }
-
-        private void chart2_Click(object sender, EventArgs e)
-        {
-
+            Console.WriteLine("Max " + maxValue);
+            chart2.ChartAreas[0].AxisY.Maximum = maxValue + 100;
+            if (halo == "true")
+            {
+                if (!_form1.serialPortUtama.IsOpen)
+                {
+                    chart2.Series[0].Points.AddXY("0", 0);
+                    chart2.Series[1].Points.AddXY("0", 0);
+                    chart2.Series[2].Points.AddXY("0", 0);
+                    chart2.Series[3].Points.AddXY("0", 0);
+                    chart2.Series[4].Points.AddXY("0", 0);
+                    chart2.Series[0].Points.RemoveAt(chart2.Series[0].Points.Count - 1);
+                    chart2.Series[1].Points.RemoveAt(chart2.Series[1].Points.Count - 1);
+                    chart2.Series[2].Points.RemoveAt(chart2.Series[2].Points.Count - 1);
+                    chart2.Series[3].Points.RemoveAt(chart2.Series[3].Points.Count - 1);
+                    chart2.Series[4].Points.RemoveAt(chart2.Series[4].Points.Count - 1);
+                }
+            }
+            
         }
     }
 }

@@ -181,17 +181,6 @@ namespace AQMS
             this.btnGenereateRawData = new System.Windows.Forms.Button();
             this.label43 = new System.Windows.Forms.Label();
             this.dataGridView2 = new System.Windows.Forms.DataGridView();
-            this.iDDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.rawdataDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.createdatDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.namapetugasDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.useridDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.no2DataGridViewTextBoxColumn1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.so2DataGridViewTextBoxColumn1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.o3DataGridViewTextBoxColumn1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.coDataGridViewTextBoxColumn1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.hcDataGridViewTextBoxColumn1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.entityRawDataBindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.tableLayoutPanel3 = new System.Windows.Forms.TableLayoutPanel();
             this.panel37 = new System.Windows.Forms.Panel();
             this.labelRawData = new System.Windows.Forms.Label();
@@ -217,12 +206,6 @@ namespace AQMS
             this.panel43 = new System.Windows.Forms.Panel();
             this.btnUserLog = new System.Windows.Forms.Button();
             this.dgUserLog = new System.Windows.Forms.DataGridView();
-            this.idDataGridViewTextBoxColumn1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.namauserDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.emailDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.aktifitasDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.waktuDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.entityUserLogBindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.dtpToLog = new System.Windows.Forms.DateTimePicker();
             this.dtpFromLog = new System.Windows.Forms.DateTimePicker();
             this.label22 = new System.Windows.Forms.Label();
@@ -231,23 +214,7 @@ namespace AQMS
             this.report = new System.Windows.Forms.TabPage();
             this.tableLayoutPanel6 = new System.Windows.Forms.TableLayoutPanel();
             this.dgDataReport = new System.Windows.Forms.DataGridView();
-            this.idDataGridViewTextBoxColumn2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.namapetugasDataGridViewTextBoxColumn1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.suhuDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.kelembabanDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.tekananDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.arahanginDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.kecepatananginDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.no2DataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.o3DataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.coDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.so2DataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.hcDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.pm25DataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.pm10DataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.waktuDataGridViewTextBoxColumn1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.valid = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.entityDataBindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.panel11 = new System.Windows.Forms.Panel();
             this.label76 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
@@ -364,7 +331,6 @@ namespace AQMS
             this.panelTrack = new System.Windows.Forms.Panel();
             this.btnMax = new System.Windows.Forms.Button();
             this.btnMin = new System.Windows.Forms.Button();
-            this.trackPwm = new AQMS.ColorSlider();
             this.txtPwmTrack = new System.Windows.Forms.TextBox();
             this.label45 = new System.Windows.Forms.Label();
             this.label23 = new System.Windows.Forms.Label();
@@ -426,6 +392,40 @@ namespace AQMS
             this.timerWaktuTunggu = new System.Windows.Forms.Timer(this.components);
             this.timer1 = new System.Windows.Forms.Timer(this.components);
             this.timerWaktuCharge = new System.Windows.Forms.Timer(this.components);
+            this.iDDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.rawdataDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.createdatDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.namapetugasDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.useridDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.no2DataGridViewTextBoxColumn1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.so2DataGridViewTextBoxColumn1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.o3DataGridViewTextBoxColumn1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.coDataGridViewTextBoxColumn1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.hcDataGridViewTextBoxColumn1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.entityRawDataBindingSource = new System.Windows.Forms.BindingSource(this.components);
+            this.idDataGridViewTextBoxColumn1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.namauserDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.emailDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.aktifitasDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.waktuDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.entityUserLogBindingSource = new System.Windows.Forms.BindingSource(this.components);
+            this.idDataGridViewTextBoxColumn2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.namapetugasDataGridViewTextBoxColumn1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.suhuDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.kelembabanDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.tekananDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.arahanginDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.kecepatananginDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.no2DataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.o3DataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.coDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.so2DataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.hcDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.pm25DataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.pm10DataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.waktuDataGridViewTextBoxColumn1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.entityDataBindingSource = new System.Windows.Forms.BindingSource(this.components);
+            this.trackPwm = new AQMS.ColorSlider();
             this.entityRawDataBindingSource1 = new System.Windows.Forms.BindingSource(this.components);
             this.tableLayoutPanel1.SuspendLayout();
             this.tableLayoutPanel7.SuspendLayout();
@@ -475,7 +475,6 @@ namespace AQMS
             this.tableLayoutPanel5.SuspendLayout();
             this.panel32.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView2)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.entityRawDataBindingSource)).BeginInit();
             this.tableLayoutPanel3.SuspendLayout();
             this.panel37.SuspendLayout();
             this.panel23.SuspendLayout();
@@ -485,11 +484,9 @@ namespace AQMS
             ((System.ComponentModel.ISupportInitialize)(this.dgZeroLog)).BeginInit();
             this.panel43.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dgUserLog)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.entityUserLogBindingSource)).BeginInit();
             this.report.SuspendLayout();
             this.tableLayoutPanel6.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dgDataReport)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.entityDataBindingSource)).BeginInit();
             this.panel11.SuspendLayout();
             this.panel49.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.chartGas)).BeginInit();
@@ -545,6 +542,9 @@ namespace AQMS
             this.tabPage1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pbAbout)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.entityRawDataBindingSource)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.entityUserLogBindingSource)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.entityDataBindingSource)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.entityRawDataBindingSource1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -2285,100 +2285,6 @@ namespace AQMS
             this.dataGridView2.Size = new System.Drawing.Size(1010, 312);
             this.dataGridView2.TabIndex = 69;
             // 
-            // iDDataGridViewTextBoxColumn
-            // 
-            this.iDDataGridViewTextBoxColumn.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.DisplayedCells;
-            this.iDDataGridViewTextBoxColumn.DataPropertyName = "ID";
-            this.iDDataGridViewTextBoxColumn.HeaderText = "ID";
-            this.iDDataGridViewTextBoxColumn.Name = "iDDataGridViewTextBoxColumn";
-            this.iDDataGridViewTextBoxColumn.ReadOnly = true;
-            this.iDDataGridViewTextBoxColumn.Width = 47;
-            // 
-            // rawdataDataGridViewTextBoxColumn
-            // 
-            this.rawdataDataGridViewTextBoxColumn.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.DisplayedCells;
-            this.rawdataDataGridViewTextBoxColumn.DataPropertyName = "raw_data";
-            this.rawdataDataGridViewTextBoxColumn.HeaderText = "Raw Data";
-            this.rawdataDataGridViewTextBoxColumn.Name = "rawdataDataGridViewTextBoxColumn";
-            this.rawdataDataGridViewTextBoxColumn.ReadOnly = true;
-            this.rawdataDataGridViewTextBoxColumn.Width = 91;
-            // 
-            // createdatDataGridViewTextBoxColumn
-            // 
-            this.createdatDataGridViewTextBoxColumn.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.DisplayedCells;
-            this.createdatDataGridViewTextBoxColumn.DataPropertyName = "created_at";
-            this.createdatDataGridViewTextBoxColumn.HeaderText = "Datetime";
-            this.createdatDataGridViewTextBoxColumn.Name = "createdatDataGridViewTextBoxColumn";
-            this.createdatDataGridViewTextBoxColumn.ReadOnly = true;
-            this.createdatDataGridViewTextBoxColumn.Width = 90;
-            // 
-            // namapetugasDataGridViewTextBoxColumn
-            // 
-            this.namapetugasDataGridViewTextBoxColumn.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.DisplayedCells;
-            this.namapetugasDataGridViewTextBoxColumn.DataPropertyName = "nama_petugas";
-            this.namapetugasDataGridViewTextBoxColumn.HeaderText = "Nama Petugas";
-            this.namapetugasDataGridViewTextBoxColumn.Name = "namapetugasDataGridViewTextBoxColumn";
-            this.namapetugasDataGridViewTextBoxColumn.ReadOnly = true;
-            this.namapetugasDataGridViewTextBoxColumn.Width = 122;
-            // 
-            // useridDataGridViewTextBoxColumn
-            // 
-            this.useridDataGridViewTextBoxColumn.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.DisplayedCells;
-            this.useridDataGridViewTextBoxColumn.DataPropertyName = "user_id";
-            this.useridDataGridViewTextBoxColumn.HeaderText = "user_id";
-            this.useridDataGridViewTextBoxColumn.Name = "useridDataGridViewTextBoxColumn";
-            this.useridDataGridViewTextBoxColumn.ReadOnly = true;
-            this.useridDataGridViewTextBoxColumn.Visible = false;
-            // 
-            // no2DataGridViewTextBoxColumn1
-            // 
-            this.no2DataGridViewTextBoxColumn1.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.DisplayedCells;
-            this.no2DataGridViewTextBoxColumn1.DataPropertyName = "no2";
-            this.no2DataGridViewTextBoxColumn1.HeaderText = "NO2";
-            this.no2DataGridViewTextBoxColumn1.Name = "no2DataGridViewTextBoxColumn1";
-            this.no2DataGridViewTextBoxColumn1.ReadOnly = true;
-            this.no2DataGridViewTextBoxColumn1.Width = 60;
-            // 
-            // so2DataGridViewTextBoxColumn1
-            // 
-            this.so2DataGridViewTextBoxColumn1.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.DisplayedCells;
-            this.so2DataGridViewTextBoxColumn1.DataPropertyName = "so2";
-            this.so2DataGridViewTextBoxColumn1.HeaderText = "SO2";
-            this.so2DataGridViewTextBoxColumn1.Name = "so2DataGridViewTextBoxColumn1";
-            this.so2DataGridViewTextBoxColumn1.ReadOnly = true;
-            this.so2DataGridViewTextBoxColumn1.Width = 57;
-            // 
-            // o3DataGridViewTextBoxColumn1
-            // 
-            this.o3DataGridViewTextBoxColumn1.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.DisplayedCells;
-            this.o3DataGridViewTextBoxColumn1.DataPropertyName = "o3";
-            this.o3DataGridViewTextBoxColumn1.HeaderText = "O3";
-            this.o3DataGridViewTextBoxColumn1.Name = "o3DataGridViewTextBoxColumn1";
-            this.o3DataGridViewTextBoxColumn1.ReadOnly = true;
-            this.o3DataGridViewTextBoxColumn1.Width = 50;
-            // 
-            // coDataGridViewTextBoxColumn1
-            // 
-            this.coDataGridViewTextBoxColumn1.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.DisplayedCells;
-            this.coDataGridViewTextBoxColumn1.DataPropertyName = "co";
-            this.coDataGridViewTextBoxColumn1.HeaderText = "CO";
-            this.coDataGridViewTextBoxColumn1.Name = "coDataGridViewTextBoxColumn1";
-            this.coDataGridViewTextBoxColumn1.ReadOnly = true;
-            this.coDataGridViewTextBoxColumn1.Width = 51;
-            // 
-            // hcDataGridViewTextBoxColumn1
-            // 
-            this.hcDataGridViewTextBoxColumn1.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.DisplayedCells;
-            this.hcDataGridViewTextBoxColumn1.DataPropertyName = "hc";
-            this.hcDataGridViewTextBoxColumn1.HeaderText = "HC";
-            this.hcDataGridViewTextBoxColumn1.Name = "hcDataGridViewTextBoxColumn1";
-            this.hcDataGridViewTextBoxColumn1.ReadOnly = true;
-            this.hcDataGridViewTextBoxColumn1.Width = 51;
-            // 
-            // entityRawDataBindingSource
-            // 
-            this.entityRawDataBindingSource.DataSource = typeof(AQMS.EntityRawData);
-            // 
             // tableLayoutPanel3
             // 
             this.tableLayoutPanel3.ColumnCount = 3;
@@ -2706,54 +2612,6 @@ namespace AQMS
             this.dgUserLog.Size = new System.Drawing.Size(983, 139);
             this.dgUserLog.TabIndex = 18;
             // 
-            // idDataGridViewTextBoxColumn1
-            // 
-            this.idDataGridViewTextBoxColumn1.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.DisplayedCells;
-            this.idDataGridViewTextBoxColumn1.DataPropertyName = "id";
-            this.idDataGridViewTextBoxColumn1.HeaderText = "ID";
-            this.idDataGridViewTextBoxColumn1.Name = "idDataGridViewTextBoxColumn1";
-            this.idDataGridViewTextBoxColumn1.ReadOnly = true;
-            this.idDataGridViewTextBoxColumn1.Width = 47;
-            // 
-            // namauserDataGridViewTextBoxColumn
-            // 
-            this.namauserDataGridViewTextBoxColumn.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.DisplayedCells;
-            this.namauserDataGridViewTextBoxColumn.DataPropertyName = "nama_user";
-            this.namauserDataGridViewTextBoxColumn.HeaderText = "Nama User";
-            this.namauserDataGridViewTextBoxColumn.Name = "namauserDataGridViewTextBoxColumn";
-            this.namauserDataGridViewTextBoxColumn.ReadOnly = true;
-            // 
-            // emailDataGridViewTextBoxColumn
-            // 
-            this.emailDataGridViewTextBoxColumn.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.DisplayedCells;
-            this.emailDataGridViewTextBoxColumn.DataPropertyName = "email";
-            this.emailDataGridViewTextBoxColumn.HeaderText = "Email";
-            this.emailDataGridViewTextBoxColumn.Name = "emailDataGridViewTextBoxColumn";
-            this.emailDataGridViewTextBoxColumn.ReadOnly = true;
-            this.emailDataGridViewTextBoxColumn.Width = 67;
-            // 
-            // aktifitasDataGridViewTextBoxColumn
-            // 
-            this.aktifitasDataGridViewTextBoxColumn.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.DisplayedCells;
-            this.aktifitasDataGridViewTextBoxColumn.DataPropertyName = "aktifitas";
-            this.aktifitasDataGridViewTextBoxColumn.HeaderText = "Aktifitas";
-            this.aktifitasDataGridViewTextBoxColumn.Name = "aktifitasDataGridViewTextBoxColumn";
-            this.aktifitasDataGridViewTextBoxColumn.ReadOnly = true;
-            this.aktifitasDataGridViewTextBoxColumn.Width = 85;
-            // 
-            // waktuDataGridViewTextBoxColumn
-            // 
-            this.waktuDataGridViewTextBoxColumn.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.DisplayedCells;
-            this.waktuDataGridViewTextBoxColumn.DataPropertyName = "waktu";
-            this.waktuDataGridViewTextBoxColumn.HeaderText = "Waktu";
-            this.waktuDataGridViewTextBoxColumn.Name = "waktuDataGridViewTextBoxColumn";
-            this.waktuDataGridViewTextBoxColumn.ReadOnly = true;
-            this.waktuDataGridViewTextBoxColumn.Width = 72;
-            // 
-            // entityUserLogBindingSource
-            // 
-            this.entityUserLogBindingSource.DataSource = typeof(AQMS.EntityUserLog);
-            // 
             // dtpToLog
             // 
             this.dtpToLog.CalendarFont = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -2876,151 +2734,12 @@ namespace AQMS
             this.dgDataReport.Size = new System.Drawing.Size(1004, 195);
             this.dgDataReport.TabIndex = 17;
             // 
-            // idDataGridViewTextBoxColumn2
-            // 
-            this.idDataGridViewTextBoxColumn2.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.DisplayedCells;
-            this.idDataGridViewTextBoxColumn2.DataPropertyName = "id";
-            this.idDataGridViewTextBoxColumn2.HeaderText = "ID";
-            this.idDataGridViewTextBoxColumn2.Name = "idDataGridViewTextBoxColumn2";
-            this.idDataGridViewTextBoxColumn2.ReadOnly = true;
-            this.idDataGridViewTextBoxColumn2.Width = 47;
-            // 
-            // namapetugasDataGridViewTextBoxColumn1
-            // 
-            this.namapetugasDataGridViewTextBoxColumn1.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.DisplayedCells;
-            this.namapetugasDataGridViewTextBoxColumn1.DataPropertyName = "nama_petugas";
-            this.namapetugasDataGridViewTextBoxColumn1.HeaderText = "Nama Petugas";
-            this.namapetugasDataGridViewTextBoxColumn1.Name = "namapetugasDataGridViewTextBoxColumn1";
-            this.namapetugasDataGridViewTextBoxColumn1.ReadOnly = true;
-            this.namapetugasDataGridViewTextBoxColumn1.Width = 112;
-            // 
-            // suhuDataGridViewTextBoxColumn
-            // 
-            this.suhuDataGridViewTextBoxColumn.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.DisplayedCells;
-            this.suhuDataGridViewTextBoxColumn.DataPropertyName = "suhu";
-            this.suhuDataGridViewTextBoxColumn.HeaderText = "Suhu";
-            this.suhuDataGridViewTextBoxColumn.Name = "suhuDataGridViewTextBoxColumn";
-            this.suhuDataGridViewTextBoxColumn.ReadOnly = true;
-            this.suhuDataGridViewTextBoxColumn.Width = 64;
-            // 
-            // kelembabanDataGridViewTextBoxColumn
-            // 
-            this.kelembabanDataGridViewTextBoxColumn.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.DisplayedCells;
-            this.kelembabanDataGridViewTextBoxColumn.DataPropertyName = "kelembaban";
-            this.kelembabanDataGridViewTextBoxColumn.HeaderText = "Kelembaban";
-            this.kelembabanDataGridViewTextBoxColumn.Name = "kelembabanDataGridViewTextBoxColumn";
-            this.kelembabanDataGridViewTextBoxColumn.ReadOnly = true;
-            this.kelembabanDataGridViewTextBoxColumn.Width = 109;
-            // 
-            // tekananDataGridViewTextBoxColumn
-            // 
-            this.tekananDataGridViewTextBoxColumn.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.DisplayedCells;
-            this.tekananDataGridViewTextBoxColumn.DataPropertyName = "tekanan";
-            this.tekananDataGridViewTextBoxColumn.HeaderText = "Tekanan";
-            this.tekananDataGridViewTextBoxColumn.Name = "tekananDataGridViewTextBoxColumn";
-            this.tekananDataGridViewTextBoxColumn.ReadOnly = true;
-            this.tekananDataGridViewTextBoxColumn.Width = 84;
-            // 
-            // arahanginDataGridViewTextBoxColumn
-            // 
-            this.arahanginDataGridViewTextBoxColumn.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.DisplayedCells;
-            this.arahanginDataGridViewTextBoxColumn.DataPropertyName = "arah_angin";
-            this.arahanginDataGridViewTextBoxColumn.HeaderText = "Arah angin";
-            this.arahanginDataGridViewTextBoxColumn.Name = "arahanginDataGridViewTextBoxColumn";
-            this.arahanginDataGridViewTextBoxColumn.ReadOnly = true;
-            this.arahanginDataGridViewTextBoxColumn.Width = 93;
-            // 
-            // kecepatananginDataGridViewTextBoxColumn
-            // 
-            this.kecepatananginDataGridViewTextBoxColumn.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.DisplayedCells;
-            this.kecepatananginDataGridViewTextBoxColumn.DataPropertyName = "kecepatan_angin";
-            this.kecepatananginDataGridViewTextBoxColumn.HeaderText = "Kecepatan angin";
-            this.kecepatananginDataGridViewTextBoxColumn.Name = "kecepatananginDataGridViewTextBoxColumn";
-            this.kecepatananginDataGridViewTextBoxColumn.ReadOnly = true;
-            this.kecepatananginDataGridViewTextBoxColumn.Width = 123;
-            // 
-            // no2DataGridViewTextBoxColumn
-            // 
-            this.no2DataGridViewTextBoxColumn.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.DisplayedCells;
-            this.no2DataGridViewTextBoxColumn.DataPropertyName = "no2";
-            this.no2DataGridViewTextBoxColumn.HeaderText = "NO2";
-            this.no2DataGridViewTextBoxColumn.Name = "no2DataGridViewTextBoxColumn";
-            this.no2DataGridViewTextBoxColumn.ReadOnly = true;
-            this.no2DataGridViewTextBoxColumn.Width = 60;
-            // 
-            // o3DataGridViewTextBoxColumn
-            // 
-            this.o3DataGridViewTextBoxColumn.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.DisplayedCells;
-            this.o3DataGridViewTextBoxColumn.DataPropertyName = "o3";
-            this.o3DataGridViewTextBoxColumn.HeaderText = "O3";
-            this.o3DataGridViewTextBoxColumn.Name = "o3DataGridViewTextBoxColumn";
-            this.o3DataGridViewTextBoxColumn.ReadOnly = true;
-            this.o3DataGridViewTextBoxColumn.Width = 50;
-            // 
-            // coDataGridViewTextBoxColumn
-            // 
-            this.coDataGridViewTextBoxColumn.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.DisplayedCells;
-            this.coDataGridViewTextBoxColumn.DataPropertyName = "co";
-            this.coDataGridViewTextBoxColumn.HeaderText = "CO";
-            this.coDataGridViewTextBoxColumn.Name = "coDataGridViewTextBoxColumn";
-            this.coDataGridViewTextBoxColumn.ReadOnly = true;
-            this.coDataGridViewTextBoxColumn.Width = 51;
-            // 
-            // so2DataGridViewTextBoxColumn
-            // 
-            this.so2DataGridViewTextBoxColumn.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.DisplayedCells;
-            this.so2DataGridViewTextBoxColumn.DataPropertyName = "so2";
-            this.so2DataGridViewTextBoxColumn.HeaderText = "SO2";
-            this.so2DataGridViewTextBoxColumn.Name = "so2DataGridViewTextBoxColumn";
-            this.so2DataGridViewTextBoxColumn.ReadOnly = true;
-            this.so2DataGridViewTextBoxColumn.Width = 57;
-            // 
-            // hcDataGridViewTextBoxColumn
-            // 
-            this.hcDataGridViewTextBoxColumn.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.DisplayedCells;
-            this.hcDataGridViewTextBoxColumn.DataPropertyName = "hc";
-            this.hcDataGridViewTextBoxColumn.HeaderText = "HC";
-            this.hcDataGridViewTextBoxColumn.Name = "hcDataGridViewTextBoxColumn";
-            this.hcDataGridViewTextBoxColumn.ReadOnly = true;
-            this.hcDataGridViewTextBoxColumn.Width = 51;
-            // 
-            // pm25DataGridViewTextBoxColumn
-            // 
-            this.pm25DataGridViewTextBoxColumn.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.DisplayedCells;
-            this.pm25DataGridViewTextBoxColumn.DataPropertyName = "pm2_5";
-            this.pm25DataGridViewTextBoxColumn.HeaderText = "PM2.5";
-            this.pm25DataGridViewTextBoxColumn.Name = "pm25DataGridViewTextBoxColumn";
-            this.pm25DataGridViewTextBoxColumn.ReadOnly = true;
-            this.pm25DataGridViewTextBoxColumn.Width = 71;
-            // 
-            // pm10DataGridViewTextBoxColumn
-            // 
-            this.pm10DataGridViewTextBoxColumn.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.DisplayedCells;
-            this.pm10DataGridViewTextBoxColumn.DataPropertyName = "pm10";
-            this.pm10DataGridViewTextBoxColumn.HeaderText = "PM10";
-            this.pm10DataGridViewTextBoxColumn.Name = "pm10DataGridViewTextBoxColumn";
-            this.pm10DataGridViewTextBoxColumn.ReadOnly = true;
-            this.pm10DataGridViewTextBoxColumn.Width = 67;
-            // 
-            // waktuDataGridViewTextBoxColumn1
-            // 
-            this.waktuDataGridViewTextBoxColumn1.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.DisplayedCells;
-            this.waktuDataGridViewTextBoxColumn1.DataPropertyName = "waktu";
-            this.waktuDataGridViewTextBoxColumn1.HeaderText = "Waktu";
-            this.waktuDataGridViewTextBoxColumn1.Name = "waktuDataGridViewTextBoxColumn1";
-            this.waktuDataGridViewTextBoxColumn1.ReadOnly = true;
-            this.waktuDataGridViewTextBoxColumn1.Width = 72;
-            // 
             // valid
             // 
             this.valid.DataPropertyName = "membraSensValid";
             this.valid.HeaderText = "Membra Sens Valid";
             this.valid.Name = "valid";
             this.valid.ReadOnly = true;
-            // 
-            // entityDataBindingSource
-            // 
-            this.entityDataBindingSource.DataSource = typeof(AQMS.EntityData);
             // 
             // panel11
             // 
@@ -4200,7 +3919,7 @@ namespace AQMS
             this.panel22.Margin = new System.Windows.Forms.Padding(0);
             this.panel22.Name = "panel22";
             this.panel22.Padding = new System.Windows.Forms.Padding(0, 0, 0, 35);
-            this.panel22.Size = new System.Drawing.Size(280, 220);
+            this.panel22.Size = new System.Drawing.Size(280, 224);
             this.panel22.TabIndex = 44;
             // 
             // numericUpDown2
@@ -4357,7 +4076,7 @@ namespace AQMS
             this.panel51.Margin = new System.Windows.Forms.Padding(0);
             this.panel51.Name = "panel51";
             this.panel51.Padding = new System.Windows.Forms.Padding(0, 0, 0, 35);
-            this.panel51.Size = new System.Drawing.Size(280, 220);
+            this.panel51.Size = new System.Drawing.Size(280, 224);
             this.panel51.TabIndex = 45;
             // 
             // numericUpDown4
@@ -4676,74 +4395,6 @@ namespace AQMS
             this.btnMin.Text = "MIN";
             this.btnMin.UseVisualStyleBackColor = false;
             this.btnMin.Click += new System.EventHandler(this.button5_Click);
-            // 
-            // trackPwm
-            // 
-            this.trackPwm.BackColor = System.Drawing.Color.Transparent;
-            this.trackPwm.BarInnerColor = System.Drawing.Color.White;
-            this.trackPwm.BarPenColorBottom = System.Drawing.Color.White;
-            this.trackPwm.BarPenColorTop = System.Drawing.Color.FromArgb(((int)(((byte)(23)))), ((int)(((byte)(38)))), ((int)(((byte)(88)))));
-            this.trackPwm.BorderRoundRectSize = new System.Drawing.Size(8, 8);
-            this.trackPwm.ElapsedInnerColor = System.Drawing.Color.FromArgb(((int)(((byte)(93)))), ((int)(((byte)(116)))), ((int)(((byte)(235)))));
-            this.trackPwm.ElapsedPenColorBottom = System.Drawing.Color.FromArgb(((int)(((byte)(93)))), ((int)(((byte)(116)))), ((int)(((byte)(235)))));
-            this.trackPwm.ElapsedPenColorTop = System.Drawing.Color.FromArgb(((int)(((byte)(93)))), ((int)(((byte)(116)))), ((int)(((byte)(235)))));
-            this.trackPwm.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F);
-            this.trackPwm.ForeColor = System.Drawing.Color.White;
-            this.trackPwm.LargeChange = new decimal(new int[] {
-            5,
-            0,
-            0,
-            0});
-            this.trackPwm.Location = new System.Drawing.Point(20, 120);
-            this.trackPwm.Maximum = new decimal(new int[] {
-            100,
-            0,
-            0,
-            0});
-            this.trackPwm.Minimum = new decimal(new int[] {
-            0,
-            0,
-            0,
-            0});
-            this.trackPwm.MouseEffects = false;
-            this.trackPwm.Name = "trackPwm";
-            this.trackPwm.Orientation = System.Windows.Forms.Orientation.Vertical;
-            this.trackPwm.ScaleDivisions = new decimal(new int[] {
-            20,
-            0,
-            0,
-            0});
-            this.trackPwm.ScaleSubDivisions = new decimal(new int[] {
-            2,
-            0,
-            0,
-            0});
-            this.trackPwm.ShowDivisionsText = true;
-            this.trackPwm.ShowSmallScale = true;
-            this.trackPwm.Size = new System.Drawing.Size(97, 514);
-            this.trackPwm.SmallChange = new decimal(new int[] {
-            1,
-            0,
-            0,
-            0});
-            this.trackPwm.TabIndex = 99;
-            this.trackPwm.Text = "colorSlider1";
-            this.trackPwm.ThumbInnerColor = System.Drawing.Color.FromArgb(((int)(((byte)(93)))), ((int)(((byte)(116)))), ((int)(((byte)(235)))));
-            this.trackPwm.ThumbOuterColor = System.Drawing.Color.FromArgb(((int)(((byte)(93)))), ((int)(((byte)(116)))), ((int)(((byte)(235)))));
-            this.trackPwm.ThumbPenColor = System.Drawing.Color.FromArgb(((int)(((byte)(23)))), ((int)(((byte)(38)))), ((int)(((byte)(88)))));
-            this.trackPwm.ThumbRoundRectSize = new System.Drawing.Size(6, 6);
-            this.trackPwm.ThumbSize = new System.Drawing.Size(24, 16);
-            this.trackPwm.TickAdd = 0F;
-            this.trackPwm.TickColor = System.Drawing.Color.White;
-            this.trackPwm.TickDivide = 0F;
-            this.trackPwm.Value = new decimal(new int[] {
-            50,
-            0,
-            0,
-            0});
-            this.trackPwm.Scroll += new System.Windows.Forms.ScrollEventHandler(this.colorSlider1_Scroll);
-            this.trackPwm.MouseDown += new System.Windows.Forms.MouseEventHandler(this.trackPwm_MouseDown);
-            this.trackPwm.MouseUp += new System.Windows.Forms.MouseEventHandler(this.trackPwm_MouseUp);
             // 
             // txtPwmTrack
             // 
@@ -5425,6 +5076,356 @@ namespace AQMS
             this.timerWaktuCharge.Interval = 1000;
             this.timerWaktuCharge.Tick += new System.EventHandler(this.timerWaktuCharge_Tick);
             // 
+            // iDDataGridViewTextBoxColumn
+            // 
+            this.iDDataGridViewTextBoxColumn.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.DisplayedCells;
+            this.iDDataGridViewTextBoxColumn.DataPropertyName = "ID";
+            this.iDDataGridViewTextBoxColumn.HeaderText = "ID";
+            this.iDDataGridViewTextBoxColumn.Name = "iDDataGridViewTextBoxColumn";
+            this.iDDataGridViewTextBoxColumn.ReadOnly = true;
+            this.iDDataGridViewTextBoxColumn.Width = 47;
+            // 
+            // rawdataDataGridViewTextBoxColumn
+            // 
+            this.rawdataDataGridViewTextBoxColumn.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.DisplayedCells;
+            this.rawdataDataGridViewTextBoxColumn.DataPropertyName = "raw_data";
+            this.rawdataDataGridViewTextBoxColumn.HeaderText = "Raw Data";
+            this.rawdataDataGridViewTextBoxColumn.Name = "rawdataDataGridViewTextBoxColumn";
+            this.rawdataDataGridViewTextBoxColumn.ReadOnly = true;
+            this.rawdataDataGridViewTextBoxColumn.Width = 91;
+            // 
+            // createdatDataGridViewTextBoxColumn
+            // 
+            this.createdatDataGridViewTextBoxColumn.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.DisplayedCells;
+            this.createdatDataGridViewTextBoxColumn.DataPropertyName = "created_at";
+            this.createdatDataGridViewTextBoxColumn.HeaderText = "Datetime";
+            this.createdatDataGridViewTextBoxColumn.Name = "createdatDataGridViewTextBoxColumn";
+            this.createdatDataGridViewTextBoxColumn.ReadOnly = true;
+            this.createdatDataGridViewTextBoxColumn.Width = 90;
+            // 
+            // namapetugasDataGridViewTextBoxColumn
+            // 
+            this.namapetugasDataGridViewTextBoxColumn.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.DisplayedCells;
+            this.namapetugasDataGridViewTextBoxColumn.DataPropertyName = "nama_petugas";
+            this.namapetugasDataGridViewTextBoxColumn.HeaderText = "Nama Petugas";
+            this.namapetugasDataGridViewTextBoxColumn.Name = "namapetugasDataGridViewTextBoxColumn";
+            this.namapetugasDataGridViewTextBoxColumn.ReadOnly = true;
+            this.namapetugasDataGridViewTextBoxColumn.Width = 122;
+            // 
+            // useridDataGridViewTextBoxColumn
+            // 
+            this.useridDataGridViewTextBoxColumn.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.DisplayedCells;
+            this.useridDataGridViewTextBoxColumn.DataPropertyName = "user_id";
+            this.useridDataGridViewTextBoxColumn.HeaderText = "user_id";
+            this.useridDataGridViewTextBoxColumn.Name = "useridDataGridViewTextBoxColumn";
+            this.useridDataGridViewTextBoxColumn.ReadOnly = true;
+            this.useridDataGridViewTextBoxColumn.Visible = false;
+            this.useridDataGridViewTextBoxColumn.Width = 66;
+            // 
+            // no2DataGridViewTextBoxColumn1
+            // 
+            this.no2DataGridViewTextBoxColumn1.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.DisplayedCells;
+            this.no2DataGridViewTextBoxColumn1.DataPropertyName = "no2";
+            this.no2DataGridViewTextBoxColumn1.HeaderText = "NO2";
+            this.no2DataGridViewTextBoxColumn1.Name = "no2DataGridViewTextBoxColumn1";
+            this.no2DataGridViewTextBoxColumn1.ReadOnly = true;
+            this.no2DataGridViewTextBoxColumn1.Width = 60;
+            // 
+            // so2DataGridViewTextBoxColumn1
+            // 
+            this.so2DataGridViewTextBoxColumn1.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.DisplayedCells;
+            this.so2DataGridViewTextBoxColumn1.DataPropertyName = "so2";
+            this.so2DataGridViewTextBoxColumn1.HeaderText = "SO2";
+            this.so2DataGridViewTextBoxColumn1.Name = "so2DataGridViewTextBoxColumn1";
+            this.so2DataGridViewTextBoxColumn1.ReadOnly = true;
+            this.so2DataGridViewTextBoxColumn1.Width = 57;
+            // 
+            // o3DataGridViewTextBoxColumn1
+            // 
+            this.o3DataGridViewTextBoxColumn1.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.DisplayedCells;
+            this.o3DataGridViewTextBoxColumn1.DataPropertyName = "o3";
+            this.o3DataGridViewTextBoxColumn1.HeaderText = "O3";
+            this.o3DataGridViewTextBoxColumn1.Name = "o3DataGridViewTextBoxColumn1";
+            this.o3DataGridViewTextBoxColumn1.ReadOnly = true;
+            this.o3DataGridViewTextBoxColumn1.Width = 50;
+            // 
+            // coDataGridViewTextBoxColumn1
+            // 
+            this.coDataGridViewTextBoxColumn1.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.DisplayedCells;
+            this.coDataGridViewTextBoxColumn1.DataPropertyName = "co";
+            this.coDataGridViewTextBoxColumn1.HeaderText = "CO";
+            this.coDataGridViewTextBoxColumn1.Name = "coDataGridViewTextBoxColumn1";
+            this.coDataGridViewTextBoxColumn1.ReadOnly = true;
+            this.coDataGridViewTextBoxColumn1.Width = 51;
+            // 
+            // hcDataGridViewTextBoxColumn1
+            // 
+            this.hcDataGridViewTextBoxColumn1.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.DisplayedCells;
+            this.hcDataGridViewTextBoxColumn1.DataPropertyName = "hc";
+            this.hcDataGridViewTextBoxColumn1.HeaderText = "HC";
+            this.hcDataGridViewTextBoxColumn1.Name = "hcDataGridViewTextBoxColumn1";
+            this.hcDataGridViewTextBoxColumn1.ReadOnly = true;
+            this.hcDataGridViewTextBoxColumn1.Width = 51;
+            // 
+            // entityRawDataBindingSource
+            // 
+            this.entityRawDataBindingSource.DataSource = typeof(AQMS.EntityRawData);
+            // 
+            // idDataGridViewTextBoxColumn1
+            // 
+            this.idDataGridViewTextBoxColumn1.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.DisplayedCells;
+            this.idDataGridViewTextBoxColumn1.DataPropertyName = "id";
+            this.idDataGridViewTextBoxColumn1.HeaderText = "ID";
+            this.idDataGridViewTextBoxColumn1.Name = "idDataGridViewTextBoxColumn1";
+            this.idDataGridViewTextBoxColumn1.ReadOnly = true;
+            this.idDataGridViewTextBoxColumn1.Width = 47;
+            // 
+            // namauserDataGridViewTextBoxColumn
+            // 
+            this.namauserDataGridViewTextBoxColumn.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.DisplayedCells;
+            this.namauserDataGridViewTextBoxColumn.DataPropertyName = "nama_user";
+            this.namauserDataGridViewTextBoxColumn.HeaderText = "Nama User";
+            this.namauserDataGridViewTextBoxColumn.Name = "namauserDataGridViewTextBoxColumn";
+            this.namauserDataGridViewTextBoxColumn.ReadOnly = true;
+            // 
+            // emailDataGridViewTextBoxColumn
+            // 
+            this.emailDataGridViewTextBoxColumn.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.DisplayedCells;
+            this.emailDataGridViewTextBoxColumn.DataPropertyName = "email";
+            this.emailDataGridViewTextBoxColumn.HeaderText = "Email";
+            this.emailDataGridViewTextBoxColumn.Name = "emailDataGridViewTextBoxColumn";
+            this.emailDataGridViewTextBoxColumn.ReadOnly = true;
+            this.emailDataGridViewTextBoxColumn.Width = 67;
+            // 
+            // aktifitasDataGridViewTextBoxColumn
+            // 
+            this.aktifitasDataGridViewTextBoxColumn.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.DisplayedCells;
+            this.aktifitasDataGridViewTextBoxColumn.DataPropertyName = "aktifitas";
+            this.aktifitasDataGridViewTextBoxColumn.HeaderText = "Aktifitas";
+            this.aktifitasDataGridViewTextBoxColumn.Name = "aktifitasDataGridViewTextBoxColumn";
+            this.aktifitasDataGridViewTextBoxColumn.ReadOnly = true;
+            this.aktifitasDataGridViewTextBoxColumn.Width = 85;
+            // 
+            // waktuDataGridViewTextBoxColumn
+            // 
+            this.waktuDataGridViewTextBoxColumn.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.DisplayedCells;
+            this.waktuDataGridViewTextBoxColumn.DataPropertyName = "waktu";
+            this.waktuDataGridViewTextBoxColumn.HeaderText = "Waktu";
+            this.waktuDataGridViewTextBoxColumn.Name = "waktuDataGridViewTextBoxColumn";
+            this.waktuDataGridViewTextBoxColumn.ReadOnly = true;
+            this.waktuDataGridViewTextBoxColumn.Width = 72;
+            // 
+            // entityUserLogBindingSource
+            // 
+            this.entityUserLogBindingSource.DataSource = typeof(AQMS.EntityUserLog);
+            // 
+            // idDataGridViewTextBoxColumn2
+            // 
+            this.idDataGridViewTextBoxColumn2.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.DisplayedCells;
+            this.idDataGridViewTextBoxColumn2.DataPropertyName = "id";
+            this.idDataGridViewTextBoxColumn2.HeaderText = "ID";
+            this.idDataGridViewTextBoxColumn2.Name = "idDataGridViewTextBoxColumn2";
+            this.idDataGridViewTextBoxColumn2.ReadOnly = true;
+            this.idDataGridViewTextBoxColumn2.Width = 47;
+            // 
+            // namapetugasDataGridViewTextBoxColumn1
+            // 
+            this.namapetugasDataGridViewTextBoxColumn1.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.DisplayedCells;
+            this.namapetugasDataGridViewTextBoxColumn1.DataPropertyName = "nama_petugas";
+            this.namapetugasDataGridViewTextBoxColumn1.HeaderText = "Nama Petugas";
+            this.namapetugasDataGridViewTextBoxColumn1.Name = "namapetugasDataGridViewTextBoxColumn1";
+            this.namapetugasDataGridViewTextBoxColumn1.ReadOnly = true;
+            this.namapetugasDataGridViewTextBoxColumn1.Width = 112;
+            // 
+            // suhuDataGridViewTextBoxColumn
+            // 
+            this.suhuDataGridViewTextBoxColumn.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.DisplayedCells;
+            this.suhuDataGridViewTextBoxColumn.DataPropertyName = "suhu";
+            this.suhuDataGridViewTextBoxColumn.HeaderText = "Suhu";
+            this.suhuDataGridViewTextBoxColumn.Name = "suhuDataGridViewTextBoxColumn";
+            this.suhuDataGridViewTextBoxColumn.ReadOnly = true;
+            this.suhuDataGridViewTextBoxColumn.Width = 64;
+            // 
+            // kelembabanDataGridViewTextBoxColumn
+            // 
+            this.kelembabanDataGridViewTextBoxColumn.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.DisplayedCells;
+            this.kelembabanDataGridViewTextBoxColumn.DataPropertyName = "kelembaban";
+            this.kelembabanDataGridViewTextBoxColumn.HeaderText = "Kelembaban";
+            this.kelembabanDataGridViewTextBoxColumn.Name = "kelembabanDataGridViewTextBoxColumn";
+            this.kelembabanDataGridViewTextBoxColumn.ReadOnly = true;
+            this.kelembabanDataGridViewTextBoxColumn.Width = 109;
+            // 
+            // tekananDataGridViewTextBoxColumn
+            // 
+            this.tekananDataGridViewTextBoxColumn.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.DisplayedCells;
+            this.tekananDataGridViewTextBoxColumn.DataPropertyName = "tekanan";
+            this.tekananDataGridViewTextBoxColumn.HeaderText = "Tekanan";
+            this.tekananDataGridViewTextBoxColumn.Name = "tekananDataGridViewTextBoxColumn";
+            this.tekananDataGridViewTextBoxColumn.ReadOnly = true;
+            this.tekananDataGridViewTextBoxColumn.Width = 84;
+            // 
+            // arahanginDataGridViewTextBoxColumn
+            // 
+            this.arahanginDataGridViewTextBoxColumn.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.DisplayedCells;
+            this.arahanginDataGridViewTextBoxColumn.DataPropertyName = "arah_angin";
+            this.arahanginDataGridViewTextBoxColumn.HeaderText = "Arah angin";
+            this.arahanginDataGridViewTextBoxColumn.Name = "arahanginDataGridViewTextBoxColumn";
+            this.arahanginDataGridViewTextBoxColumn.ReadOnly = true;
+            this.arahanginDataGridViewTextBoxColumn.Width = 93;
+            // 
+            // kecepatananginDataGridViewTextBoxColumn
+            // 
+            this.kecepatananginDataGridViewTextBoxColumn.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.DisplayedCells;
+            this.kecepatananginDataGridViewTextBoxColumn.DataPropertyName = "kecepatan_angin";
+            this.kecepatananginDataGridViewTextBoxColumn.HeaderText = "Kecepatan angin";
+            this.kecepatananginDataGridViewTextBoxColumn.Name = "kecepatananginDataGridViewTextBoxColumn";
+            this.kecepatananginDataGridViewTextBoxColumn.ReadOnly = true;
+            this.kecepatananginDataGridViewTextBoxColumn.Width = 123;
+            // 
+            // no2DataGridViewTextBoxColumn
+            // 
+            this.no2DataGridViewTextBoxColumn.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.DisplayedCells;
+            this.no2DataGridViewTextBoxColumn.DataPropertyName = "no2";
+            this.no2DataGridViewTextBoxColumn.HeaderText = "NO2";
+            this.no2DataGridViewTextBoxColumn.Name = "no2DataGridViewTextBoxColumn";
+            this.no2DataGridViewTextBoxColumn.ReadOnly = true;
+            this.no2DataGridViewTextBoxColumn.Width = 60;
+            // 
+            // o3DataGridViewTextBoxColumn
+            // 
+            this.o3DataGridViewTextBoxColumn.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.DisplayedCells;
+            this.o3DataGridViewTextBoxColumn.DataPropertyName = "o3";
+            this.o3DataGridViewTextBoxColumn.HeaderText = "O3";
+            this.o3DataGridViewTextBoxColumn.Name = "o3DataGridViewTextBoxColumn";
+            this.o3DataGridViewTextBoxColumn.ReadOnly = true;
+            this.o3DataGridViewTextBoxColumn.Width = 50;
+            // 
+            // coDataGridViewTextBoxColumn
+            // 
+            this.coDataGridViewTextBoxColumn.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.DisplayedCells;
+            this.coDataGridViewTextBoxColumn.DataPropertyName = "co";
+            this.coDataGridViewTextBoxColumn.HeaderText = "CO";
+            this.coDataGridViewTextBoxColumn.Name = "coDataGridViewTextBoxColumn";
+            this.coDataGridViewTextBoxColumn.ReadOnly = true;
+            this.coDataGridViewTextBoxColumn.Width = 51;
+            // 
+            // so2DataGridViewTextBoxColumn
+            // 
+            this.so2DataGridViewTextBoxColumn.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.DisplayedCells;
+            this.so2DataGridViewTextBoxColumn.DataPropertyName = "so2";
+            this.so2DataGridViewTextBoxColumn.HeaderText = "SO2";
+            this.so2DataGridViewTextBoxColumn.Name = "so2DataGridViewTextBoxColumn";
+            this.so2DataGridViewTextBoxColumn.ReadOnly = true;
+            this.so2DataGridViewTextBoxColumn.Width = 57;
+            // 
+            // hcDataGridViewTextBoxColumn
+            // 
+            this.hcDataGridViewTextBoxColumn.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.DisplayedCells;
+            this.hcDataGridViewTextBoxColumn.DataPropertyName = "hc";
+            this.hcDataGridViewTextBoxColumn.HeaderText = "HC";
+            this.hcDataGridViewTextBoxColumn.Name = "hcDataGridViewTextBoxColumn";
+            this.hcDataGridViewTextBoxColumn.ReadOnly = true;
+            this.hcDataGridViewTextBoxColumn.Width = 51;
+            // 
+            // pm25DataGridViewTextBoxColumn
+            // 
+            this.pm25DataGridViewTextBoxColumn.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.DisplayedCells;
+            this.pm25DataGridViewTextBoxColumn.DataPropertyName = "pm2_5";
+            this.pm25DataGridViewTextBoxColumn.HeaderText = "PM2.5";
+            this.pm25DataGridViewTextBoxColumn.Name = "pm25DataGridViewTextBoxColumn";
+            this.pm25DataGridViewTextBoxColumn.ReadOnly = true;
+            this.pm25DataGridViewTextBoxColumn.Width = 71;
+            // 
+            // pm10DataGridViewTextBoxColumn
+            // 
+            this.pm10DataGridViewTextBoxColumn.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.DisplayedCells;
+            this.pm10DataGridViewTextBoxColumn.DataPropertyName = "pm10";
+            this.pm10DataGridViewTextBoxColumn.HeaderText = "PM10";
+            this.pm10DataGridViewTextBoxColumn.Name = "pm10DataGridViewTextBoxColumn";
+            this.pm10DataGridViewTextBoxColumn.ReadOnly = true;
+            this.pm10DataGridViewTextBoxColumn.Width = 67;
+            // 
+            // waktuDataGridViewTextBoxColumn1
+            // 
+            this.waktuDataGridViewTextBoxColumn1.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.DisplayedCells;
+            this.waktuDataGridViewTextBoxColumn1.DataPropertyName = "waktu";
+            this.waktuDataGridViewTextBoxColumn1.HeaderText = "Waktu";
+            this.waktuDataGridViewTextBoxColumn1.Name = "waktuDataGridViewTextBoxColumn1";
+            this.waktuDataGridViewTextBoxColumn1.ReadOnly = true;
+            this.waktuDataGridViewTextBoxColumn1.Width = 72;
+            // 
+            // entityDataBindingSource
+            // 
+            this.entityDataBindingSource.DataSource = typeof(AQMS.EntityData);
+            // 
+            // trackPwm
+            // 
+            this.trackPwm.BackColor = System.Drawing.Color.Transparent;
+            this.trackPwm.BarInnerColor = System.Drawing.Color.White;
+            this.trackPwm.BarPenColorBottom = System.Drawing.Color.White;
+            this.trackPwm.BarPenColorTop = System.Drawing.Color.FromArgb(((int)(((byte)(23)))), ((int)(((byte)(38)))), ((int)(((byte)(88)))));
+            this.trackPwm.BorderRoundRectSize = new System.Drawing.Size(8, 8);
+            this.trackPwm.ElapsedInnerColor = System.Drawing.Color.FromArgb(((int)(((byte)(93)))), ((int)(((byte)(116)))), ((int)(((byte)(235)))));
+            this.trackPwm.ElapsedPenColorBottom = System.Drawing.Color.FromArgb(((int)(((byte)(93)))), ((int)(((byte)(116)))), ((int)(((byte)(235)))));
+            this.trackPwm.ElapsedPenColorTop = System.Drawing.Color.FromArgb(((int)(((byte)(93)))), ((int)(((byte)(116)))), ((int)(((byte)(235)))));
+            this.trackPwm.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F);
+            this.trackPwm.ForeColor = System.Drawing.Color.White;
+            this.trackPwm.LargeChange = new decimal(new int[] {
+            5,
+            0,
+            0,
+            0});
+            this.trackPwm.Location = new System.Drawing.Point(20, 120);
+            this.trackPwm.Maximum = new decimal(new int[] {
+            100,
+            0,
+            0,
+            0});
+            this.trackPwm.Minimum = new decimal(new int[] {
+            0,
+            0,
+            0,
+            0});
+            this.trackPwm.MouseEffects = false;
+            this.trackPwm.Name = "trackPwm";
+            this.trackPwm.Orientation = System.Windows.Forms.Orientation.Vertical;
+            this.trackPwm.ScaleDivisions = new decimal(new int[] {
+            20,
+            0,
+            0,
+            0});
+            this.trackPwm.ScaleSubDivisions = new decimal(new int[] {
+            2,
+            0,
+            0,
+            0});
+            this.trackPwm.ShowDivisionsText = true;
+            this.trackPwm.ShowSmallScale = true;
+            this.trackPwm.Size = new System.Drawing.Size(97, 514);
+            this.trackPwm.SmallChange = new decimal(new int[] {
+            1,
+            0,
+            0,
+            0});
+            this.trackPwm.TabIndex = 99;
+            this.trackPwm.Text = "colorSlider1";
+            this.trackPwm.ThumbInnerColor = System.Drawing.Color.FromArgb(((int)(((byte)(93)))), ((int)(((byte)(116)))), ((int)(((byte)(235)))));
+            this.trackPwm.ThumbOuterColor = System.Drawing.Color.FromArgb(((int)(((byte)(93)))), ((int)(((byte)(116)))), ((int)(((byte)(235)))));
+            this.trackPwm.ThumbPenColor = System.Drawing.Color.FromArgb(((int)(((byte)(23)))), ((int)(((byte)(38)))), ((int)(((byte)(88)))));
+            this.trackPwm.ThumbRoundRectSize = new System.Drawing.Size(6, 6);
+            this.trackPwm.ThumbSize = new System.Drawing.Size(24, 16);
+            this.trackPwm.TickAdd = 0F;
+            this.trackPwm.TickColor = System.Drawing.Color.White;
+            this.trackPwm.TickDivide = 0F;
+            this.trackPwm.Value = new decimal(new int[] {
+            50,
+            0,
+            0,
+            0});
+            this.trackPwm.Scroll += new System.Windows.Forms.ScrollEventHandler(this.colorSlider1_Scroll);
+            this.trackPwm.MouseDown += new System.Windows.Forms.MouseEventHandler(this.trackPwm_MouseDown);
+            this.trackPwm.MouseUp += new System.Windows.Forms.MouseEventHandler(this.trackPwm_MouseUp);
+            // 
             // entityRawDataBindingSource1
             // 
             this.entityRawDataBindingSource1.DataSource = typeof(AQMS.EntityRawData);
@@ -5496,7 +5497,6 @@ namespace AQMS
             this.panel32.ResumeLayout(false);
             this.panel32.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView2)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.entityRawDataBindingSource)).EndInit();
             this.tableLayoutPanel3.ResumeLayout(false);
             this.panel37.ResumeLayout(false);
             this.panel23.ResumeLayout(false);
@@ -5506,11 +5506,9 @@ namespace AQMS
             ((System.ComponentModel.ISupportInitialize)(this.dgZeroLog)).EndInit();
             this.panel43.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.dgUserLog)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.entityUserLogBindingSource)).EndInit();
             this.report.ResumeLayout(false);
             this.tableLayoutPanel6.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.dgDataReport)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.entityDataBindingSource)).EndInit();
             this.panel11.ResumeLayout(false);
             this.panel11.PerformLayout();
             this.panel49.ResumeLayout(false);
@@ -5577,6 +5575,9 @@ namespace AQMS
             this.tabPage1.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pbAbout)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.entityRawDataBindingSource)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.entityUserLogBindingSource)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.entityDataBindingSource)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.entityRawDataBindingSource1)).EndInit();
             this.ResumeLayout(false);
 

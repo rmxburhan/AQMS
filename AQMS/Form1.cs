@@ -545,11 +545,11 @@ namespace AQMS
 
         private void showPPM(string no2, string so2, string o3, string co, string hc)
         {
-            ppmNO2.Text = String.Format("{0:0.000}", Convert.ToDouble(no2)) + " ppm";
-            ppmSO2.Text = String.Format("{0:0.000}", Convert.ToDouble(so2)) + " ppm";
-            ppmO3.Text = String.Format("{0:0.000}", Convert.ToDouble(o3)) + " ppm";
-            ppmCO.Text = String.Format("{0:0.000}", Convert.ToDouble(co)) + " ppm";
-            ppmHC.Text = String.Format("{0:0.000}", Convert.ToDouble(hc)) + " ppm";
+            ppmNO2.Text = String.Format("{0:0.00}", Convert.ToDouble(no2)) + " ppm";
+            ppmSO2.Text = String.Format("{0:0.00}", Convert.ToDouble(so2)) + " ppm";
+            ppmO3.Text = String.Format("{0:0.00}", Convert.ToDouble(o3)) + " ppm";
+            ppmCO.Text = String.Format("{0:0.00}", Convert.ToDouble(co)) + " ppm";
+            ppmHC.Text = String.Format("{0:0.00}", Convert.ToDouble(hc)) + " ppm";
         }
 
         class rawDataPost
@@ -768,19 +768,6 @@ namespace AQMS
                     serialPortUtama.BaudRate = 9600;
                     serialPortUtama.Open();
 
-                    if (serialPortUtama.IsOpen && rbDataOtomatis.Checked)
-                    {
-                        timerRequest.Start();
-                    }
-                    else if (serialPortUtama.IsOpen && rbDataManual.Checked)
-                    {
-                        timerRequest.Stop();
-                        btnSendRequest.Enabled = true;
-                    }
-                    if (serialPortUtama.IsOpen)
-                    {
-                        serialPortUtama.Write($"setPWM,{Properties.Settings.Default.pwmTrack},*");
-                    }
                     if (serialPortGps.IsOpen == false)
                     {
                         serialPortGps.PortName = Properties.Settings.Default.portGps;
@@ -805,6 +792,19 @@ namespace AQMS
                         {
                             timerRequestMap.Start();
                         }
+                    }
+                    if (serialPortUtama.IsOpen)
+                    {
+                        serialPortUtama.Write($"setPWM,{Properties.Settings.Default.pwmTrack},*");
+                    }
+                    if (serialPortUtama.IsOpen && rbDataOtomatis.Checked)
+                    {
+                        timerRequest.Start();
+                    }
+                    else if (serialPortUtama.IsOpen && rbDataManual.Checked)
+                    {
+                        timerRequest.Stop();
+                        btnSendRequest.Enabled = true;
                     }
                     connectState();
                 }
@@ -1888,14 +1888,14 @@ namespace AQMS
             chartGas.Hide();
             chartWeather.Show();
         }
-
+        int waktu = 10;
         private void timerWaktuTunggu_Tick(object sender, EventArgs e)
         {
             count++;
-            progressBar2.Value = Convert.ToInt32(((float)count / 180) * 100);
+            progressBar2.Value = Convert.ToInt32(((float)count / waktu) * 100);
             Console.WriteLine(count);
-            Console.WriteLine(((float)count / 180) * 100);
-            if (count == 180)
+            Console.WriteLine(((float)count / waktu) * 100);
+            if (count == waktu)
             {
                 btnConnect.Enabled = true;
                 btnConnect.BackColor = Color.FromArgb(0, 192, 0);
