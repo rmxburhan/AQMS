@@ -1869,11 +1869,23 @@ namespace AQMS
             if (label116.Text == "µg/m3")
             {
                 label116.Text = "ppm";
+                //_chartGasses.chart2.Series[0].Points.Clear();
+                //_chartGasses.chart2.Series[1].Points.Clear();
+                //_chartGasses.chart2.Series[2].Points.Clear();
+                //_chartGasses.chart2.Series[3].Points.Clear();
+                //_chartGasses.chart2.Series[4].Points.Clear();
+                //_chartGasses.chart2.ChartAreas[0].AxisY.LabelStyle.Format = "{0:0.00} ppm";
                 ShowPPM();
             }
             else if (label116.Text == "ppm")
             {
                 label116.Text = "µg/m3";
+                //_chartGasses.chart2.Series[0].Points.Clear();
+                //_chartGasses.chart2.Series[1].Points.Clear();
+                //_chartGasses.chart2.Series[2].Points.Clear();
+                //_chartGasses.chart2.Series[3].Points.Clear();
+                //_chartGasses.chart2.Series[4].Points.Clear();
+                //_chartGasses.chart2.ChartAreas[0].AxisY.LabelStyle.Format = "{0:0.0} µg/m3";
                 ShowMikro();
             }
         }

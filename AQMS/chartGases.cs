@@ -102,7 +102,7 @@ namespace AQMS
                 }
             }
             Console.WriteLine("Max " + maxValue);
-            chart2.ChartAreas[0].AxisY.Maximum = maxValue + 100;
+            chart2.ChartAreas[0].AxisY.Maximum = maxValue;
             if (halo == "true")
             {
                 if (!_form1.serialPortUtama.IsOpen)
