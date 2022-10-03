@@ -514,14 +514,8 @@ namespace AQMS
                     point[2] = Convert.ToDouble(dataIn[2]) * 1000;
                     point[3] = Convert.ToDouble(dataIn[3]) * 1000;
                     point[4] = Convert.ToDouble(dataIn[4]) * 1000;
-
-                    //chart1.Series[0].Points.AddXY(time.ToString("HH:mm:ss"), Convert.ToDouble(dataIn[0]) * 1000);
-                    //chart1.Series[1].Points.AddXY(time.ToString("HH:mm:ss"), Convert.ToDouble(dataIn[1]) * 1000);
-                    //chart1.Series[2].Points.AddXY(time.ToString("HH:mm:ss"), Convert.ToDouble(dataIn[2]) * 1000);
-                    //chart1.Series[3].Points.AddXY(time.ToString("HH:mm:ss"), Convert.ToDouble(dataIn[3]) * 1000);
-                    //chart1.Series[4].Points.AddXY(time.ToString("HH:mm:ss"), Convert.ToDouble(dataIn[4]) * 1000);
+               
                     _chartGasses.addPoint(point, time.ToString("HH:mm:ss"));
-                    //chart1.Series[9].Points.AddXY(time.ToString("HH:mm:ss"), Convert.ToInt32(PM25));
 
                 }
 
@@ -534,12 +528,11 @@ namespace AQMS
                 #endregion
 
                 showPPM(dataIn[0], dataIn[1], dataIn[2], dataIn[3], dataIn[4]);
-                //showCalibration(dataIn);
                 showValue(suhuIn.ToString(), kelembabanIn.ToString(), String.Format("{0:0.00}", kecepatanAnginIn), tekananUdaraIn.ToString(), arahAnginIn, no2.ToString(), o3.ToString(), co.ToString(), so2.ToString(), hc.ToString(), PM25.ToString(), PM10.ToString(), teganganIn, arusIn, dayaIn, datas, teganganIn, solarRadiasi);
             }
             catch (Exception ex)
             {
-                MessageBox.Show(ex.Message);
+                //MessageBox.Show(ex.Message);
             }
         }
 
