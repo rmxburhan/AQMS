@@ -30,34 +30,34 @@ namespace AQMS
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
-            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea9 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
-            System.Windows.Forms.DataVisualization.Charting.Legend legend9 = new System.Windows.Forms.DataVisualization.Charting.Legend();
-            System.Windows.Forms.DataVisualization.Charting.Series series27 = new System.Windows.Forms.DataVisualization.Charting.Series();
-            System.Windows.Forms.DataVisualization.Charting.Series series28 = new System.Windows.Forms.DataVisualization.Charting.Series();
-            System.Windows.Forms.DataVisualization.Charting.Series series29 = new System.Windows.Forms.DataVisualization.Charting.Series();
-            System.Windows.Forms.DataVisualization.Charting.Series series30 = new System.Windows.Forms.DataVisualization.Charting.Series();
-            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea10 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
-            System.Windows.Forms.DataVisualization.Charting.StripLine stripLine11 = new System.Windows.Forms.DataVisualization.Charting.StripLine();
-            System.Windows.Forms.DataVisualization.Charting.StripLine stripLine12 = new System.Windows.Forms.DataVisualization.Charting.StripLine();
-            System.Windows.Forms.DataVisualization.Charting.StripLine stripLine13 = new System.Windows.Forms.DataVisualization.Charting.StripLine();
-            System.Windows.Forms.DataVisualization.Charting.StripLine stripLine14 = new System.Windows.Forms.DataVisualization.Charting.StripLine();
-            System.Windows.Forms.DataVisualization.Charting.StripLine stripLine15 = new System.Windows.Forms.DataVisualization.Charting.StripLine();
-            System.Windows.Forms.DataVisualization.Charting.Legend legend10 = new System.Windows.Forms.DataVisualization.Charting.Legend();
-            System.Windows.Forms.DataVisualization.Charting.Series series31 = new System.Windows.Forms.DataVisualization.Charting.Series();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle5 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle6 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea11 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
-            System.Windows.Forms.DataVisualization.Charting.Legend legend11 = new System.Windows.Forms.DataVisualization.Charting.Legend();
-            System.Windows.Forms.DataVisualization.Charting.Series series32 = new System.Windows.Forms.DataVisualization.Charting.Series();
-            System.Windows.Forms.DataVisualization.Charting.Series series33 = new System.Windows.Forms.DataVisualization.Charting.Series();
-            System.Windows.Forms.DataVisualization.Charting.Series series34 = new System.Windows.Forms.DataVisualization.Charting.Series();
-            System.Windows.Forms.DataVisualization.Charting.Series series35 = new System.Windows.Forms.DataVisualization.Charting.Series();
-            System.Windows.Forms.DataVisualization.Charting.Series series36 = new System.Windows.Forms.DataVisualization.Charting.Series();
-            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea12 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
-            System.Windows.Forms.DataVisualization.Charting.Legend legend12 = new System.Windows.Forms.DataVisualization.Charting.Legend();
-            System.Windows.Forms.DataVisualization.Charting.Series series37 = new System.Windows.Forms.DataVisualization.Charting.Series();
-            System.Windows.Forms.DataVisualization.Charting.Series series38 = new System.Windows.Forms.DataVisualization.Charting.Series();
-            System.Windows.Forms.DataVisualization.Charting.Series series39 = new System.Windows.Forms.DataVisualization.Charting.Series();
+            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea1 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
+            System.Windows.Forms.DataVisualization.Charting.Legend legend1 = new System.Windows.Forms.DataVisualization.Charting.Legend();
+            System.Windows.Forms.DataVisualization.Charting.Series series1 = new System.Windows.Forms.DataVisualization.Charting.Series();
+            System.Windows.Forms.DataVisualization.Charting.Series series2 = new System.Windows.Forms.DataVisualization.Charting.Series();
+            System.Windows.Forms.DataVisualization.Charting.Series series3 = new System.Windows.Forms.DataVisualization.Charting.Series();
+            System.Windows.Forms.DataVisualization.Charting.Series series4 = new System.Windows.Forms.DataVisualization.Charting.Series();
+            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea2 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
+            System.Windows.Forms.DataVisualization.Charting.StripLine stripLine1 = new System.Windows.Forms.DataVisualization.Charting.StripLine();
+            System.Windows.Forms.DataVisualization.Charting.StripLine stripLine2 = new System.Windows.Forms.DataVisualization.Charting.StripLine();
+            System.Windows.Forms.DataVisualization.Charting.StripLine stripLine3 = new System.Windows.Forms.DataVisualization.Charting.StripLine();
+            System.Windows.Forms.DataVisualization.Charting.StripLine stripLine4 = new System.Windows.Forms.DataVisualization.Charting.StripLine();
+            System.Windows.Forms.DataVisualization.Charting.StripLine stripLine5 = new System.Windows.Forms.DataVisualization.Charting.StripLine();
+            System.Windows.Forms.DataVisualization.Charting.Legend legend2 = new System.Windows.Forms.DataVisualization.Charting.Legend();
+            System.Windows.Forms.DataVisualization.Charting.Series series5 = new System.Windows.Forms.DataVisualization.Charting.Series();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea3 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
+            System.Windows.Forms.DataVisualization.Charting.Legend legend3 = new System.Windows.Forms.DataVisualization.Charting.Legend();
+            System.Windows.Forms.DataVisualization.Charting.Series series6 = new System.Windows.Forms.DataVisualization.Charting.Series();
+            System.Windows.Forms.DataVisualization.Charting.Series series7 = new System.Windows.Forms.DataVisualization.Charting.Series();
+            System.Windows.Forms.DataVisualization.Charting.Series series8 = new System.Windows.Forms.DataVisualization.Charting.Series();
+            System.Windows.Forms.DataVisualization.Charting.Series series9 = new System.Windows.Forms.DataVisualization.Charting.Series();
+            System.Windows.Forms.DataVisualization.Charting.Series series10 = new System.Windows.Forms.DataVisualization.Charting.Series();
+            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea4 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
+            System.Windows.Forms.DataVisualization.Charting.Legend legend4 = new System.Windows.Forms.DataVisualization.Charting.Legend();
+            System.Windows.Forms.DataVisualization.Charting.Series series11 = new System.Windows.Forms.DataVisualization.Charting.Series();
+            System.Windows.Forms.DataVisualization.Charting.Series series12 = new System.Windows.Forms.DataVisualization.Charting.Series();
+            System.Windows.Forms.DataVisualization.Charting.Series series13 = new System.Windows.Forms.DataVisualization.Charting.Series();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.tableLayoutPanel1 = new System.Windows.Forms.TableLayoutPanel();
             this.tableLayoutPanel7 = new System.Windows.Forms.TableLayoutPanel();
@@ -119,10 +119,6 @@ namespace AQMS
             this.labelSuhu = new System.Windows.Forms.Label();
             this.panel18 = new System.Windows.Forms.Panel();
             this.label3 = new System.Windows.Forms.Label();
-            this.panel9 = new System.Windows.Forms.Panel();
-            this.labelTekanan = new System.Windows.Forms.Label();
-            this.panel3 = new System.Windows.Forms.Panel();
-            this.label70 = new System.Windows.Forms.Label();
             this.panel14 = new System.Windows.Forms.Panel();
             this.labelKecepatanAngin = new System.Windows.Forms.Label();
             this.panel25 = new System.Windows.Forms.Panel();
@@ -168,6 +164,7 @@ namespace AQMS
             this.labelHC = new System.Windows.Forms.Label();
             this.panel26 = new System.Windows.Forms.Panel();
             this.label85 = new System.Windows.Forms.Label();
+            this.label42 = new System.Windows.Forms.Label();
             this.panel16 = new System.Windows.Forms.Panel();
             this.rawData = new System.Windows.Forms.TabPage();
             this.tableLayoutPanel5 = new System.Windows.Forms.TableLayoutPanel();
@@ -181,6 +178,17 @@ namespace AQMS
             this.btnGenereateRawData = new System.Windows.Forms.Button();
             this.label43 = new System.Windows.Forms.Label();
             this.dataGridView2 = new System.Windows.Forms.DataGridView();
+            this.iDDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.rawdataDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.createdatDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.namapetugasDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.useridDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.no2DataGridViewTextBoxColumn1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.so2DataGridViewTextBoxColumn1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.o3DataGridViewTextBoxColumn1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.coDataGridViewTextBoxColumn1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.hcDataGridViewTextBoxColumn1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.entityRawDataBindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.tableLayoutPanel3 = new System.Windows.Forms.TableLayoutPanel();
             this.panel37 = new System.Windows.Forms.Panel();
             this.labelRawData = new System.Windows.Forms.Label();
@@ -206,6 +214,12 @@ namespace AQMS
             this.panel43 = new System.Windows.Forms.Panel();
             this.btnUserLog = new System.Windows.Forms.Button();
             this.dgUserLog = new System.Windows.Forms.DataGridView();
+            this.idDataGridViewTextBoxColumn1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.namauserDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.emailDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.aktifitasDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.waktuDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.entityUserLogBindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.dtpToLog = new System.Windows.Forms.DateTimePicker();
             this.dtpFromLog = new System.Windows.Forms.DateTimePicker();
             this.label22 = new System.Windows.Forms.Label();
@@ -214,7 +228,23 @@ namespace AQMS
             this.report = new System.Windows.Forms.TabPage();
             this.tableLayoutPanel6 = new System.Windows.Forms.TableLayoutPanel();
             this.dgDataReport = new System.Windows.Forms.DataGridView();
+            this.idDataGridViewTextBoxColumn2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.namapetugasDataGridViewTextBoxColumn1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.suhuDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.kelembabanDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.tekananDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.arahanginDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.kecepatananginDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.no2DataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.o3DataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.coDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.so2DataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.hcDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.pm25DataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.pm10DataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.waktuDataGridViewTextBoxColumn1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.valid = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.entityDataBindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.panel11 = new System.Windows.Forms.Panel();
             this.label76 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
@@ -230,10 +260,6 @@ namespace AQMS
             this.chartGas = new System.Windows.Forms.DataVisualization.Charting.Chart();
             this.chartWeather = new System.Windows.Forms.DataVisualization.Charting.Chart();
             this.settings = new System.Windows.Forms.TabPage();
-            this.panel48 = new System.Windows.Forms.Panel();
-            this.label32 = new System.Windows.Forms.Label();
-            this.button8 = new System.Windows.Forms.Button();
-            this.numericUpDown3 = new System.Windows.Forms.NumericUpDown();
             this.panel50 = new System.Windows.Forms.Panel();
             this.labelRawGps = new System.Windows.Forms.Label();
             this.labelRawSerial = new System.Windows.Forms.Label();
@@ -308,12 +334,17 @@ namespace AQMS
             this.btnSimpanGPS = new System.Windows.Forms.Button();
             this.tabPage4 = new System.Windows.Forms.TabPage();
             this.panel51 = new System.Windows.Forms.Panel();
+            this.cbxReset = new System.Windows.Forms.ComboBox();
+            this.label46 = new System.Windows.Forms.Label();
             this.numericUpDown4 = new System.Windows.Forms.NumericUpDown();
             this.label33 = new System.Windows.Forms.Label();
             this.label34 = new System.Windows.Forms.Label();
             this.button12 = new System.Windows.Forms.Button();
             this.panel39 = new System.Windows.Forms.Panel();
+            this.label32 = new System.Windows.Forms.Label();
             this.btnSendRequest = new System.Windows.Forms.Button();
+            this.button8 = new System.Windows.Forms.Button();
+            this.numericUpDown3 = new System.Windows.Forms.NumericUpDown();
             this.rbDataManual = new System.Windows.Forms.RadioButton();
             this.rbDataOtomatis = new System.Windows.Forms.RadioButton();
             this.label44 = new System.Windows.Forms.Label();
@@ -331,6 +362,7 @@ namespace AQMS
             this.panelTrack = new System.Windows.Forms.Panel();
             this.btnMax = new System.Windows.Forms.Button();
             this.btnMin = new System.Windows.Forms.Button();
+            this.trackPwm = new AQMS.ColorSlider();
             this.txtPwmTrack = new System.Windows.Forms.TextBox();
             this.label45 = new System.Windows.Forms.Label();
             this.label23 = new System.Windows.Forms.Label();
@@ -392,40 +424,7 @@ namespace AQMS
             this.timerWaktuTunggu = new System.Windows.Forms.Timer(this.components);
             this.timer1 = new System.Windows.Forms.Timer(this.components);
             this.timerWaktuCharge = new System.Windows.Forms.Timer(this.components);
-            this.iDDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.rawdataDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.createdatDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.namapetugasDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.useridDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.no2DataGridViewTextBoxColumn1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.so2DataGridViewTextBoxColumn1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.o3DataGridViewTextBoxColumn1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.coDataGridViewTextBoxColumn1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.hcDataGridViewTextBoxColumn1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.entityRawDataBindingSource = new System.Windows.Forms.BindingSource(this.components);
-            this.idDataGridViewTextBoxColumn1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.namauserDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.emailDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.aktifitasDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.waktuDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.entityUserLogBindingSource = new System.Windows.Forms.BindingSource(this.components);
-            this.idDataGridViewTextBoxColumn2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.namapetugasDataGridViewTextBoxColumn1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.suhuDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.kelembabanDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.tekananDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.arahanginDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.kecepatananginDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.no2DataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.o3DataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.coDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.so2DataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.hcDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.pm25DataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.pm10DataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.waktuDataGridViewTextBoxColumn1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.entityDataBindingSource = new System.Windows.Forms.BindingSource(this.components);
-            this.trackPwm = new AQMS.ColorSlider();
+            this.timer2 = new System.Windows.Forms.Timer(this.components);
             this.entityRawDataBindingSource1 = new System.Windows.Forms.BindingSource(this.components);
             this.tableLayoutPanel1.SuspendLayout();
             this.tableLayoutPanel7.SuspendLayout();
@@ -450,8 +449,6 @@ namespace AQMS
             this.panel36.SuspendLayout();
             this.panel6.SuspendLayout();
             this.panel18.SuspendLayout();
-            this.panel9.SuspendLayout();
-            this.panel3.SuspendLayout();
             this.panel14.SuspendLayout();
             this.panel25.SuspendLayout();
             this.panel17.SuspendLayout();
@@ -475,6 +472,7 @@ namespace AQMS
             this.tableLayoutPanel5.SuspendLayout();
             this.panel32.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.entityRawDataBindingSource)).BeginInit();
             this.tableLayoutPanel3.SuspendLayout();
             this.panel37.SuspendLayout();
             this.panel23.SuspendLayout();
@@ -484,16 +482,16 @@ namespace AQMS
             ((System.ComponentModel.ISupportInitialize)(this.dgZeroLog)).BeginInit();
             this.panel43.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dgUserLog)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.entityUserLogBindingSource)).BeginInit();
             this.report.SuspendLayout();
             this.tableLayoutPanel6.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dgDataReport)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.entityDataBindingSource)).BeginInit();
             this.panel11.SuspendLayout();
             this.panel49.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.chartGas)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.chartWeather)).BeginInit();
             this.settings.SuspendLayout();
-            this.panel48.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown3)).BeginInit();
             this.panel50.SuspendLayout();
             this.panel47.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.atasSolar)).BeginInit();
@@ -532,6 +530,7 @@ namespace AQMS
             this.panel51.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDown4)).BeginInit();
             this.panel39.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown3)).BeginInit();
             this.panelPwmOtomatis.SuspendLayout();
             this.panelTrack.SuspendLayout();
             this.panel13.SuspendLayout();
@@ -542,9 +541,6 @@ namespace AQMS
             this.tabPage1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pbAbout)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.entityRawDataBindingSource)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.entityUserLogBindingSource)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.entityDataBindingSource)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.entityRawDataBindingSource1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -856,7 +852,7 @@ namespace AQMS
             // button4
             // 
             this.button4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(64)))), ((int)(((byte)(0)))));
-            this.button4.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(44)))), ((int)(((byte)(69)))), ((int)(((byte)(157)))));
+            this.button4.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(64)))), ((int)(((byte)(0)))));
             this.button4.FlatAppearance.BorderSize = 0;
             this.button4.FlatAppearance.CheckedBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(44)))), ((int)(((byte)(69)))), ((int)(((byte)(157)))));
             this.button4.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(64)))), ((int)(((byte)(0)))));
@@ -898,11 +894,11 @@ namespace AQMS
             // button9
             // 
             this.button9.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(98)))), ((int)(((byte)(166)))), ((int)(((byte)(221)))));
-            this.button9.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(44)))), ((int)(((byte)(69)))), ((int)(((byte)(157)))));
+            this.button9.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(98)))), ((int)(((byte)(166)))), ((int)(((byte)(221)))));
             this.button9.FlatAppearance.BorderSize = 0;
             this.button9.FlatAppearance.CheckedBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(44)))), ((int)(((byte)(69)))), ((int)(((byte)(157)))));
-            this.button9.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(44)))), ((int)(((byte)(69)))), ((int)(((byte)(157)))));
-            this.button9.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(44)))), ((int)(((byte)(69)))), ((int)(((byte)(157)))));
+            this.button9.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(98)))), ((int)(((byte)(166)))), ((int)(((byte)(221)))));
+            this.button9.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(98)))), ((int)(((byte)(166)))), ((int)(((byte)(221)))));
             this.button9.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button9.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button9.ForeColor = System.Drawing.Color.White;
@@ -1115,7 +1111,7 @@ namespace AQMS
             this.tableLayoutPanel4.Name = "tableLayoutPanel4";
             this.tableLayoutPanel4.RowCount = 1;
             this.tableLayoutPanel4.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
-            this.tableLayoutPanel4.Size = new System.Drawing.Size(1016, 250);
+            this.tableLayoutPanel4.Size = new System.Drawing.Size(1016, 241);
             this.tableLayoutPanel4.TabIndex = 47;
             // 
             // panel40
@@ -1129,7 +1125,7 @@ namespace AQMS
             this.panel40.Location = new System.Drawing.Point(5, 5);
             this.panel40.Margin = new System.Windows.Forms.Padding(5);
             this.panel40.Name = "panel40";
-            this.panel40.Size = new System.Drawing.Size(1006, 240);
+            this.panel40.Size = new System.Drawing.Size(1006, 231);
             this.panel40.TabIndex = 41;
             // 
             // button6
@@ -1196,71 +1192,72 @@ namespace AQMS
             // chart2
             // 
             this.chart2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(23)))), ((int)(((byte)(38)))), ((int)(((byte)(88)))));
-            chartArea9.AxisX.Interval = 1D;
-            chartArea9.AxisX.IsLabelAutoFit = false;
-            chartArea9.AxisX.LabelStyle.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            chartArea9.AxisX.LabelStyle.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(237)))), ((int)(((byte)(237)))), ((int)(((byte)(237)))));
-            chartArea9.AxisX.LineColor = System.Drawing.Color.FromArgb(((int)(((byte)(237)))), ((int)(((byte)(237)))), ((int)(((byte)(237)))));
-            chartArea9.AxisX.MajorGrid.LineColor = System.Drawing.Color.FromArgb(((int)(((byte)(44)))), ((int)(((byte)(69)))), ((int)(((byte)(157)))));
-            chartArea9.AxisX.MajorGrid.LineWidth = 0;
-            chartArea9.AxisX.MajorTickMark.LineColor = System.Drawing.Color.FromArgb(((int)(((byte)(237)))), ((int)(((byte)(237)))), ((int)(((byte)(237)))));
-            chartArea9.AxisX.MaximumAutoSize = 95F;
-            chartArea9.AxisX.MinorGrid.LineColor = System.Drawing.Color.FromArgb(((int)(((byte)(237)))), ((int)(((byte)(237)))), ((int)(((byte)(237)))));
-            chartArea9.AxisX.MinorTickMark.LineColor = System.Drawing.Color.FromArgb(((int)(((byte)(237)))), ((int)(((byte)(237)))), ((int)(((byte)(237)))));
-            chartArea9.AxisX.TitleForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(68)))), ((int)(((byte)(68)))), ((int)(((byte)(68)))));
-            chartArea9.AxisY.IsLabelAutoFit = false;
-            chartArea9.AxisY.LabelStyle.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.5F);
-            chartArea9.AxisY.LabelStyle.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(237)))), ((int)(((byte)(237)))), ((int)(((byte)(237)))));
-            chartArea9.AxisY.LineColor = System.Drawing.Color.FromArgb(((int)(((byte)(237)))), ((int)(((byte)(237)))), ((int)(((byte)(237)))));
-            chartArea9.AxisY.MajorGrid.LineColor = System.Drawing.Color.FromArgb(((int)(((byte)(44)))), ((int)(((byte)(69)))), ((int)(((byte)(157)))));
-            chartArea9.AxisY.MajorTickMark.LineColor = System.Drawing.Color.FromArgb(((int)(((byte)(237)))), ((int)(((byte)(237)))), ((int)(((byte)(237)))));
-            chartArea9.AxisY.MinorGrid.LineColor = System.Drawing.Color.FromArgb(((int)(((byte)(237)))), ((int)(((byte)(237)))), ((int)(((byte)(237)))));
-            chartArea9.AxisY.MinorTickMark.LineColor = System.Drawing.Color.FromArgb(((int)(((byte)(237)))), ((int)(((byte)(237)))), ((int)(((byte)(237)))));
-            chartArea9.AxisY.TitleForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(237)))), ((int)(((byte)(237)))), ((int)(((byte)(237)))));
-            chartArea9.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(23)))), ((int)(((byte)(38)))), ((int)(((byte)(88)))));
-            chartArea9.Name = "ChartArea1";
-            this.chart2.ChartAreas.Add(chartArea9);
+            chartArea1.AxisX.Interval = 1D;
+            chartArea1.AxisX.IsLabelAutoFit = false;
+            chartArea1.AxisX.LabelStyle.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            chartArea1.AxisX.LabelStyle.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(237)))), ((int)(((byte)(237)))), ((int)(((byte)(237)))));
+            chartArea1.AxisX.LineColor = System.Drawing.Color.FromArgb(((int)(((byte)(237)))), ((int)(((byte)(237)))), ((int)(((byte)(237)))));
+            chartArea1.AxisX.MajorGrid.LineColor = System.Drawing.Color.FromArgb(((int)(((byte)(44)))), ((int)(((byte)(69)))), ((int)(((byte)(157)))));
+            chartArea1.AxisX.MajorGrid.LineWidth = 0;
+            chartArea1.AxisX.MajorTickMark.LineColor = System.Drawing.Color.FromArgb(((int)(((byte)(237)))), ((int)(((byte)(237)))), ((int)(((byte)(237)))));
+            chartArea1.AxisX.MaximumAutoSize = 95F;
+            chartArea1.AxisX.MinorGrid.LineColor = System.Drawing.Color.FromArgb(((int)(((byte)(237)))), ((int)(((byte)(237)))), ((int)(((byte)(237)))));
+            chartArea1.AxisX.MinorTickMark.LineColor = System.Drawing.Color.FromArgb(((int)(((byte)(237)))), ((int)(((byte)(237)))), ((int)(((byte)(237)))));
+            chartArea1.AxisX.TitleForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(68)))), ((int)(((byte)(68)))), ((int)(((byte)(68)))));
+            chartArea1.AxisY.IsLabelAutoFit = false;
+            chartArea1.AxisY.LabelStyle.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.5F);
+            chartArea1.AxisY.LabelStyle.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(237)))), ((int)(((byte)(237)))), ((int)(((byte)(237)))));
+            chartArea1.AxisY.LineColor = System.Drawing.Color.FromArgb(((int)(((byte)(237)))), ((int)(((byte)(237)))), ((int)(((byte)(237)))));
+            chartArea1.AxisY.MajorGrid.LineColor = System.Drawing.Color.FromArgb(((int)(((byte)(44)))), ((int)(((byte)(69)))), ((int)(((byte)(157)))));
+            chartArea1.AxisY.MajorTickMark.LineColor = System.Drawing.Color.FromArgb(((int)(((byte)(237)))), ((int)(((byte)(237)))), ((int)(((byte)(237)))));
+            chartArea1.AxisY.MinorGrid.LineColor = System.Drawing.Color.FromArgb(((int)(((byte)(237)))), ((int)(((byte)(237)))), ((int)(((byte)(237)))));
+            chartArea1.AxisY.MinorTickMark.LineColor = System.Drawing.Color.FromArgb(((int)(((byte)(237)))), ((int)(((byte)(237)))), ((int)(((byte)(237)))));
+            chartArea1.AxisY.TitleForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(237)))), ((int)(((byte)(237)))), ((int)(((byte)(237)))));
+            chartArea1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(23)))), ((int)(((byte)(38)))), ((int)(((byte)(88)))));
+            chartArea1.Name = "ChartArea1";
+            this.chart2.ChartAreas.Add(chartArea1);
             this.chart2.Dock = System.Windows.Forms.DockStyle.Fill;
-            legend9.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(63)))), ((int)(((byte)(140)))));
-            legend9.Docking = System.Windows.Forms.DataVisualization.Charting.Docking.Top;
-            legend9.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            legend9.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(237)))), ((int)(((byte)(237)))), ((int)(((byte)(237)))));
-            legend9.IsTextAutoFit = false;
-            legend9.Name = "Legend1";
-            legend9.TitleAlignment = System.Drawing.StringAlignment.Near;
-            this.chart2.Legends.Add(legend9);
+            legend1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(63)))), ((int)(((byte)(140)))));
+            legend1.Docking = System.Windows.Forms.DataVisualization.Charting.Docking.Top;
+            legend1.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            legend1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(237)))), ((int)(((byte)(237)))), ((int)(((byte)(237)))));
+            legend1.IsTextAutoFit = false;
+            legend1.Name = "Legend1";
+            legend1.TitleAlignment = System.Drawing.StringAlignment.Near;
+            this.chart2.Legends.Add(legend1);
             this.chart2.Location = new System.Drawing.Point(0, 0);
             this.chart2.Margin = new System.Windows.Forms.Padding(5);
             this.chart2.Name = "chart2";
-            series27.BorderWidth = 2;
-            series27.ChartArea = "ChartArea1";
-            series27.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Spline;
-            series27.Legend = "Legend1";
-            series27.Name = "Suhu";
-            series28.BorderWidth = 2;
-            series28.ChartArea = "ChartArea1";
-            series28.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Spline;
-            series28.Color = System.Drawing.Color.LightGreen;
-            series28.Legend = "Legend1";
-            series28.Name = "Kelembaban";
-            series29.BorderWidth = 2;
-            series29.ChartArea = "ChartArea1";
-            series29.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Spline;
-            series29.Color = System.Drawing.Color.Violet;
-            series29.Legend = "Legend1";
-            series29.Name = "Kecepatan angin";
-            series30.BorderWidth = 2;
-            series30.ChartArea = "ChartArea1";
-            series30.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Spline;
-            series30.Color = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
-            series30.Legend = "Legend1";
-            series30.Name = "Tekanan";
-            series30.ShadowColor = System.Drawing.Color.Fuchsia;
-            this.chart2.Series.Add(series27);
-            this.chart2.Series.Add(series28);
-            this.chart2.Series.Add(series29);
-            this.chart2.Series.Add(series30);
-            this.chart2.Size = new System.Drawing.Size(1006, 240);
+            series1.BorderWidth = 2;
+            series1.ChartArea = "ChartArea1";
+            series1.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Spline;
+            series1.Legend = "Legend1";
+            series1.Name = "Suhu";
+            series2.BorderWidth = 2;
+            series2.ChartArea = "ChartArea1";
+            series2.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Spline;
+            series2.Color = System.Drawing.Color.LightGreen;
+            series2.Legend = "Legend1";
+            series2.Name = "Kelembaban";
+            series3.BorderWidth = 2;
+            series3.ChartArea = "ChartArea1";
+            series3.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Spline;
+            series3.Color = System.Drawing.Color.Violet;
+            series3.Legend = "Legend1";
+            series3.Name = "Kecepatan angin";
+            series4.BorderWidth = 2;
+            series4.ChartArea = "ChartArea1";
+            series4.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Spline;
+            series4.Color = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
+            series4.Enabled = false;
+            series4.Legend = "Legend1";
+            series4.Name = "Tekanan";
+            series4.ShadowColor = System.Drawing.Color.Fuchsia;
+            this.chart2.Series.Add(series1);
+            this.chart2.Series.Add(series2);
+            this.chart2.Series.Add(series3);
+            this.chart2.Series.Add(series4);
+            this.chart2.Size = new System.Drawing.Size(1006, 231);
             this.chart2.TabIndex = 46;
             this.chart2.Text = "chart2";
             this.chart2.Visible = false;
@@ -1268,101 +1265,100 @@ namespace AQMS
             // chart3
             // 
             this.chart3.BackColor = System.Drawing.SystemColors.Control;
-            chartArea10.AxisX.Interval = 1D;
-            chartArea10.AxisX.IsLabelAutoFit = false;
-            chartArea10.AxisX.LabelStyle.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            chartArea10.AxisX.LabelStyle.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(44)))), ((int)(((byte)(69)))), ((int)(((byte)(157)))));
-            chartArea10.AxisX.LineColor = System.Drawing.Color.FromArgb(((int)(((byte)(44)))), ((int)(((byte)(69)))), ((int)(((byte)(157)))));
-            chartArea10.AxisX.MajorGrid.LineColor = System.Drawing.Color.Transparent;
-            chartArea10.AxisX.MajorGrid.LineWidth = 0;
-            chartArea10.AxisX.MajorTickMark.LineColor = System.Drawing.Color.Transparent;
-            chartArea10.AxisX.MinorGrid.LineColor = System.Drawing.Color.Transparent;
-            chartArea10.AxisX.MinorTickMark.LineColor = System.Drawing.Color.Transparent;
-            chartArea10.AxisX.TitleForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(68)))), ((int)(((byte)(68)))), ((int)(((byte)(68)))));
-            chartArea10.AxisY.IsLabelAutoFit = false;
-            chartArea10.AxisY.LabelStyle.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.5F);
-            chartArea10.AxisY.LabelStyle.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(44)))), ((int)(((byte)(69)))), ((int)(((byte)(157)))));
-            chartArea10.AxisY.LineColor = System.Drawing.Color.FromArgb(((int)(((byte)(44)))), ((int)(((byte)(69)))), ((int)(((byte)(157)))));
-            chartArea10.AxisY.MajorGrid.LineColor = System.Drawing.Color.Transparent;
-            chartArea10.AxisY.MajorTickMark.LineColor = System.Drawing.Color.Transparent;
-            chartArea10.AxisY.Maximum = 500D;
-            chartArea10.AxisY.MinorGrid.LineColor = System.Drawing.Color.Transparent;
-            chartArea10.AxisY.MinorTickMark.LineColor = System.Drawing.Color.Transparent;
-            stripLine11.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(204)))), ((int)(((byte)(0)))));
-            stripLine11.StripWidth = 15D;
-            stripLine12.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(25)))), ((int)(((byte)(76)))), ((int)(((byte)(201)))));
-            stripLine12.IntervalOffset = 15D;
-            stripLine12.StripWidth = 50D;
-            stripLine13.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(201)))), ((int)(((byte)(0)))));
-            stripLine13.IntervalOffset = 65D;
-            stripLine13.StripWidth = 95D;
-            stripLine14.BackColor = System.Drawing.Color.Red;
-            stripLine14.IntervalOffset = 150D;
-            stripLine14.StripWidth = 100D;
-            stripLine15.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(34)))), ((int)(((byte)(34)))));
-            stripLine15.IntervalOffset = 250D;
-            stripLine15.StripWidth = 250D;
-            chartArea10.AxisY.StripLines.Add(stripLine11);
-            chartArea10.AxisY.StripLines.Add(stripLine12);
-            chartArea10.AxisY.StripLines.Add(stripLine13);
-            chartArea10.AxisY.StripLines.Add(stripLine14);
-            chartArea10.AxisY.StripLines.Add(stripLine15);
-            chartArea10.AxisY.TitleForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(237)))), ((int)(((byte)(237)))), ((int)(((byte)(237)))));
-            chartArea10.BackColor = System.Drawing.SystemColors.Control;
-            chartArea10.Name = "ChartArea1";
-            chartArea10.Position.Auto = false;
-            chartArea10.Position.Height = 84.89313F;
-            chartArea10.Position.Width = 97.5F;
-            chartArea10.Position.X = 1F;
-            chartArea10.Position.Y = 12.10687F;
-            this.chart3.ChartAreas.Add(chartArea10);
+            chartArea2.AxisX.Interval = 1D;
+            chartArea2.AxisX.IsLabelAutoFit = false;
+            chartArea2.AxisX.LabelStyle.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            chartArea2.AxisX.LabelStyle.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(44)))), ((int)(((byte)(69)))), ((int)(((byte)(157)))));
+            chartArea2.AxisX.LineColor = System.Drawing.Color.FromArgb(((int)(((byte)(44)))), ((int)(((byte)(69)))), ((int)(((byte)(157)))));
+            chartArea2.AxisX.MajorGrid.LineColor = System.Drawing.Color.Transparent;
+            chartArea2.AxisX.MajorGrid.LineWidth = 0;
+            chartArea2.AxisX.MajorTickMark.LineColor = System.Drawing.Color.Transparent;
+            chartArea2.AxisX.MinorGrid.LineColor = System.Drawing.Color.Transparent;
+            chartArea2.AxisX.MinorTickMark.LineColor = System.Drawing.Color.Transparent;
+            chartArea2.AxisX.TitleForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(68)))), ((int)(((byte)(68)))), ((int)(((byte)(68)))));
+            chartArea2.AxisY.IsLabelAutoFit = false;
+            chartArea2.AxisY.LabelStyle.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.5F);
+            chartArea2.AxisY.LabelStyle.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(44)))), ((int)(((byte)(69)))), ((int)(((byte)(157)))));
+            chartArea2.AxisY.LineColor = System.Drawing.Color.FromArgb(((int)(((byte)(44)))), ((int)(((byte)(69)))), ((int)(((byte)(157)))));
+            chartArea2.AxisY.MajorGrid.LineColor = System.Drawing.Color.Transparent;
+            chartArea2.AxisY.MajorTickMark.LineColor = System.Drawing.Color.Transparent;
+            chartArea2.AxisY.Maximum = 500D;
+            chartArea2.AxisY.MinorGrid.LineColor = System.Drawing.Color.Transparent;
+            chartArea2.AxisY.MinorTickMark.LineColor = System.Drawing.Color.Transparent;
+            stripLine1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(204)))), ((int)(((byte)(0)))));
+            stripLine1.StripWidth = 15D;
+            stripLine2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(25)))), ((int)(((byte)(76)))), ((int)(((byte)(201)))));
+            stripLine2.IntervalOffset = 15D;
+            stripLine2.StripWidth = 50D;
+            stripLine3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(201)))), ((int)(((byte)(0)))));
+            stripLine3.IntervalOffset = 65D;
+            stripLine3.StripWidth = 95D;
+            stripLine4.BackColor = System.Drawing.Color.Red;
+            stripLine4.IntervalOffset = 150D;
+            stripLine4.StripWidth = 100D;
+            stripLine5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(34)))), ((int)(((byte)(34)))));
+            stripLine5.IntervalOffset = 250D;
+            stripLine5.StripWidth = 250D;
+            chartArea2.AxisY.StripLines.Add(stripLine1);
+            chartArea2.AxisY.StripLines.Add(stripLine2);
+            chartArea2.AxisY.StripLines.Add(stripLine3);
+            chartArea2.AxisY.StripLines.Add(stripLine4);
+            chartArea2.AxisY.StripLines.Add(stripLine5);
+            chartArea2.AxisY.TitleForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(237)))), ((int)(((byte)(237)))), ((int)(((byte)(237)))));
+            chartArea2.BackColor = System.Drawing.SystemColors.Control;
+            chartArea2.Name = "ChartArea1";
+            chartArea2.Position.Auto = false;
+            chartArea2.Position.Height = 84.89313F;
+            chartArea2.Position.Width = 97.5F;
+            chartArea2.Position.X = 1F;
+            chartArea2.Position.Y = 12.10687F;
+            this.chart3.ChartAreas.Add(chartArea2);
             this.chart3.Dock = System.Windows.Forms.DockStyle.Fill;
-            legend10.BackColor = System.Drawing.Color.DimGray;
-            legend10.Docking = System.Windows.Forms.DataVisualization.Charting.Docking.Top;
-            legend10.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            legend10.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(237)))), ((int)(((byte)(237)))), ((int)(((byte)(237)))));
-            legend10.IsTextAutoFit = false;
-            legend10.Name = "Legend1";
-            legend10.TitleAlignment = System.Drawing.StringAlignment.Near;
-            this.chart3.Legends.Add(legend10);
+            legend2.BackColor = System.Drawing.Color.DimGray;
+            legend2.Docking = System.Windows.Forms.DataVisualization.Charting.Docking.Top;
+            legend2.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            legend2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(237)))), ((int)(((byte)(237)))), ((int)(((byte)(237)))));
+            legend2.IsTextAutoFit = false;
+            legend2.Name = "Legend1";
+            legend2.TitleAlignment = System.Drawing.StringAlignment.Near;
+            this.chart3.Legends.Add(legend2);
             this.chart3.Location = new System.Drawing.Point(0, 0);
             this.chart3.Margin = new System.Windows.Forms.Padding(5);
             this.chart3.Name = "chart3";
-            series31.BackSecondaryColor = System.Drawing.Color.Transparent;
-            series31.BorderColor = System.Drawing.Color.White;
-            series31.BorderWidth = 3;
-            series31.ChartArea = "ChartArea1";
-            series31.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Area;
-            series31.Color = System.Drawing.Color.Transparent;
-            series31.Legend = "Legend1";
-            series31.Name = "PM2.5";
-            this.chart3.Series.Add(series31);
-            this.chart3.Size = new System.Drawing.Size(1006, 240);
+            series5.BackSecondaryColor = System.Drawing.Color.Transparent;
+            series5.BorderColor = System.Drawing.Color.White;
+            series5.BorderWidth = 3;
+            series5.ChartArea = "ChartArea1";
+            series5.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Area;
+            series5.Color = System.Drawing.Color.Transparent;
+            series5.Legend = "Legend1";
+            series5.Name = "PM2.5";
+            this.chart3.Series.Add(series5);
+            this.chart3.Size = new System.Drawing.Size(1006, 231);
             this.chart3.TabIndex = 47;
             this.chart3.Text = " ";
             this.chart3.Visible = false;
             // 
             // tableLayoutPanel12
             // 
-            this.tableLayoutPanel12.ColumnCount = 6;
+            this.tableLayoutPanel12.ColumnCount = 5;
             this.tableLayoutPanel12.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 16.66556F));
             this.tableLayoutPanel12.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 16.66556F));
             this.tableLayoutPanel12.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 16.66889F));
             this.tableLayoutPanel12.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 16.66889F));
             this.tableLayoutPanel12.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 16.66556F));
-            this.tableLayoutPanel12.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 16.66556F));
-            this.tableLayoutPanel12.Controls.Add(this.panel45, 5, 0);
-            this.tableLayoutPanel12.Controls.Add(this.panel35, 1, 0);
-            this.tableLayoutPanel12.Controls.Add(this.panel6, 0, 0);
-            this.tableLayoutPanel12.Controls.Add(this.panel9, 2, 0);
-            this.tableLayoutPanel12.Controls.Add(this.panel14, 4, 0);
-            this.tableLayoutPanel12.Controls.Add(this.panel17, 3, 0);
+            this.tableLayoutPanel12.Controls.Add(this.panel2, 3, 0);
+            this.tableLayoutPanel12.Controls.Add(this.panel33, 2, 0);
+            this.tableLayoutPanel12.Controls.Add(this.panel28, 1, 0);
+            this.tableLayoutPanel12.Controls.Add(this.panel1, 0, 0);
+            this.tableLayoutPanel12.Controls.Add(this.panel4, 4, 0);
             this.tableLayoutPanel12.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.tableLayoutPanel12.Location = new System.Drawing.Point(0, 323);
+            this.tableLayoutPanel12.Location = new System.Drawing.Point(0, 314);
             this.tableLayoutPanel12.Margin = new System.Windows.Forms.Padding(0);
             this.tableLayoutPanel12.Name = "tableLayoutPanel12";
             this.tableLayoutPanel12.RowCount = 1;
             this.tableLayoutPanel12.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
+            this.tableLayoutPanel12.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
             this.tableLayoutPanel12.Size = new System.Drawing.Size(1016, 104);
             this.tableLayoutPanel12.TabIndex = 44;
             // 
@@ -1371,20 +1367,20 @@ namespace AQMS
             this.panel45.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(26)))), ((int)(((byte)(59)))), ((int)(((byte)(122)))));
             this.panel45.Controls.Add(this.labelSolarRadiasi);
             this.panel45.Controls.Add(this.panel46);
-            this.panel45.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panel45.Location = new System.Drawing.Point(848, 3);
+            this.panel45.Location = new System.Drawing.Point(583, 3);
             this.panel45.Name = "panel45";
-            this.panel45.Size = new System.Drawing.Size(165, 98);
+            this.tableLayoutPanel2.SetRowSpan(this.panel45, 2);
+            this.panel45.Size = new System.Drawing.Size(139, 98);
             this.panel45.TabIndex = 9;
             // 
             // labelSolarRadiasi
             // 
             this.labelSolarRadiasi.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.labelSolarRadiasi.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelSolarRadiasi.Font = new System.Drawing.Font("Segoe UI", 12.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.labelSolarRadiasi.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(237)))), ((int)(((byte)(237)))), ((int)(((byte)(237)))));
-            this.labelSolarRadiasi.Location = new System.Drawing.Point(0, 40);
+            this.labelSolarRadiasi.Location = new System.Drawing.Point(0, 35);
             this.labelSolarRadiasi.Name = "labelSolarRadiasi";
-            this.labelSolarRadiasi.Size = new System.Drawing.Size(165, 58);
+            this.labelSolarRadiasi.Size = new System.Drawing.Size(139, 63);
             this.labelSolarRadiasi.TabIndex = 12;
             this.labelSolarRadiasi.Text = "0 W/m²";
             this.labelSolarRadiasi.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -1397,17 +1393,17 @@ namespace AQMS
             this.panel46.Location = new System.Drawing.Point(0, 0);
             this.panel46.Margin = new System.Windows.Forms.Padding(5);
             this.panel46.Name = "panel46";
-            this.panel46.Size = new System.Drawing.Size(165, 40);
+            this.panel46.Size = new System.Drawing.Size(139, 35);
             this.panel46.TabIndex = 9;
             // 
             // label84
             // 
             this.label84.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.label84.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label84.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label84.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(237)))), ((int)(((byte)(237)))), ((int)(((byte)(237)))));
             this.label84.Location = new System.Drawing.Point(0, 0);
             this.label84.Name = "label84";
-            this.label84.Size = new System.Drawing.Size(165, 40);
+            this.label84.Size = new System.Drawing.Size(139, 35);
             this.label84.TabIndex = 3;
             this.label84.Text = "SOLAR RADIASI";
             this.label84.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -1418,19 +1414,20 @@ namespace AQMS
             this.panel35.Controls.Add(this.labelKelembaban);
             this.panel35.Controls.Add(this.panel36);
             this.panel35.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panel35.Location = new System.Drawing.Point(172, 3);
+            this.panel35.Location = new System.Drawing.Point(148, 3);
             this.panel35.Name = "panel35";
-            this.panel35.Size = new System.Drawing.Size(163, 98);
+            this.tableLayoutPanel2.SetRowSpan(this.panel35, 2);
+            this.panel35.Size = new System.Drawing.Size(139, 98);
             this.panel35.TabIndex = 8;
             // 
             // labelKelembaban
             // 
             this.labelKelembaban.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.labelKelembaban.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelKelembaban.Font = new System.Drawing.Font("Segoe UI", 12.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.labelKelembaban.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(237)))), ((int)(((byte)(237)))), ((int)(((byte)(237)))));
-            this.labelKelembaban.Location = new System.Drawing.Point(0, 40);
+            this.labelKelembaban.Location = new System.Drawing.Point(0, 35);
             this.labelKelembaban.Name = "labelKelembaban";
-            this.labelKelembaban.Size = new System.Drawing.Size(163, 58);
+            this.labelKelembaban.Size = new System.Drawing.Size(139, 63);
             this.labelKelembaban.TabIndex = 12;
             this.labelKelembaban.Text = "0 %";
             this.labelKelembaban.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -1443,19 +1440,19 @@ namespace AQMS
             this.panel36.Location = new System.Drawing.Point(0, 0);
             this.panel36.Margin = new System.Windows.Forms.Padding(5);
             this.panel36.Name = "panel36";
-            this.panel36.Size = new System.Drawing.Size(163, 40);
+            this.panel36.Size = new System.Drawing.Size(139, 35);
             this.panel36.TabIndex = 9;
             // 
             // label4
             // 
             this.label4.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.label4.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label4.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(237)))), ((int)(((byte)(237)))), ((int)(((byte)(237)))));
             this.label4.Location = new System.Drawing.Point(0, 0);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(163, 40);
+            this.label4.Size = new System.Drawing.Size(139, 35);
             this.label4.TabIndex = 2;
-            this.label4.Text = "KELEMBABAN";
+            this.label4.Text = "KELEMBAPAN";
             this.label4.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // panel6
@@ -1463,20 +1460,20 @@ namespace AQMS
             this.panel6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(26)))), ((int)(((byte)(59)))), ((int)(((byte)(122)))));
             this.panel6.Controls.Add(this.labelSuhu);
             this.panel6.Controls.Add(this.panel18);
-            this.panel6.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel6.Location = new System.Drawing.Point(3, 3);
             this.panel6.Name = "panel6";
-            this.panel6.Size = new System.Drawing.Size(163, 98);
+            this.tableLayoutPanel2.SetRowSpan(this.panel6, 2);
+            this.panel6.Size = new System.Drawing.Size(139, 98);
             this.panel6.TabIndex = 5;
             // 
             // labelSuhu
             // 
             this.labelSuhu.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.labelSuhu.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelSuhu.Font = new System.Drawing.Font("Segoe UI", 12.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.labelSuhu.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(237)))), ((int)(((byte)(237)))), ((int)(((byte)(237)))));
-            this.labelSuhu.Location = new System.Drawing.Point(0, 40);
+            this.labelSuhu.Location = new System.Drawing.Point(0, 35);
             this.labelSuhu.Name = "labelSuhu";
-            this.labelSuhu.Size = new System.Drawing.Size(163, 58);
+            this.labelSuhu.Size = new System.Drawing.Size(139, 63);
             this.labelSuhu.TabIndex = 12;
             this.labelSuhu.Text = "0 °C";
             this.labelSuhu.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -1489,86 +1486,40 @@ namespace AQMS
             this.panel18.Location = new System.Drawing.Point(0, 0);
             this.panel18.Margin = new System.Windows.Forms.Padding(5);
             this.panel18.Name = "panel18";
-            this.panel18.Size = new System.Drawing.Size(163, 40);
+            this.panel18.Size = new System.Drawing.Size(139, 35);
             this.panel18.TabIndex = 9;
             // 
             // label3
             // 
             this.label3.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.label3.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(237)))), ((int)(((byte)(237)))), ((int)(((byte)(237)))));
             this.label3.Location = new System.Drawing.Point(0, 0);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(163, 40);
+            this.label3.Size = new System.Drawing.Size(139, 35);
             this.label3.TabIndex = 0;
             this.label3.Text = "SUHU";
             this.label3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // panel9
-            // 
-            this.panel9.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(26)))), ((int)(((byte)(59)))), ((int)(((byte)(122)))));
-            this.panel9.Controls.Add(this.labelTekanan);
-            this.panel9.Controls.Add(this.panel3);
-            this.panel9.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panel9.Location = new System.Drawing.Point(341, 3);
-            this.panel9.Name = "panel9";
-            this.panel9.Size = new System.Drawing.Size(163, 98);
-            this.panel9.TabIndex = 6;
-            // 
-            // labelTekanan
-            // 
-            this.labelTekanan.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.labelTekanan.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labelTekanan.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(237)))), ((int)(((byte)(237)))), ((int)(((byte)(237)))));
-            this.labelTekanan.Location = new System.Drawing.Point(0, 40);
-            this.labelTekanan.Name = "labelTekanan";
-            this.labelTekanan.Size = new System.Drawing.Size(163, 58);
-            this.labelTekanan.TabIndex = 12;
-            this.labelTekanan.Text = "0 mbar";
-            this.labelTekanan.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // panel3
-            // 
-            this.panel3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(44)))), ((int)(((byte)(69)))), ((int)(((byte)(157)))));
-            this.panel3.Controls.Add(this.label70);
-            this.panel3.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panel3.Location = new System.Drawing.Point(0, 0);
-            this.panel3.Margin = new System.Windows.Forms.Padding(5);
-            this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(163, 40);
-            this.panel3.TabIndex = 9;
-            // 
-            // label70
-            // 
-            this.label70.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.label70.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label70.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(237)))), ((int)(((byte)(237)))), ((int)(((byte)(237)))));
-            this.label70.Location = new System.Drawing.Point(0, 0);
-            this.label70.Name = "label70";
-            this.label70.Size = new System.Drawing.Size(163, 40);
-            this.label70.TabIndex = 2;
-            this.label70.Text = "TEKANAN UDARA";
-            this.label70.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // panel14
             // 
             this.panel14.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(26)))), ((int)(((byte)(59)))), ((int)(((byte)(122)))));
             this.panel14.Controls.Add(this.labelKecepatanAngin);
             this.panel14.Controls.Add(this.panel25);
-            this.panel14.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panel14.Location = new System.Drawing.Point(679, 3);
+            this.panel14.Location = new System.Drawing.Point(438, 3);
             this.panel14.Name = "panel14";
-            this.panel14.Size = new System.Drawing.Size(163, 98);
+            this.tableLayoutPanel2.SetRowSpan(this.panel14, 2);
+            this.panel14.Size = new System.Drawing.Size(139, 98);
             this.panel14.TabIndex = 7;
             // 
             // labelKecepatanAngin
             // 
             this.labelKecepatanAngin.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.labelKecepatanAngin.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelKecepatanAngin.Font = new System.Drawing.Font("Segoe UI", 12.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.labelKecepatanAngin.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(237)))), ((int)(((byte)(237)))), ((int)(((byte)(237)))));
-            this.labelKecepatanAngin.Location = new System.Drawing.Point(0, 40);
+            this.labelKecepatanAngin.Location = new System.Drawing.Point(0, 35);
             this.labelKecepatanAngin.Name = "labelKecepatanAngin";
-            this.labelKecepatanAngin.Size = new System.Drawing.Size(163, 58);
+            this.labelKecepatanAngin.Size = new System.Drawing.Size(139, 63);
             this.labelKecepatanAngin.TabIndex = 12;
             this.labelKecepatanAngin.Text = "0 km/h";
             this.labelKecepatanAngin.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -1581,17 +1532,17 @@ namespace AQMS
             this.panel25.Location = new System.Drawing.Point(0, 0);
             this.panel25.Margin = new System.Windows.Forms.Padding(5);
             this.panel25.Name = "panel25";
-            this.panel25.Size = new System.Drawing.Size(163, 40);
+            this.panel25.Size = new System.Drawing.Size(139, 35);
             this.panel25.TabIndex = 9;
             // 
             // label7
             // 
             this.label7.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.label7.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label7.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label7.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(237)))), ((int)(((byte)(237)))), ((int)(((byte)(237)))));
             this.label7.Location = new System.Drawing.Point(0, 0);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(163, 40);
+            this.label7.Size = new System.Drawing.Size(139, 35);
             this.label7.TabIndex = 3;
             this.label7.Text = "KECEPATAN ANGIN";
             this.label7.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -1601,20 +1552,20 @@ namespace AQMS
             this.panel17.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(26)))), ((int)(((byte)(59)))), ((int)(((byte)(122)))));
             this.panel17.Controls.Add(this.labelArahAngin);
             this.panel17.Controls.Add(this.panel24);
-            this.panel17.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panel17.Location = new System.Drawing.Point(510, 3);
+            this.panel17.Location = new System.Drawing.Point(293, 3);
             this.panel17.Name = "panel17";
-            this.panel17.Size = new System.Drawing.Size(163, 98);
+            this.tableLayoutPanel2.SetRowSpan(this.panel17, 2);
+            this.panel17.Size = new System.Drawing.Size(139, 98);
             this.panel17.TabIndex = 7;
             // 
             // labelArahAngin
             // 
             this.labelArahAngin.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.labelArahAngin.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelArahAngin.Font = new System.Drawing.Font("Segoe UI", 12.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.labelArahAngin.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(237)))), ((int)(((byte)(237)))), ((int)(((byte)(237)))));
-            this.labelArahAngin.Location = new System.Drawing.Point(0, 40);
+            this.labelArahAngin.Location = new System.Drawing.Point(0, 35);
             this.labelArahAngin.Name = "labelArahAngin";
-            this.labelArahAngin.Size = new System.Drawing.Size(163, 58);
+            this.labelArahAngin.Size = new System.Drawing.Size(139, 63);
             this.labelArahAngin.TabIndex = 12;
             this.labelArahAngin.Text = "0° Dari utara";
             this.labelArahAngin.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -1627,17 +1578,17 @@ namespace AQMS
             this.panel24.Location = new System.Drawing.Point(0, 0);
             this.panel24.Margin = new System.Windows.Forms.Padding(5);
             this.panel24.Name = "panel24";
-            this.panel24.Size = new System.Drawing.Size(163, 40);
+            this.panel24.Size = new System.Drawing.Size(139, 35);
             this.panel24.TabIndex = 9;
             // 
             // label6
             // 
             this.label6.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.label6.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label6.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label6.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(237)))), ((int)(((byte)(237)))), ((int)(((byte)(237)))));
             this.label6.Location = new System.Drawing.Point(0, 0);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(163, 40);
+            this.label6.Size = new System.Drawing.Size(139, 35);
             this.label6.TabIndex = 1;
             this.label6.Text = "ARAH ANGIN";
             this.label6.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -1665,19 +1616,21 @@ namespace AQMS
             this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 14.28531F));
             this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 14.28531F));
             this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 14.28816F));
+            this.tableLayoutPanel2.Controls.Add(this.panel45, 4, 0);
             this.tableLayoutPanel2.Controls.Add(this.panel8, 5, 0);
-            this.tableLayoutPanel2.Controls.Add(this.panel33, 2, 0);
-            this.tableLayoutPanel2.Controls.Add(this.panel28, 1, 0);
-            this.tableLayoutPanel2.Controls.Add(this.panel1, 0, 0);
+            this.tableLayoutPanel2.Controls.Add(this.panel6, 0, 0);
+            this.tableLayoutPanel2.Controls.Add(this.panel35, 1, 0);
+            this.tableLayoutPanel2.Controls.Add(this.panel14, 3, 0);
             this.tableLayoutPanel2.Controls.Add(this.panel5, 6, 0);
-            this.tableLayoutPanel2.Controls.Add(this.panel2, 3, 0);
-            this.tableLayoutPanel2.Controls.Add(this.panel4, 4, 0);
+            this.tableLayoutPanel2.Controls.Add(this.panel17, 2, 0);
+            this.tableLayoutPanel2.Controls.Add(this.label42, 5, 1);
             this.tableLayoutPanel2.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.tableLayoutPanel2.Location = new System.Drawing.Point(0, 427);
+            this.tableLayoutPanel2.Location = new System.Drawing.Point(0, 418);
             this.tableLayoutPanel2.Name = "tableLayoutPanel2";
-            this.tableLayoutPanel2.RowCount = 1;
+            this.tableLayoutPanel2.RowCount = 2;
             this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
-            this.tableLayoutPanel2.Size = new System.Drawing.Size(1016, 95);
+            this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
+            this.tableLayoutPanel2.Size = new System.Drawing.Size(1016, 104);
             this.tableLayoutPanel2.TabIndex = 43;
             // 
             // panel8
@@ -1689,7 +1642,7 @@ namespace AQMS
             this.panel8.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel8.Location = new System.Drawing.Point(728, 3);
             this.panel8.Name = "panel8";
-            this.panel8.Size = new System.Drawing.Size(139, 89);
+            this.panel8.Size = new System.Drawing.Size(139, 78);
             this.panel8.TabIndex = 10;
             // 
             // ppmPM25
@@ -1699,7 +1652,7 @@ namespace AQMS
             this.ppmPM25.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(237)))), ((int)(((byte)(237)))), ((int)(((byte)(237)))));
             this.ppmPM25.Location = new System.Drawing.Point(0, 35);
             this.ppmPM25.Name = "ppmPM25";
-            this.ppmPM25.Size = new System.Drawing.Size(139, 54);
+            this.ppmPM25.Size = new System.Drawing.Size(139, 43);
             this.ppmPM25.TabIndex = 14;
             this.ppmPM25.Text = "0 ppm";
             this.ppmPM25.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -1712,7 +1665,7 @@ namespace AQMS
             this.labelPM25.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(237)))), ((int)(((byte)(237)))), ((int)(((byte)(237)))));
             this.labelPM25.Location = new System.Drawing.Point(0, 35);
             this.labelPM25.Name = "labelPM25";
-            this.labelPM25.Size = new System.Drawing.Size(139, 54);
+            this.labelPM25.Size = new System.Drawing.Size(139, 43);
             this.labelPM25.TabIndex = 11;
             this.labelPM25.Text = "0 µg/m3.";
             this.labelPM25.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -1747,9 +1700,9 @@ namespace AQMS
             this.panel33.Controls.Add(this.labelO3);
             this.panel33.Controls.Add(this.panel34);
             this.panel33.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panel33.Location = new System.Drawing.Point(293, 3);
+            this.panel33.Location = new System.Drawing.Point(409, 3);
             this.panel33.Name = "panel33";
-            this.panel33.Size = new System.Drawing.Size(139, 89);
+            this.panel33.Size = new System.Drawing.Size(197, 98);
             this.panel33.TabIndex = 9;
             // 
             // ppmO3
@@ -1760,7 +1713,7 @@ namespace AQMS
             this.ppmO3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(237)))), ((int)(((byte)(237)))), ((int)(((byte)(237)))));
             this.ppmO3.Location = new System.Drawing.Point(0, 35);
             this.ppmO3.Name = "ppmO3";
-            this.ppmO3.Size = new System.Drawing.Size(139, 54);
+            this.ppmO3.Size = new System.Drawing.Size(197, 63);
             this.ppmO3.TabIndex = 14;
             this.ppmO3.Text = "0 ppm";
             this.ppmO3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -1773,7 +1726,7 @@ namespace AQMS
             this.labelO3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(237)))), ((int)(((byte)(237)))), ((int)(((byte)(237)))));
             this.labelO3.Location = new System.Drawing.Point(0, 35);
             this.labelO3.Name = "labelO3";
-            this.labelO3.Size = new System.Drawing.Size(139, 54);
+            this.labelO3.Size = new System.Drawing.Size(197, 63);
             this.labelO3.TabIndex = 12;
             this.labelO3.Text = "0 µg/m3.";
             this.labelO3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -1786,7 +1739,7 @@ namespace AQMS
             this.panel34.Location = new System.Drawing.Point(0, 0);
             this.panel34.Margin = new System.Windows.Forms.Padding(5);
             this.panel34.Name = "panel34";
-            this.panel34.Size = new System.Drawing.Size(139, 35);
+            this.panel34.Size = new System.Drawing.Size(197, 35);
             this.panel34.TabIndex = 9;
             // 
             // label72
@@ -1797,7 +1750,7 @@ namespace AQMS
             this.label72.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(237)))), ((int)(((byte)(237)))), ((int)(((byte)(237)))));
             this.label72.Location = new System.Drawing.Point(0, 0);
             this.label72.Name = "label72";
-            this.label72.Size = new System.Drawing.Size(139, 35);
+            this.label72.Size = new System.Drawing.Size(197, 35);
             this.label72.TabIndex = 1;
             this.label72.Text = "O₃";
             this.label72.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -1809,9 +1762,9 @@ namespace AQMS
             this.panel28.Controls.Add(this.labelSO2);
             this.panel28.Controls.Add(this.panel31);
             this.panel28.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panel28.Location = new System.Drawing.Point(148, 3);
+            this.panel28.Location = new System.Drawing.Point(206, 3);
             this.panel28.Name = "panel28";
-            this.panel28.Size = new System.Drawing.Size(139, 89);
+            this.panel28.Size = new System.Drawing.Size(197, 98);
             this.panel28.TabIndex = 8;
             // 
             // ppmSO2
@@ -1822,7 +1775,7 @@ namespace AQMS
             this.ppmSO2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(237)))), ((int)(((byte)(237)))), ((int)(((byte)(237)))));
             this.ppmSO2.Location = new System.Drawing.Point(0, 35);
             this.ppmSO2.Name = "ppmSO2";
-            this.ppmSO2.Size = new System.Drawing.Size(139, 54);
+            this.ppmSO2.Size = new System.Drawing.Size(197, 63);
             this.ppmSO2.TabIndex = 14;
             this.ppmSO2.Text = "0 ppm";
             this.ppmSO2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -1835,7 +1788,7 @@ namespace AQMS
             this.labelSO2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(237)))), ((int)(((byte)(237)))), ((int)(((byte)(237)))));
             this.labelSO2.Location = new System.Drawing.Point(0, 35);
             this.labelSO2.Name = "labelSO2";
-            this.labelSO2.Size = new System.Drawing.Size(139, 54);
+            this.labelSO2.Size = new System.Drawing.Size(197, 63);
             this.labelSO2.TabIndex = 12;
             this.labelSO2.Text = "0 µg/m3.";
             this.labelSO2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -1848,7 +1801,7 @@ namespace AQMS
             this.panel31.Location = new System.Drawing.Point(0, 0);
             this.panel31.Margin = new System.Windows.Forms.Padding(5);
             this.panel31.Name = "panel31";
-            this.panel31.Size = new System.Drawing.Size(139, 35);
+            this.panel31.Size = new System.Drawing.Size(197, 35);
             this.panel31.TabIndex = 10;
             // 
             // label74
@@ -1859,7 +1812,7 @@ namespace AQMS
             this.label74.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(237)))), ((int)(((byte)(237)))), ((int)(((byte)(237)))));
             this.label74.Location = new System.Drawing.Point(0, 0);
             this.label74.Name = "label74";
-            this.label74.Size = new System.Drawing.Size(139, 35);
+            this.label74.Size = new System.Drawing.Size(197, 35);
             this.label74.TabIndex = 1;
             this.label74.Text = "SO₂";
             this.label74.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -1873,7 +1826,7 @@ namespace AQMS
             this.panel1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel1.Location = new System.Drawing.Point(3, 3);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(139, 89);
+            this.panel1.Size = new System.Drawing.Size(197, 98);
             this.panel1.TabIndex = 5;
             // 
             // ppmNO2
@@ -1884,7 +1837,7 @@ namespace AQMS
             this.ppmNO2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(237)))), ((int)(((byte)(237)))), ((int)(((byte)(237)))));
             this.ppmNO2.Location = new System.Drawing.Point(0, 35);
             this.ppmNO2.Name = "ppmNO2";
-            this.ppmNO2.Size = new System.Drawing.Size(139, 54);
+            this.ppmNO2.Size = new System.Drawing.Size(197, 63);
             this.ppmNO2.TabIndex = 13;
             this.ppmNO2.Text = "0 ppm";
             this.ppmNO2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -1897,7 +1850,7 @@ namespace AQMS
             this.labelNO2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(237)))), ((int)(((byte)(237)))), ((int)(((byte)(237)))));
             this.labelNO2.Location = new System.Drawing.Point(0, 35);
             this.labelNO2.Name = "labelNO2";
-            this.labelNO2.Size = new System.Drawing.Size(139, 54);
+            this.labelNO2.Size = new System.Drawing.Size(197, 63);
             this.labelNO2.TabIndex = 12;
             this.labelNO2.Text = "0 µg/m3.";
             this.labelNO2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -1910,7 +1863,7 @@ namespace AQMS
             this.panel20.Location = new System.Drawing.Point(0, 0);
             this.panel20.Margin = new System.Windows.Forms.Padding(5);
             this.panel20.Name = "panel20";
-            this.panel20.Size = new System.Drawing.Size(139, 35);
+            this.panel20.Size = new System.Drawing.Size(197, 35);
             this.panel20.TabIndex = 9;
             // 
             // label71
@@ -1922,7 +1875,7 @@ namespace AQMS
             this.label71.Location = new System.Drawing.Point(0, 0);
             this.label71.Margin = new System.Windows.Forms.Padding(0);
             this.label71.Name = "label71";
-            this.label71.Size = new System.Drawing.Size(139, 35);
+            this.label71.Size = new System.Drawing.Size(197, 35);
             this.label71.TabIndex = 1;
             this.label71.Text = "NO₂";
             this.label71.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -1936,7 +1889,7 @@ namespace AQMS
             this.panel5.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel5.Location = new System.Drawing.Point(873, 3);
             this.panel5.Name = "panel5";
-            this.panel5.Size = new System.Drawing.Size(140, 89);
+            this.panel5.Size = new System.Drawing.Size(140, 78);
             this.panel5.TabIndex = 7;
             // 
             // label117
@@ -1946,7 +1899,7 @@ namespace AQMS
             this.label117.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(237)))), ((int)(((byte)(237)))), ((int)(((byte)(237)))));
             this.label117.Location = new System.Drawing.Point(0, 35);
             this.label117.Name = "label117";
-            this.label117.Size = new System.Drawing.Size(140, 54);
+            this.label117.Size = new System.Drawing.Size(140, 43);
             this.label117.TabIndex = 15;
             this.label117.Text = "0 ppm";
             this.label117.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -1959,7 +1912,7 @@ namespace AQMS
             this.labelPM10.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(237)))), ((int)(((byte)(237)))), ((int)(((byte)(237)))));
             this.labelPM10.Location = new System.Drawing.Point(0, 35);
             this.labelPM10.Name = "labelPM10";
-            this.labelPM10.Size = new System.Drawing.Size(140, 54);
+            this.labelPM10.Size = new System.Drawing.Size(140, 43);
             this.labelPM10.TabIndex = 12;
             this.labelPM10.Text = "0 µg/m3.";
             this.labelPM10.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -1994,9 +1947,9 @@ namespace AQMS
             this.panel2.Controls.Add(this.labelCO);
             this.panel2.Controls.Add(this.panel19);
             this.panel2.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panel2.Location = new System.Drawing.Point(438, 3);
+            this.panel2.Location = new System.Drawing.Point(612, 3);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(139, 89);
+            this.panel2.Size = new System.Drawing.Size(197, 98);
             this.panel2.TabIndex = 6;
             // 
             // ppmCO
@@ -2007,7 +1960,7 @@ namespace AQMS
             this.ppmCO.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(237)))), ((int)(((byte)(237)))), ((int)(((byte)(237)))));
             this.ppmCO.Location = new System.Drawing.Point(0, 35);
             this.ppmCO.Name = "ppmCO";
-            this.ppmCO.Size = new System.Drawing.Size(139, 54);
+            this.ppmCO.Size = new System.Drawing.Size(197, 63);
             this.ppmCO.TabIndex = 14;
             this.ppmCO.Text = "0 ppm";
             this.ppmCO.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -2020,7 +1973,7 @@ namespace AQMS
             this.labelCO.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(237)))), ((int)(((byte)(237)))), ((int)(((byte)(237)))));
             this.labelCO.Location = new System.Drawing.Point(0, 35);
             this.labelCO.Name = "labelCO";
-            this.labelCO.Size = new System.Drawing.Size(139, 54);
+            this.labelCO.Size = new System.Drawing.Size(197, 63);
             this.labelCO.TabIndex = 12;
             this.labelCO.Text = "0 µg/m3.";
             this.labelCO.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -2033,7 +1986,7 @@ namespace AQMS
             this.panel19.Location = new System.Drawing.Point(0, 0);
             this.panel19.Margin = new System.Windows.Forms.Padding(5);
             this.panel19.Name = "panel19";
-            this.panel19.Size = new System.Drawing.Size(139, 35);
+            this.panel19.Size = new System.Drawing.Size(197, 35);
             this.panel19.TabIndex = 8;
             // 
             // label73
@@ -2044,7 +1997,7 @@ namespace AQMS
             this.label73.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(237)))), ((int)(((byte)(237)))), ((int)(((byte)(237)))));
             this.label73.Location = new System.Drawing.Point(0, 0);
             this.label73.Name = "label73";
-            this.label73.Size = new System.Drawing.Size(139, 35);
+            this.label73.Size = new System.Drawing.Size(197, 35);
             this.label73.TabIndex = 1;
             this.label73.Text = "CO";
             this.label73.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -2056,9 +2009,9 @@ namespace AQMS
             this.panel4.Controls.Add(this.labelHC);
             this.panel4.Controls.Add(this.panel26);
             this.panel4.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panel4.Location = new System.Drawing.Point(583, 3);
+            this.panel4.Location = new System.Drawing.Point(815, 3);
             this.panel4.Name = "panel4";
-            this.panel4.Size = new System.Drawing.Size(139, 89);
+            this.panel4.Size = new System.Drawing.Size(198, 98);
             this.panel4.TabIndex = 7;
             // 
             // ppmHC
@@ -2069,7 +2022,7 @@ namespace AQMS
             this.ppmHC.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(237)))), ((int)(((byte)(237)))), ((int)(((byte)(237)))));
             this.ppmHC.Location = new System.Drawing.Point(0, 35);
             this.ppmHC.Name = "ppmHC";
-            this.ppmHC.Size = new System.Drawing.Size(139, 54);
+            this.ppmHC.Size = new System.Drawing.Size(198, 63);
             this.ppmHC.TabIndex = 14;
             this.ppmHC.Text = "0 ppm";
             this.ppmHC.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -2082,7 +2035,7 @@ namespace AQMS
             this.labelHC.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(237)))), ((int)(((byte)(237)))), ((int)(((byte)(237)))));
             this.labelHC.Location = new System.Drawing.Point(0, 35);
             this.labelHC.Name = "labelHC";
-            this.labelHC.Size = new System.Drawing.Size(139, 54);
+            this.labelHC.Size = new System.Drawing.Size(198, 63);
             this.labelHC.TabIndex = 12;
             this.labelHC.Text = "0 µg/m3.";
             this.labelHC.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -2095,7 +2048,7 @@ namespace AQMS
             this.panel26.Location = new System.Drawing.Point(0, 0);
             this.panel26.Margin = new System.Windows.Forms.Padding(5);
             this.panel26.Name = "panel26";
-            this.panel26.Size = new System.Drawing.Size(139, 35);
+            this.panel26.Size = new System.Drawing.Size(198, 35);
             this.panel26.TabIndex = 9;
             // 
             // label85
@@ -2106,10 +2059,22 @@ namespace AQMS
             this.label85.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(237)))), ((int)(((byte)(237)))), ((int)(((byte)(237)))));
             this.label85.Location = new System.Drawing.Point(0, 0);
             this.label85.Name = "label85";
-            this.label85.Size = new System.Drawing.Size(139, 35);
+            this.label85.Size = new System.Drawing.Size(198, 35);
             this.label85.TabIndex = 1;
             this.label85.Text = "HC";
             this.label85.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // label42
+            // 
+            this.label42.AutoSize = true;
+            this.tableLayoutPanel2.SetColumnSpan(this.label42, 2);
+            this.label42.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.label42.Location = new System.Drawing.Point(728, 84);
+            this.label42.Name = "label42";
+            this.label42.Size = new System.Drawing.Size(285, 20);
+            this.label42.TabIndex = 11;
+            this.label42.Text = "Partikel Udara";
+            this.label42.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // panel16
             // 
@@ -2285,6 +2250,100 @@ namespace AQMS
             this.dataGridView2.Size = new System.Drawing.Size(1010, 312);
             this.dataGridView2.TabIndex = 69;
             // 
+            // iDDataGridViewTextBoxColumn
+            // 
+            this.iDDataGridViewTextBoxColumn.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.DisplayedCells;
+            this.iDDataGridViewTextBoxColumn.DataPropertyName = "ID";
+            this.iDDataGridViewTextBoxColumn.HeaderText = "ID";
+            this.iDDataGridViewTextBoxColumn.Name = "iDDataGridViewTextBoxColumn";
+            this.iDDataGridViewTextBoxColumn.ReadOnly = true;
+            this.iDDataGridViewTextBoxColumn.Width = 47;
+            // 
+            // rawdataDataGridViewTextBoxColumn
+            // 
+            this.rawdataDataGridViewTextBoxColumn.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.DisplayedCells;
+            this.rawdataDataGridViewTextBoxColumn.DataPropertyName = "raw_data";
+            this.rawdataDataGridViewTextBoxColumn.HeaderText = "Raw Data";
+            this.rawdataDataGridViewTextBoxColumn.Name = "rawdataDataGridViewTextBoxColumn";
+            this.rawdataDataGridViewTextBoxColumn.ReadOnly = true;
+            this.rawdataDataGridViewTextBoxColumn.Width = 91;
+            // 
+            // createdatDataGridViewTextBoxColumn
+            // 
+            this.createdatDataGridViewTextBoxColumn.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.DisplayedCells;
+            this.createdatDataGridViewTextBoxColumn.DataPropertyName = "created_at";
+            this.createdatDataGridViewTextBoxColumn.HeaderText = "Datetime";
+            this.createdatDataGridViewTextBoxColumn.Name = "createdatDataGridViewTextBoxColumn";
+            this.createdatDataGridViewTextBoxColumn.ReadOnly = true;
+            this.createdatDataGridViewTextBoxColumn.Width = 90;
+            // 
+            // namapetugasDataGridViewTextBoxColumn
+            // 
+            this.namapetugasDataGridViewTextBoxColumn.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.DisplayedCells;
+            this.namapetugasDataGridViewTextBoxColumn.DataPropertyName = "nama_petugas";
+            this.namapetugasDataGridViewTextBoxColumn.HeaderText = "Nama Petugas";
+            this.namapetugasDataGridViewTextBoxColumn.Name = "namapetugasDataGridViewTextBoxColumn";
+            this.namapetugasDataGridViewTextBoxColumn.ReadOnly = true;
+            this.namapetugasDataGridViewTextBoxColumn.Width = 122;
+            // 
+            // useridDataGridViewTextBoxColumn
+            // 
+            this.useridDataGridViewTextBoxColumn.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.DisplayedCells;
+            this.useridDataGridViewTextBoxColumn.DataPropertyName = "user_id";
+            this.useridDataGridViewTextBoxColumn.HeaderText = "user_id";
+            this.useridDataGridViewTextBoxColumn.Name = "useridDataGridViewTextBoxColumn";
+            this.useridDataGridViewTextBoxColumn.ReadOnly = true;
+            this.useridDataGridViewTextBoxColumn.Visible = false;
+            // 
+            // no2DataGridViewTextBoxColumn1
+            // 
+            this.no2DataGridViewTextBoxColumn1.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.DisplayedCells;
+            this.no2DataGridViewTextBoxColumn1.DataPropertyName = "no2";
+            this.no2DataGridViewTextBoxColumn1.HeaderText = "NO2";
+            this.no2DataGridViewTextBoxColumn1.Name = "no2DataGridViewTextBoxColumn1";
+            this.no2DataGridViewTextBoxColumn1.ReadOnly = true;
+            this.no2DataGridViewTextBoxColumn1.Width = 60;
+            // 
+            // so2DataGridViewTextBoxColumn1
+            // 
+            this.so2DataGridViewTextBoxColumn1.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.DisplayedCells;
+            this.so2DataGridViewTextBoxColumn1.DataPropertyName = "so2";
+            this.so2DataGridViewTextBoxColumn1.HeaderText = "SO2";
+            this.so2DataGridViewTextBoxColumn1.Name = "so2DataGridViewTextBoxColumn1";
+            this.so2DataGridViewTextBoxColumn1.ReadOnly = true;
+            this.so2DataGridViewTextBoxColumn1.Width = 57;
+            // 
+            // o3DataGridViewTextBoxColumn1
+            // 
+            this.o3DataGridViewTextBoxColumn1.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.DisplayedCells;
+            this.o3DataGridViewTextBoxColumn1.DataPropertyName = "o3";
+            this.o3DataGridViewTextBoxColumn1.HeaderText = "O3";
+            this.o3DataGridViewTextBoxColumn1.Name = "o3DataGridViewTextBoxColumn1";
+            this.o3DataGridViewTextBoxColumn1.ReadOnly = true;
+            this.o3DataGridViewTextBoxColumn1.Width = 50;
+            // 
+            // coDataGridViewTextBoxColumn1
+            // 
+            this.coDataGridViewTextBoxColumn1.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.DisplayedCells;
+            this.coDataGridViewTextBoxColumn1.DataPropertyName = "co";
+            this.coDataGridViewTextBoxColumn1.HeaderText = "CO";
+            this.coDataGridViewTextBoxColumn1.Name = "coDataGridViewTextBoxColumn1";
+            this.coDataGridViewTextBoxColumn1.ReadOnly = true;
+            this.coDataGridViewTextBoxColumn1.Width = 51;
+            // 
+            // hcDataGridViewTextBoxColumn1
+            // 
+            this.hcDataGridViewTextBoxColumn1.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.DisplayedCells;
+            this.hcDataGridViewTextBoxColumn1.DataPropertyName = "hc";
+            this.hcDataGridViewTextBoxColumn1.HeaderText = "HC";
+            this.hcDataGridViewTextBoxColumn1.Name = "hcDataGridViewTextBoxColumn1";
+            this.hcDataGridViewTextBoxColumn1.ReadOnly = true;
+            this.hcDataGridViewTextBoxColumn1.Width = 51;
+            // 
+            // entityRawDataBindingSource
+            // 
+            this.entityRawDataBindingSource.DataSource = typeof(AQMS.EntityRawData);
+            // 
             // tableLayoutPanel3
             // 
             this.tableLayoutPanel3.ColumnCount = 3;
@@ -2415,9 +2474,9 @@ namespace AQMS
             // 
             this.dgZeroLog.AllowUserToAddRows = false;
             this.dgZeroLog.AllowUserToDeleteRows = false;
-            dataGridViewCellStyle5.BackColor = System.Drawing.Color.White;
-            dataGridViewCellStyle5.ForeColor = System.Drawing.Color.Black;
-            this.dgZeroLog.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle5;
+            dataGridViewCellStyle1.BackColor = System.Drawing.Color.White;
+            dataGridViewCellStyle1.ForeColor = System.Drawing.Color.Black;
+            this.dgZeroLog.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle1;
             this.dgZeroLog.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
@@ -2591,9 +2650,9 @@ namespace AQMS
             // 
             this.dgUserLog.AllowUserToAddRows = false;
             this.dgUserLog.AllowUserToDeleteRows = false;
-            dataGridViewCellStyle6.BackColor = System.Drawing.Color.White;
-            dataGridViewCellStyle6.ForeColor = System.Drawing.Color.Black;
-            this.dgUserLog.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle6;
+            dataGridViewCellStyle2.BackColor = System.Drawing.Color.White;
+            dataGridViewCellStyle2.ForeColor = System.Drawing.Color.Black;
+            this.dgUserLog.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle2;
             this.dgUserLog.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
@@ -2611,6 +2670,54 @@ namespace AQMS
             this.dgUserLog.ReadOnly = true;
             this.dgUserLog.Size = new System.Drawing.Size(983, 139);
             this.dgUserLog.TabIndex = 18;
+            // 
+            // idDataGridViewTextBoxColumn1
+            // 
+            this.idDataGridViewTextBoxColumn1.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.DisplayedCells;
+            this.idDataGridViewTextBoxColumn1.DataPropertyName = "id";
+            this.idDataGridViewTextBoxColumn1.HeaderText = "ID";
+            this.idDataGridViewTextBoxColumn1.Name = "idDataGridViewTextBoxColumn1";
+            this.idDataGridViewTextBoxColumn1.ReadOnly = true;
+            this.idDataGridViewTextBoxColumn1.Width = 47;
+            // 
+            // namauserDataGridViewTextBoxColumn
+            // 
+            this.namauserDataGridViewTextBoxColumn.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.DisplayedCells;
+            this.namauserDataGridViewTextBoxColumn.DataPropertyName = "nama_user";
+            this.namauserDataGridViewTextBoxColumn.HeaderText = "Nama User";
+            this.namauserDataGridViewTextBoxColumn.Name = "namauserDataGridViewTextBoxColumn";
+            this.namauserDataGridViewTextBoxColumn.ReadOnly = true;
+            // 
+            // emailDataGridViewTextBoxColumn
+            // 
+            this.emailDataGridViewTextBoxColumn.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.DisplayedCells;
+            this.emailDataGridViewTextBoxColumn.DataPropertyName = "email";
+            this.emailDataGridViewTextBoxColumn.HeaderText = "Email";
+            this.emailDataGridViewTextBoxColumn.Name = "emailDataGridViewTextBoxColumn";
+            this.emailDataGridViewTextBoxColumn.ReadOnly = true;
+            this.emailDataGridViewTextBoxColumn.Width = 67;
+            // 
+            // aktifitasDataGridViewTextBoxColumn
+            // 
+            this.aktifitasDataGridViewTextBoxColumn.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.DisplayedCells;
+            this.aktifitasDataGridViewTextBoxColumn.DataPropertyName = "aktifitas";
+            this.aktifitasDataGridViewTextBoxColumn.HeaderText = "Aktifitas";
+            this.aktifitasDataGridViewTextBoxColumn.Name = "aktifitasDataGridViewTextBoxColumn";
+            this.aktifitasDataGridViewTextBoxColumn.ReadOnly = true;
+            this.aktifitasDataGridViewTextBoxColumn.Width = 85;
+            // 
+            // waktuDataGridViewTextBoxColumn
+            // 
+            this.waktuDataGridViewTextBoxColumn.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.DisplayedCells;
+            this.waktuDataGridViewTextBoxColumn.DataPropertyName = "waktu";
+            this.waktuDataGridViewTextBoxColumn.HeaderText = "Waktu";
+            this.waktuDataGridViewTextBoxColumn.Name = "waktuDataGridViewTextBoxColumn";
+            this.waktuDataGridViewTextBoxColumn.ReadOnly = true;
+            this.waktuDataGridViewTextBoxColumn.Width = 72;
+            // 
+            // entityUserLogBindingSource
+            // 
+            this.entityUserLogBindingSource.DataSource = typeof(AQMS.EntityUserLog);
             // 
             // dtpToLog
             // 
@@ -2734,12 +2841,151 @@ namespace AQMS
             this.dgDataReport.Size = new System.Drawing.Size(1004, 195);
             this.dgDataReport.TabIndex = 17;
             // 
+            // idDataGridViewTextBoxColumn2
+            // 
+            this.idDataGridViewTextBoxColumn2.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.DisplayedCells;
+            this.idDataGridViewTextBoxColumn2.DataPropertyName = "id";
+            this.idDataGridViewTextBoxColumn2.HeaderText = "ID";
+            this.idDataGridViewTextBoxColumn2.Name = "idDataGridViewTextBoxColumn2";
+            this.idDataGridViewTextBoxColumn2.ReadOnly = true;
+            this.idDataGridViewTextBoxColumn2.Width = 47;
+            // 
+            // namapetugasDataGridViewTextBoxColumn1
+            // 
+            this.namapetugasDataGridViewTextBoxColumn1.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.DisplayedCells;
+            this.namapetugasDataGridViewTextBoxColumn1.DataPropertyName = "nama_petugas";
+            this.namapetugasDataGridViewTextBoxColumn1.HeaderText = "Nama Petugas";
+            this.namapetugasDataGridViewTextBoxColumn1.Name = "namapetugasDataGridViewTextBoxColumn1";
+            this.namapetugasDataGridViewTextBoxColumn1.ReadOnly = true;
+            this.namapetugasDataGridViewTextBoxColumn1.Width = 112;
+            // 
+            // suhuDataGridViewTextBoxColumn
+            // 
+            this.suhuDataGridViewTextBoxColumn.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.DisplayedCells;
+            this.suhuDataGridViewTextBoxColumn.DataPropertyName = "suhu";
+            this.suhuDataGridViewTextBoxColumn.HeaderText = "Suhu";
+            this.suhuDataGridViewTextBoxColumn.Name = "suhuDataGridViewTextBoxColumn";
+            this.suhuDataGridViewTextBoxColumn.ReadOnly = true;
+            this.suhuDataGridViewTextBoxColumn.Width = 64;
+            // 
+            // kelembabanDataGridViewTextBoxColumn
+            // 
+            this.kelembabanDataGridViewTextBoxColumn.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.DisplayedCells;
+            this.kelembabanDataGridViewTextBoxColumn.DataPropertyName = "kelembaban";
+            this.kelembabanDataGridViewTextBoxColumn.HeaderText = "Kelembaban";
+            this.kelembabanDataGridViewTextBoxColumn.Name = "kelembabanDataGridViewTextBoxColumn";
+            this.kelembabanDataGridViewTextBoxColumn.ReadOnly = true;
+            this.kelembabanDataGridViewTextBoxColumn.Width = 109;
+            // 
+            // tekananDataGridViewTextBoxColumn
+            // 
+            this.tekananDataGridViewTextBoxColumn.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.DisplayedCells;
+            this.tekananDataGridViewTextBoxColumn.DataPropertyName = "tekanan";
+            this.tekananDataGridViewTextBoxColumn.HeaderText = "Tekanan";
+            this.tekananDataGridViewTextBoxColumn.Name = "tekananDataGridViewTextBoxColumn";
+            this.tekananDataGridViewTextBoxColumn.ReadOnly = true;
+            this.tekananDataGridViewTextBoxColumn.Width = 84;
+            // 
+            // arahanginDataGridViewTextBoxColumn
+            // 
+            this.arahanginDataGridViewTextBoxColumn.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.DisplayedCells;
+            this.arahanginDataGridViewTextBoxColumn.DataPropertyName = "arah_angin";
+            this.arahanginDataGridViewTextBoxColumn.HeaderText = "Arah angin";
+            this.arahanginDataGridViewTextBoxColumn.Name = "arahanginDataGridViewTextBoxColumn";
+            this.arahanginDataGridViewTextBoxColumn.ReadOnly = true;
+            this.arahanginDataGridViewTextBoxColumn.Width = 93;
+            // 
+            // kecepatananginDataGridViewTextBoxColumn
+            // 
+            this.kecepatananginDataGridViewTextBoxColumn.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.DisplayedCells;
+            this.kecepatananginDataGridViewTextBoxColumn.DataPropertyName = "kecepatan_angin";
+            this.kecepatananginDataGridViewTextBoxColumn.HeaderText = "Kecepatan angin";
+            this.kecepatananginDataGridViewTextBoxColumn.Name = "kecepatananginDataGridViewTextBoxColumn";
+            this.kecepatananginDataGridViewTextBoxColumn.ReadOnly = true;
+            this.kecepatananginDataGridViewTextBoxColumn.Width = 123;
+            // 
+            // no2DataGridViewTextBoxColumn
+            // 
+            this.no2DataGridViewTextBoxColumn.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.DisplayedCells;
+            this.no2DataGridViewTextBoxColumn.DataPropertyName = "no2";
+            this.no2DataGridViewTextBoxColumn.HeaderText = "NO2";
+            this.no2DataGridViewTextBoxColumn.Name = "no2DataGridViewTextBoxColumn";
+            this.no2DataGridViewTextBoxColumn.ReadOnly = true;
+            this.no2DataGridViewTextBoxColumn.Width = 60;
+            // 
+            // o3DataGridViewTextBoxColumn
+            // 
+            this.o3DataGridViewTextBoxColumn.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.DisplayedCells;
+            this.o3DataGridViewTextBoxColumn.DataPropertyName = "o3";
+            this.o3DataGridViewTextBoxColumn.HeaderText = "O3";
+            this.o3DataGridViewTextBoxColumn.Name = "o3DataGridViewTextBoxColumn";
+            this.o3DataGridViewTextBoxColumn.ReadOnly = true;
+            this.o3DataGridViewTextBoxColumn.Width = 50;
+            // 
+            // coDataGridViewTextBoxColumn
+            // 
+            this.coDataGridViewTextBoxColumn.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.DisplayedCells;
+            this.coDataGridViewTextBoxColumn.DataPropertyName = "co";
+            this.coDataGridViewTextBoxColumn.HeaderText = "CO";
+            this.coDataGridViewTextBoxColumn.Name = "coDataGridViewTextBoxColumn";
+            this.coDataGridViewTextBoxColumn.ReadOnly = true;
+            this.coDataGridViewTextBoxColumn.Width = 51;
+            // 
+            // so2DataGridViewTextBoxColumn
+            // 
+            this.so2DataGridViewTextBoxColumn.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.DisplayedCells;
+            this.so2DataGridViewTextBoxColumn.DataPropertyName = "so2";
+            this.so2DataGridViewTextBoxColumn.HeaderText = "SO2";
+            this.so2DataGridViewTextBoxColumn.Name = "so2DataGridViewTextBoxColumn";
+            this.so2DataGridViewTextBoxColumn.ReadOnly = true;
+            this.so2DataGridViewTextBoxColumn.Width = 57;
+            // 
+            // hcDataGridViewTextBoxColumn
+            // 
+            this.hcDataGridViewTextBoxColumn.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.DisplayedCells;
+            this.hcDataGridViewTextBoxColumn.DataPropertyName = "hc";
+            this.hcDataGridViewTextBoxColumn.HeaderText = "HC";
+            this.hcDataGridViewTextBoxColumn.Name = "hcDataGridViewTextBoxColumn";
+            this.hcDataGridViewTextBoxColumn.ReadOnly = true;
+            this.hcDataGridViewTextBoxColumn.Width = 51;
+            // 
+            // pm25DataGridViewTextBoxColumn
+            // 
+            this.pm25DataGridViewTextBoxColumn.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.DisplayedCells;
+            this.pm25DataGridViewTextBoxColumn.DataPropertyName = "pm2_5";
+            this.pm25DataGridViewTextBoxColumn.HeaderText = "PM2.5";
+            this.pm25DataGridViewTextBoxColumn.Name = "pm25DataGridViewTextBoxColumn";
+            this.pm25DataGridViewTextBoxColumn.ReadOnly = true;
+            this.pm25DataGridViewTextBoxColumn.Width = 71;
+            // 
+            // pm10DataGridViewTextBoxColumn
+            // 
+            this.pm10DataGridViewTextBoxColumn.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.DisplayedCells;
+            this.pm10DataGridViewTextBoxColumn.DataPropertyName = "pm10";
+            this.pm10DataGridViewTextBoxColumn.HeaderText = "PM10";
+            this.pm10DataGridViewTextBoxColumn.Name = "pm10DataGridViewTextBoxColumn";
+            this.pm10DataGridViewTextBoxColumn.ReadOnly = true;
+            this.pm10DataGridViewTextBoxColumn.Width = 67;
+            // 
+            // waktuDataGridViewTextBoxColumn1
+            // 
+            this.waktuDataGridViewTextBoxColumn1.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.DisplayedCells;
+            this.waktuDataGridViewTextBoxColumn1.DataPropertyName = "waktu";
+            this.waktuDataGridViewTextBoxColumn1.HeaderText = "Waktu";
+            this.waktuDataGridViewTextBoxColumn1.Name = "waktuDataGridViewTextBoxColumn1";
+            this.waktuDataGridViewTextBoxColumn1.ReadOnly = true;
+            this.waktuDataGridViewTextBoxColumn1.Width = 72;
+            // 
             // valid
             // 
             this.valid.DataPropertyName = "membraSensValid";
             this.valid.HeaderText = "Membra Sens Valid";
             this.valid.Name = "valid";
             this.valid.ReadOnly = true;
+            // 
+            // entityDataBindingSource
+            // 
+            this.entityDataBindingSource.DataSource = typeof(AQMS.EntityData);
             // 
             // panel11
             // 
@@ -2915,74 +3161,74 @@ namespace AQMS
             // chartGas
             // 
             this.chartGas.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(23)))), ((int)(((byte)(38)))), ((int)(((byte)(88)))));
-            chartArea11.AxisX.IsLabelAutoFit = false;
-            chartArea11.AxisX.LabelStyle.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            chartArea11.AxisX.LabelStyle.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(237)))), ((int)(((byte)(237)))), ((int)(((byte)(237)))));
-            chartArea11.AxisX.LineColor = System.Drawing.Color.FromArgb(((int)(((byte)(237)))), ((int)(((byte)(237)))), ((int)(((byte)(237)))));
-            chartArea11.AxisX.MajorGrid.LineColor = System.Drawing.Color.FromArgb(((int)(((byte)(44)))), ((int)(((byte)(69)))), ((int)(((byte)(157)))));
-            chartArea11.AxisX.MajorTickMark.LineColor = System.Drawing.Color.FromArgb(((int)(((byte)(237)))), ((int)(((byte)(237)))), ((int)(((byte)(237)))));
-            chartArea11.AxisX.MinorGrid.LineColor = System.Drawing.Color.FromArgb(((int)(((byte)(237)))), ((int)(((byte)(237)))), ((int)(((byte)(237)))));
-            chartArea11.AxisX.MinorTickMark.LineColor = System.Drawing.Color.FromArgb(((int)(((byte)(237)))), ((int)(((byte)(237)))), ((int)(((byte)(237)))));
-            chartArea11.AxisX.TitleForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(68)))), ((int)(((byte)(68)))), ((int)(((byte)(68)))));
-            chartArea11.AxisY.IsLabelAutoFit = false;
-            chartArea11.AxisY.LabelStyle.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            chartArea11.AxisY.LabelStyle.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(237)))), ((int)(((byte)(237)))), ((int)(((byte)(237)))));
-            chartArea11.AxisY.LabelStyle.Format = "{0} µg/m3";
-            chartArea11.AxisY.LineColor = System.Drawing.Color.FromArgb(((int)(((byte)(237)))), ((int)(((byte)(237)))), ((int)(((byte)(237)))));
-            chartArea11.AxisY.MajorGrid.LineColor = System.Drawing.Color.FromArgb(((int)(((byte)(44)))), ((int)(((byte)(69)))), ((int)(((byte)(157)))));
-            chartArea11.AxisY.MajorTickMark.LineColor = System.Drawing.Color.FromArgb(((int)(((byte)(237)))), ((int)(((byte)(237)))), ((int)(((byte)(237)))));
-            chartArea11.AxisY.MinorGrid.LineColor = System.Drawing.Color.FromArgb(((int)(((byte)(237)))), ((int)(((byte)(237)))), ((int)(((byte)(237)))));
-            chartArea11.AxisY.MinorTickMark.LineColor = System.Drawing.Color.FromArgb(((int)(((byte)(237)))), ((int)(((byte)(237)))), ((int)(((byte)(237)))));
-            chartArea11.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(23)))), ((int)(((byte)(38)))), ((int)(((byte)(88)))));
-            chartArea11.Name = "ChartArea1";
-            chartArea11.ShadowColor = System.Drawing.Color.FromArgb(((int)(((byte)(23)))), ((int)(((byte)(38)))), ((int)(((byte)(88)))));
-            this.chartGas.ChartAreas.Add(chartArea11);
+            chartArea3.AxisX.IsLabelAutoFit = false;
+            chartArea3.AxisX.LabelStyle.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            chartArea3.AxisX.LabelStyle.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(237)))), ((int)(((byte)(237)))), ((int)(((byte)(237)))));
+            chartArea3.AxisX.LineColor = System.Drawing.Color.FromArgb(((int)(((byte)(237)))), ((int)(((byte)(237)))), ((int)(((byte)(237)))));
+            chartArea3.AxisX.MajorGrid.LineColor = System.Drawing.Color.FromArgb(((int)(((byte)(44)))), ((int)(((byte)(69)))), ((int)(((byte)(157)))));
+            chartArea3.AxisX.MajorTickMark.LineColor = System.Drawing.Color.FromArgb(((int)(((byte)(237)))), ((int)(((byte)(237)))), ((int)(((byte)(237)))));
+            chartArea3.AxisX.MinorGrid.LineColor = System.Drawing.Color.FromArgb(((int)(((byte)(237)))), ((int)(((byte)(237)))), ((int)(((byte)(237)))));
+            chartArea3.AxisX.MinorTickMark.LineColor = System.Drawing.Color.FromArgb(((int)(((byte)(237)))), ((int)(((byte)(237)))), ((int)(((byte)(237)))));
+            chartArea3.AxisX.TitleForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(68)))), ((int)(((byte)(68)))), ((int)(((byte)(68)))));
+            chartArea3.AxisY.IsLabelAutoFit = false;
+            chartArea3.AxisY.LabelStyle.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            chartArea3.AxisY.LabelStyle.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(237)))), ((int)(((byte)(237)))), ((int)(((byte)(237)))));
+            chartArea3.AxisY.LabelStyle.Format = "{0} µg/m3";
+            chartArea3.AxisY.LineColor = System.Drawing.Color.FromArgb(((int)(((byte)(237)))), ((int)(((byte)(237)))), ((int)(((byte)(237)))));
+            chartArea3.AxisY.MajorGrid.LineColor = System.Drawing.Color.FromArgb(((int)(((byte)(44)))), ((int)(((byte)(69)))), ((int)(((byte)(157)))));
+            chartArea3.AxisY.MajorTickMark.LineColor = System.Drawing.Color.FromArgb(((int)(((byte)(237)))), ((int)(((byte)(237)))), ((int)(((byte)(237)))));
+            chartArea3.AxisY.MinorGrid.LineColor = System.Drawing.Color.FromArgb(((int)(((byte)(237)))), ((int)(((byte)(237)))), ((int)(((byte)(237)))));
+            chartArea3.AxisY.MinorTickMark.LineColor = System.Drawing.Color.FromArgb(((int)(((byte)(237)))), ((int)(((byte)(237)))), ((int)(((byte)(237)))));
+            chartArea3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(23)))), ((int)(((byte)(38)))), ((int)(((byte)(88)))));
+            chartArea3.Name = "ChartArea1";
+            chartArea3.ShadowColor = System.Drawing.Color.FromArgb(((int)(((byte)(23)))), ((int)(((byte)(38)))), ((int)(((byte)(88)))));
+            this.chartGas.ChartAreas.Add(chartArea3);
             this.chartGas.Dock = System.Windows.Forms.DockStyle.Fill;
-            legend11.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(63)))), ((int)(((byte)(140)))));
-            legend11.Docking = System.Windows.Forms.DataVisualization.Charting.Docking.Top;
-            legend11.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            legend11.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(237)))), ((int)(((byte)(237)))), ((int)(((byte)(237)))));
-            legend11.IsTextAutoFit = false;
-            legend11.Name = "Legend1";
-            legend11.TitleFont = new System.Drawing.Font("Microsoft Sans Serif", 6F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.chartGas.Legends.Add(legend11);
+            legend3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(63)))), ((int)(((byte)(140)))));
+            legend3.Docking = System.Windows.Forms.DataVisualization.Charting.Docking.Top;
+            legend3.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            legend3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(237)))), ((int)(((byte)(237)))), ((int)(((byte)(237)))));
+            legend3.IsTextAutoFit = false;
+            legend3.Name = "Legend1";
+            legend3.TitleFont = new System.Drawing.Font("Microsoft Sans Serif", 6F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.chartGas.Legends.Add(legend3);
             this.chartGas.Location = new System.Drawing.Point(0, 0);
             this.chartGas.Name = "chartGas";
-            series32.BorderWidth = 2;
-            series32.ChartArea = "ChartArea1";
-            series32.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Spline;
-            series32.LabelBorderWidth = 3;
-            series32.Legend = "Legend1";
-            series32.Name = "NO2";
-            series33.BorderWidth = 2;
-            series33.ChartArea = "ChartArea1";
-            series33.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Spline;
-            series33.LabelBorderWidth = 3;
-            series33.Legend = "Legend1";
-            series33.Name = "O3";
-            series34.BorderWidth = 2;
-            series34.ChartArea = "ChartArea1";
-            series34.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Spline;
-            series34.LabelBorderWidth = 3;
-            series34.Legend = "Legend1";
-            series34.Name = "CO";
-            series35.BorderWidth = 2;
-            series35.ChartArea = "ChartArea1";
-            series35.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Spline;
-            series35.Color = System.Drawing.Color.Turquoise;
-            series35.Legend = "Legend1";
-            series35.Name = "SO2";
-            series36.BorderWidth = 2;
-            series36.ChartArea = "ChartArea1";
-            series36.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Spline;
-            series36.Color = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-            series36.Legend = "Legend1";
-            series36.Name = "HC";
-            this.chartGas.Series.Add(series32);
-            this.chartGas.Series.Add(series33);
-            this.chartGas.Series.Add(series34);
-            this.chartGas.Series.Add(series35);
-            this.chartGas.Series.Add(series36);
+            series6.BorderWidth = 2;
+            series6.ChartArea = "ChartArea1";
+            series6.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Spline;
+            series6.LabelBorderWidth = 3;
+            series6.Legend = "Legend1";
+            series6.Name = "NO2";
+            series7.BorderWidth = 2;
+            series7.ChartArea = "ChartArea1";
+            series7.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Spline;
+            series7.LabelBorderWidth = 3;
+            series7.Legend = "Legend1";
+            series7.Name = "O3";
+            series8.BorderWidth = 2;
+            series8.ChartArea = "ChartArea1";
+            series8.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Spline;
+            series8.LabelBorderWidth = 3;
+            series8.Legend = "Legend1";
+            series8.Name = "CO";
+            series9.BorderWidth = 2;
+            series9.ChartArea = "ChartArea1";
+            series9.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Spline;
+            series9.Color = System.Drawing.Color.Turquoise;
+            series9.Legend = "Legend1";
+            series9.Name = "SO2";
+            series10.BorderWidth = 2;
+            series10.ChartArea = "ChartArea1";
+            series10.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Spline;
+            series10.Color = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            series10.Legend = "Legend1";
+            series10.Name = "HC";
+            this.chartGas.Series.Add(series6);
+            this.chartGas.Series.Add(series7);
+            this.chartGas.Series.Add(series8);
+            this.chartGas.Series.Add(series9);
+            this.chartGas.Series.Add(series10);
             this.chartGas.Size = new System.Drawing.Size(1004, 242);
             this.chartGas.TabIndex = 39;
             this.chartGas.Text = "chart3";
@@ -2990,58 +3236,58 @@ namespace AQMS
             // chartWeather
             // 
             this.chartWeather.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(23)))), ((int)(((byte)(38)))), ((int)(((byte)(88)))));
-            chartArea12.AxisX.IsLabelAutoFit = false;
-            chartArea12.AxisX.LabelStyle.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            chartArea12.AxisX.LabelStyle.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(237)))), ((int)(((byte)(237)))), ((int)(((byte)(237)))));
-            chartArea12.AxisX.LineColor = System.Drawing.Color.FromArgb(((int)(((byte)(237)))), ((int)(((byte)(237)))), ((int)(((byte)(237)))));
-            chartArea12.AxisX.MajorGrid.LineColor = System.Drawing.Color.FromArgb(((int)(((byte)(44)))), ((int)(((byte)(69)))), ((int)(((byte)(157)))));
-            chartArea12.AxisX.MajorTickMark.LineColor = System.Drawing.Color.FromArgb(((int)(((byte)(237)))), ((int)(((byte)(237)))), ((int)(((byte)(237)))));
-            chartArea12.AxisX.MinorGrid.LineColor = System.Drawing.Color.FromArgb(((int)(((byte)(237)))), ((int)(((byte)(237)))), ((int)(((byte)(237)))));
-            chartArea12.AxisX.MinorTickMark.LineColor = System.Drawing.Color.FromArgb(((int)(((byte)(237)))), ((int)(((byte)(237)))), ((int)(((byte)(237)))));
-            chartArea12.AxisX.TitleForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(68)))), ((int)(((byte)(68)))), ((int)(((byte)(68)))));
-            chartArea12.AxisY.IsLabelAutoFit = false;
-            chartArea12.AxisY.LabelStyle.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            chartArea12.AxisY.LabelStyle.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(237)))), ((int)(((byte)(237)))), ((int)(((byte)(237)))));
-            chartArea12.AxisY.LineColor = System.Drawing.Color.FromArgb(((int)(((byte)(237)))), ((int)(((byte)(237)))), ((int)(((byte)(237)))));
-            chartArea12.AxisY.MajorGrid.LineColor = System.Drawing.Color.FromArgb(((int)(((byte)(44)))), ((int)(((byte)(69)))), ((int)(((byte)(157)))));
-            chartArea12.AxisY.MajorTickMark.LineColor = System.Drawing.Color.FromArgb(((int)(((byte)(237)))), ((int)(((byte)(237)))), ((int)(((byte)(237)))));
-            chartArea12.AxisY.MinorGrid.LineColor = System.Drawing.Color.FromArgb(((int)(((byte)(237)))), ((int)(((byte)(237)))), ((int)(((byte)(237)))));
-            chartArea12.AxisY.MinorTickMark.LineColor = System.Drawing.Color.FromArgb(((int)(((byte)(237)))), ((int)(((byte)(237)))), ((int)(((byte)(237)))));
-            chartArea12.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(23)))), ((int)(((byte)(38)))), ((int)(((byte)(88)))));
-            chartArea12.Name = "ChartArea1";
-            chartArea12.ShadowColor = System.Drawing.Color.FromArgb(((int)(((byte)(23)))), ((int)(((byte)(38)))), ((int)(((byte)(88)))));
-            this.chartWeather.ChartAreas.Add(chartArea12);
+            chartArea4.AxisX.IsLabelAutoFit = false;
+            chartArea4.AxisX.LabelStyle.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            chartArea4.AxisX.LabelStyle.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(237)))), ((int)(((byte)(237)))), ((int)(((byte)(237)))));
+            chartArea4.AxisX.LineColor = System.Drawing.Color.FromArgb(((int)(((byte)(237)))), ((int)(((byte)(237)))), ((int)(((byte)(237)))));
+            chartArea4.AxisX.MajorGrid.LineColor = System.Drawing.Color.FromArgb(((int)(((byte)(44)))), ((int)(((byte)(69)))), ((int)(((byte)(157)))));
+            chartArea4.AxisX.MajorTickMark.LineColor = System.Drawing.Color.FromArgb(((int)(((byte)(237)))), ((int)(((byte)(237)))), ((int)(((byte)(237)))));
+            chartArea4.AxisX.MinorGrid.LineColor = System.Drawing.Color.FromArgb(((int)(((byte)(237)))), ((int)(((byte)(237)))), ((int)(((byte)(237)))));
+            chartArea4.AxisX.MinorTickMark.LineColor = System.Drawing.Color.FromArgb(((int)(((byte)(237)))), ((int)(((byte)(237)))), ((int)(((byte)(237)))));
+            chartArea4.AxisX.TitleForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(68)))), ((int)(((byte)(68)))), ((int)(((byte)(68)))));
+            chartArea4.AxisY.IsLabelAutoFit = false;
+            chartArea4.AxisY.LabelStyle.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            chartArea4.AxisY.LabelStyle.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(237)))), ((int)(((byte)(237)))), ((int)(((byte)(237)))));
+            chartArea4.AxisY.LineColor = System.Drawing.Color.FromArgb(((int)(((byte)(237)))), ((int)(((byte)(237)))), ((int)(((byte)(237)))));
+            chartArea4.AxisY.MajorGrid.LineColor = System.Drawing.Color.FromArgb(((int)(((byte)(44)))), ((int)(((byte)(69)))), ((int)(((byte)(157)))));
+            chartArea4.AxisY.MajorTickMark.LineColor = System.Drawing.Color.FromArgb(((int)(((byte)(237)))), ((int)(((byte)(237)))), ((int)(((byte)(237)))));
+            chartArea4.AxisY.MinorGrid.LineColor = System.Drawing.Color.FromArgb(((int)(((byte)(237)))), ((int)(((byte)(237)))), ((int)(((byte)(237)))));
+            chartArea4.AxisY.MinorTickMark.LineColor = System.Drawing.Color.FromArgb(((int)(((byte)(237)))), ((int)(((byte)(237)))), ((int)(((byte)(237)))));
+            chartArea4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(23)))), ((int)(((byte)(38)))), ((int)(((byte)(88)))));
+            chartArea4.Name = "ChartArea1";
+            chartArea4.ShadowColor = System.Drawing.Color.FromArgb(((int)(((byte)(23)))), ((int)(((byte)(38)))), ((int)(((byte)(88)))));
+            this.chartWeather.ChartAreas.Add(chartArea4);
             this.chartWeather.Dock = System.Windows.Forms.DockStyle.Fill;
-            legend12.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(63)))), ((int)(((byte)(140)))));
-            legend12.Docking = System.Windows.Forms.DataVisualization.Charting.Docking.Top;
-            legend12.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            legend12.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(237)))), ((int)(((byte)(237)))), ((int)(((byte)(237)))));
-            legend12.IsTextAutoFit = false;
-            legend12.Name = "Legend1";
-            this.chartWeather.Legends.Add(legend12);
+            legend4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(63)))), ((int)(((byte)(140)))));
+            legend4.Docking = System.Windows.Forms.DataVisualization.Charting.Docking.Top;
+            legend4.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            legend4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(237)))), ((int)(((byte)(237)))), ((int)(((byte)(237)))));
+            legend4.IsTextAutoFit = false;
+            legend4.Name = "Legend1";
+            this.chartWeather.Legends.Add(legend4);
             this.chartWeather.Location = new System.Drawing.Point(0, 0);
             this.chartWeather.Name = "chartWeather";
-            series37.BorderWidth = 2;
-            series37.ChartArea = "ChartArea1";
-            series37.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Spline;
-            series37.LabelBorderWidth = 3;
-            series37.Legend = "Legend1";
-            series37.Name = "Temperature";
-            series38.BorderWidth = 2;
-            series38.ChartArea = "ChartArea1";
-            series38.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Spline;
-            series38.LabelBorderWidth = 3;
-            series38.Legend = "Legend1";
-            series38.Name = "Humidity";
-            series39.BorderWidth = 2;
-            series39.ChartArea = "ChartArea1";
-            series39.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Spline;
-            series39.LabelBorderWidth = 3;
-            series39.Legend = "Legend1";
-            series39.Name = "Wind Speed";
-            this.chartWeather.Series.Add(series37);
-            this.chartWeather.Series.Add(series38);
-            this.chartWeather.Series.Add(series39);
+            series11.BorderWidth = 2;
+            series11.ChartArea = "ChartArea1";
+            series11.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Spline;
+            series11.LabelBorderWidth = 3;
+            series11.Legend = "Legend1";
+            series11.Name = "Temperature";
+            series12.BorderWidth = 2;
+            series12.ChartArea = "ChartArea1";
+            series12.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Spline;
+            series12.LabelBorderWidth = 3;
+            series12.Legend = "Legend1";
+            series12.Name = "Humidity";
+            series13.BorderWidth = 2;
+            series13.ChartArea = "ChartArea1";
+            series13.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Spline;
+            series13.LabelBorderWidth = 3;
+            series13.Legend = "Legend1";
+            series13.Name = "Wind Speed";
+            this.chartWeather.Series.Add(series11);
+            this.chartWeather.Series.Add(series12);
+            this.chartWeather.Series.Add(series13);
             this.chartWeather.Size = new System.Drawing.Size(1004, 242);
             this.chartWeather.TabIndex = 42;
             this.chartWeather.Text = "chart2";
@@ -3050,7 +3296,6 @@ namespace AQMS
             // 
             this.settings.AutoScroll = true;
             this.settings.BackColor = System.Drawing.SystemColors.Control;
-            this.settings.Controls.Add(this.panel48);
             this.settings.Controls.Add(this.panel50);
             this.settings.Controls.Add(this.panel47);
             this.settings.Controls.Add(this.tabControl2);
@@ -3070,63 +3315,13 @@ namespace AQMS
             this.settings.TabIndex = 4;
             this.settings.Text = "Control Panel";
             // 
-            // panel48
-            // 
-            this.panel48.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(23)))), ((int)(((byte)(38)))), ((int)(((byte)(88)))));
-            this.panel48.Controls.Add(this.label32);
-            this.panel48.Controls.Add(this.button8);
-            this.panel48.Controls.Add(this.numericUpDown3);
-            this.panel48.Location = new System.Drawing.Point(11, 603);
-            this.panel48.Margin = new System.Windows.Forms.Padding(8, 3, 0, 3);
-            this.panel48.Name = "panel48";
-            this.panel48.Size = new System.Drawing.Size(290, 51);
-            this.panel48.TabIndex = 86;
-            // 
-            // label32
-            // 
-            this.label32.AutoSize = true;
-            this.label32.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(23)))), ((int)(((byte)(38)))), ((int)(((byte)(88)))));
-            this.label32.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Bold);
-            this.label32.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(237)))), ((int)(((byte)(237)))), ((int)(((byte)(237)))));
-            this.label32.Location = new System.Drawing.Point(9, 17);
-            this.label32.Name = "label32";
-            this.label32.Size = new System.Drawing.Size(124, 19);
-            this.label32.TabIndex = 88;
-            this.label32.Text = "Timer interval (s)";
-            this.label32.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            // 
-            // button8
-            // 
-            this.button8.BackColor = System.Drawing.Color.Red;
-            this.button8.FlatAppearance.BorderSize = 0;
-            this.button8.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Red;
-            this.button8.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Red;
-            this.button8.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button8.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button8.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(237)))), ((int)(((byte)(237)))), ((int)(((byte)(237)))));
-            this.button8.Location = new System.Drawing.Point(209, 11);
-            this.button8.Name = "button8";
-            this.button8.Size = new System.Drawing.Size(69, 29);
-            this.button8.TabIndex = 87;
-            this.button8.Text = "Save";
-            this.button8.UseVisualStyleBackColor = false;
-            this.button8.Click += new System.EventHandler(this.button8_Click_1);
-            // 
-            // numericUpDown3
-            // 
-            this.numericUpDown3.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.numericUpDown3.Location = new System.Drawing.Point(140, 11);
-            this.numericUpDown3.Name = "numericUpDown3";
-            this.numericUpDown3.Size = new System.Drawing.Size(63, 29);
-            this.numericUpDown3.TabIndex = 85;
-            // 
             // panel50
             // 
             this.panel50.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(23)))), ((int)(((byte)(38)))), ((int)(((byte)(88)))));
             this.panel50.Controls.Add(this.labelRawGps);
             this.panel50.Controls.Add(this.labelRawSerial);
             this.panel50.Controls.Add(this.label127);
-            this.panel50.Location = new System.Drawing.Point(14, 660);
+            this.panel50.Location = new System.Drawing.Point(18, 655);
             this.panel50.Margin = new System.Windows.Forms.Padding(8, 3, 0, 3);
             this.panel50.Name = "panel50";
             this.panel50.Size = new System.Drawing.Size(565, 146);
@@ -3222,7 +3417,7 @@ namespace AQMS
             this.panel47.Controls.Add(this.label109);
             this.panel47.Controls.Add(this.tableLayoutPanel10);
             this.panel47.Controls.Add(this.label83);
-            this.panel47.Location = new System.Drawing.Point(14, 809);
+            this.panel47.Location = new System.Drawing.Point(18, 804);
             this.panel47.Margin = new System.Windows.Forms.Padding(8, 3, 0, 3);
             this.panel47.Name = "panel47";
             this.panel47.Size = new System.Drawing.Size(973, 502);
@@ -3792,7 +3987,7 @@ namespace AQMS
             this.tabControl2.Controls.Add(this.tabPage2);
             this.tabControl2.Controls.Add(this.tabPage3);
             this.tabControl2.Controls.Add(this.tabPage4);
-            this.tabControl2.Location = new System.Drawing.Point(11, 8);
+            this.tabControl2.Location = new System.Drawing.Point(15, 3);
             this.tabControl2.Name = "tabControl2";
             this.tabControl2.SelectedIndex = 0;
             this.tabControl2.Size = new System.Drawing.Size(294, 256);
@@ -3919,7 +4114,7 @@ namespace AQMS
             this.panel22.Margin = new System.Windows.Forms.Padding(0);
             this.panel22.Name = "panel22";
             this.panel22.Padding = new System.Windows.Forms.Padding(0, 0, 0, 35);
-            this.panel22.Size = new System.Drawing.Size(280, 224);
+            this.panel22.Size = new System.Drawing.Size(280, 220);
             this.panel22.TabIndex = 44;
             // 
             // numericUpDown2
@@ -4067,6 +4262,8 @@ namespace AQMS
             // 
             this.panel51.AutoScroll = true;
             this.panel51.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(23)))), ((int)(((byte)(38)))), ((int)(((byte)(88)))));
+            this.panel51.Controls.Add(this.cbxReset);
+            this.panel51.Controls.Add(this.label46);
             this.panel51.Controls.Add(this.numericUpDown4);
             this.panel51.Controls.Add(this.label33);
             this.panel51.Controls.Add(this.label34);
@@ -4076,13 +4273,37 @@ namespace AQMS
             this.panel51.Margin = new System.Windows.Forms.Padding(0);
             this.panel51.Name = "panel51";
             this.panel51.Padding = new System.Windows.Forms.Padding(0, 0, 0, 35);
-            this.panel51.Size = new System.Drawing.Size(280, 224);
+            this.panel51.Size = new System.Drawing.Size(280, 220);
             this.panel51.TabIndex = 45;
+            // 
+            // cbxReset
+            // 
+            this.cbxReset.FormattingEnabled = true;
+            this.cbxReset.Items.AddRange(new object[] {
+            "Noanaktif",
+            "Aktif"});
+            this.cbxReset.Location = new System.Drawing.Point(17, 153);
+            this.cbxReset.Name = "cbxReset";
+            this.cbxReset.Size = new System.Drawing.Size(233, 25);
+            this.cbxReset.TabIndex = 36;
+            // 
+            // label46
+            // 
+            this.label46.AutoSize = true;
+            this.label46.BackColor = System.Drawing.Color.Transparent;
+            this.label46.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label46.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(237)))), ((int)(((byte)(237)))), ((int)(((byte)(237)))));
+            this.label46.Location = new System.Drawing.Point(14, 133);
+            this.label46.Name = "label46";
+            this.label46.Size = new System.Drawing.Size(78, 17);
+            this.label46.TabIndex = 35;
+            this.label46.Text = "Timer reset";
+            this.label46.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
             // numericUpDown4
             // 
             this.numericUpDown4.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.numericUpDown4.Location = new System.Drawing.Point(23, 94);
+            this.numericUpDown4.Location = new System.Drawing.Point(17, 94);
             this.numericUpDown4.Maximum = new decimal(new int[] {
             100000,
             0,
@@ -4106,9 +4327,9 @@ namespace AQMS
             this.label33.Location = new System.Drawing.Point(0, 0);
             this.label33.Margin = new System.Windows.Forms.Padding(0);
             this.label33.Name = "label33";
-            this.label33.Size = new System.Drawing.Size(280, 53);
+            this.label33.Size = new System.Drawing.Size(263, 53);
             this.label33.TabIndex = 30;
-            this.label33.Text = "Timer charge";
+            this.label33.Text = "Timer Settings";
             this.label33.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // label34
@@ -4117,7 +4338,7 @@ namespace AQMS
             this.label34.BackColor = System.Drawing.Color.Transparent;
             this.label34.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label34.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(237)))), ((int)(((byte)(237)))), ((int)(((byte)(237)))));
-            this.label34.Location = new System.Drawing.Point(20, 74);
+            this.label34.Location = new System.Drawing.Point(14, 74);
             this.label34.Name = "label34";
             this.label34.Size = new System.Drawing.Size(139, 17);
             this.label34.TabIndex = 27;
@@ -4132,7 +4353,7 @@ namespace AQMS
             this.button12.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button12.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button12.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(237)))), ((int)(((byte)(237)))), ((int)(((byte)(237)))));
-            this.button12.Location = new System.Drawing.Point(20, 136);
+            this.button12.Location = new System.Drawing.Point(16, 187);
             this.button12.Name = "button12";
             this.button12.Size = new System.Drawing.Size(234, 36);
             this.button12.TabIndex = 8;
@@ -4143,15 +4364,31 @@ namespace AQMS
             // panel39
             // 
             this.panel39.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(23)))), ((int)(((byte)(38)))), ((int)(((byte)(88)))));
+            this.panel39.Controls.Add(this.label32);
             this.panel39.Controls.Add(this.btnSendRequest);
+            this.panel39.Controls.Add(this.button8);
+            this.panel39.Controls.Add(this.numericUpDown3);
             this.panel39.Controls.Add(this.rbDataManual);
             this.panel39.Controls.Add(this.rbDataOtomatis);
             this.panel39.Controls.Add(this.label44);
-            this.panel39.Location = new System.Drawing.Point(583, 410);
+            this.panel39.Location = new System.Drawing.Point(587, 405);
             this.panel39.Margin = new System.Windows.Forms.Padding(8, 3, 0, 3);
             this.panel39.Name = "panel39";
-            this.panel39.Size = new System.Drawing.Size(251, 188);
+            this.panel39.Size = new System.Drawing.Size(251, 244);
             this.panel39.TabIndex = 48;
+            // 
+            // label32
+            // 
+            this.label32.AutoSize = true;
+            this.label32.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(23)))), ((int)(((byte)(38)))), ((int)(((byte)(88)))));
+            this.label32.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Bold);
+            this.label32.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(237)))), ((int)(((byte)(237)))), ((int)(((byte)(237)))));
+            this.label32.Location = new System.Drawing.Point(8, 46);
+            this.label32.Name = "label32";
+            this.label32.Size = new System.Drawing.Size(113, 19);
+            this.label32.TabIndex = 88;
+            this.label32.Text = "Interval (Menit)";
+            this.label32.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
             // btnSendRequest
             // 
@@ -4160,7 +4397,7 @@ namespace AQMS
             this.btnSendRequest.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnSendRequest.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Bold);
             this.btnSendRequest.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(237)))), ((int)(((byte)(237)))), ((int)(((byte)(237)))));
-            this.btnSendRequest.Location = new System.Drawing.Point(16, 140);
+            this.btnSendRequest.Location = new System.Drawing.Point(17, 191);
             this.btnSendRequest.Name = "btnSendRequest";
             this.btnSendRequest.Size = new System.Drawing.Size(221, 38);
             this.btnSendRequest.TabIndex = 30;
@@ -4168,11 +4405,41 @@ namespace AQMS
             this.btnSendRequest.UseVisualStyleBackColor = false;
             this.btnSendRequest.Click += new System.EventHandler(this.btnSendRequest_Click);
             // 
+            // button8
+            // 
+            this.button8.BackColor = System.Drawing.Color.Red;
+            this.button8.FlatAppearance.BorderSize = 0;
+            this.button8.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Red;
+            this.button8.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Red;
+            this.button8.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button8.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button8.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(237)))), ((int)(((byte)(237)))), ((int)(((byte)(237)))));
+            this.button8.Location = new System.Drawing.Point(169, 69);
+            this.button8.Name = "button8";
+            this.button8.Size = new System.Drawing.Size(69, 29);
+            this.button8.TabIndex = 87;
+            this.button8.Text = "Save";
+            this.button8.UseVisualStyleBackColor = false;
+            this.button8.Click += new System.EventHandler(this.button8_Click_1);
+            // 
+            // numericUpDown3
+            // 
+            this.numericUpDown3.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.numericUpDown3.Location = new System.Drawing.Point(14, 69);
+            this.numericUpDown3.Maximum = new decimal(new int[] {
+            100000,
+            0,
+            0,
+            0});
+            this.numericUpDown3.Name = "numericUpDown3";
+            this.numericUpDown3.Size = new System.Drawing.Size(147, 29);
+            this.numericUpDown3.TabIndex = 85;
+            // 
             // rbDataManual
             // 
             this.rbDataManual.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Bold);
             this.rbDataManual.ForeColor = System.Drawing.Color.White;
-            this.rbDataManual.Location = new System.Drawing.Point(14, 95);
+            this.rbDataManual.Location = new System.Drawing.Point(15, 141);
             this.rbDataManual.Name = "rbDataManual";
             this.rbDataManual.Size = new System.Drawing.Size(223, 39);
             this.rbDataManual.TabIndex = 7;
@@ -4184,7 +4451,7 @@ namespace AQMS
             this.rbDataOtomatis.Checked = true;
             this.rbDataOtomatis.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Bold);
             this.rbDataOtomatis.ForeColor = System.Drawing.Color.White;
-            this.rbDataOtomatis.Location = new System.Drawing.Point(14, 50);
+            this.rbDataOtomatis.Location = new System.Drawing.Point(15, 105);
             this.rbDataOtomatis.Name = "rbDataOtomatis";
             this.rbDataOtomatis.Size = new System.Drawing.Size(223, 39);
             this.rbDataOtomatis.TabIndex = 6;
@@ -4212,9 +4479,9 @@ namespace AQMS
             this.btnCheckUpdates.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnCheckUpdates.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnCheckUpdates.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(237)))), ((int)(((byte)(237)))), ((int)(((byte)(237)))));
-            this.btnCheckUpdates.Location = new System.Drawing.Point(583, 602);
+            this.btnCheckUpdates.Location = new System.Drawing.Point(15, 597);
             this.btnCheckUpdates.Name = "btnCheckUpdates";
-            this.btnCheckUpdates.Size = new System.Drawing.Size(250, 55);
+            this.btnCheckUpdates.Size = new System.Drawing.Size(290, 55);
             this.btnCheckUpdates.TabIndex = 29;
             this.btnCheckUpdates.Text = "Check For updates";
             this.btnCheckUpdates.UseVisualStyleBackColor = false;
@@ -4232,7 +4499,7 @@ namespace AQMS
             this.panelPwmOtomatis.Controls.Add(this.txtInputSensor1);
             this.panelPwmOtomatis.Controls.Add(this.label25);
             this.panelPwmOtomatis.Controls.Add(this.label24);
-            this.panelPwmOtomatis.Location = new System.Drawing.Point(583, 147);
+            this.panelPwmOtomatis.Location = new System.Drawing.Point(587, 142);
             this.panelPwmOtomatis.Margin = new System.Windows.Forms.Padding(8, 3, 0, 3);
             this.panelPwmOtomatis.Name = "panelPwmOtomatis";
             this.panelPwmOtomatis.Size = new System.Drawing.Size(250, 259);
@@ -4354,7 +4621,7 @@ namespace AQMS
             this.panelTrack.Controls.Add(this.txtPwmTrack);
             this.panelTrack.Controls.Add(this.label45);
             this.panelTrack.Controls.Add(this.label23);
-            this.panelTrack.Location = new System.Drawing.Point(837, 11);
+            this.panelTrack.Location = new System.Drawing.Point(841, 6);
             this.panelTrack.Margin = new System.Windows.Forms.Padding(8, 3, 0, 3);
             this.panelTrack.Name = "panelTrack";
             this.panelTrack.Size = new System.Drawing.Size(151, 646);
@@ -4395,6 +4662,74 @@ namespace AQMS
             this.btnMin.Text = "MIN";
             this.btnMin.UseVisualStyleBackColor = false;
             this.btnMin.Click += new System.EventHandler(this.button5_Click);
+            // 
+            // trackPwm
+            // 
+            this.trackPwm.BackColor = System.Drawing.Color.Transparent;
+            this.trackPwm.BarInnerColor = System.Drawing.Color.White;
+            this.trackPwm.BarPenColorBottom = System.Drawing.Color.White;
+            this.trackPwm.BarPenColorTop = System.Drawing.Color.FromArgb(((int)(((byte)(23)))), ((int)(((byte)(38)))), ((int)(((byte)(88)))));
+            this.trackPwm.BorderRoundRectSize = new System.Drawing.Size(8, 8);
+            this.trackPwm.ElapsedInnerColor = System.Drawing.Color.FromArgb(((int)(((byte)(93)))), ((int)(((byte)(116)))), ((int)(((byte)(235)))));
+            this.trackPwm.ElapsedPenColorBottom = System.Drawing.Color.FromArgb(((int)(((byte)(93)))), ((int)(((byte)(116)))), ((int)(((byte)(235)))));
+            this.trackPwm.ElapsedPenColorTop = System.Drawing.Color.FromArgb(((int)(((byte)(93)))), ((int)(((byte)(116)))), ((int)(((byte)(235)))));
+            this.trackPwm.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F);
+            this.trackPwm.ForeColor = System.Drawing.Color.White;
+            this.trackPwm.LargeChange = new decimal(new int[] {
+            5,
+            0,
+            0,
+            0});
+            this.trackPwm.Location = new System.Drawing.Point(20, 120);
+            this.trackPwm.Maximum = new decimal(new int[] {
+            100,
+            0,
+            0,
+            0});
+            this.trackPwm.Minimum = new decimal(new int[] {
+            0,
+            0,
+            0,
+            0});
+            this.trackPwm.MouseEffects = false;
+            this.trackPwm.Name = "trackPwm";
+            this.trackPwm.Orientation = System.Windows.Forms.Orientation.Vertical;
+            this.trackPwm.ScaleDivisions = new decimal(new int[] {
+            20,
+            0,
+            0,
+            0});
+            this.trackPwm.ScaleSubDivisions = new decimal(new int[] {
+            2,
+            0,
+            0,
+            0});
+            this.trackPwm.ShowDivisionsText = true;
+            this.trackPwm.ShowSmallScale = true;
+            this.trackPwm.Size = new System.Drawing.Size(97, 514);
+            this.trackPwm.SmallChange = new decimal(new int[] {
+            1,
+            0,
+            0,
+            0});
+            this.trackPwm.TabIndex = 99;
+            this.trackPwm.Text = "colorSlider1";
+            this.trackPwm.ThumbInnerColor = System.Drawing.Color.FromArgb(((int)(((byte)(93)))), ((int)(((byte)(116)))), ((int)(((byte)(235)))));
+            this.trackPwm.ThumbOuterColor = System.Drawing.Color.FromArgb(((int)(((byte)(93)))), ((int)(((byte)(116)))), ((int)(((byte)(235)))));
+            this.trackPwm.ThumbPenColor = System.Drawing.Color.FromArgb(((int)(((byte)(23)))), ((int)(((byte)(38)))), ((int)(((byte)(88)))));
+            this.trackPwm.ThumbRoundRectSize = new System.Drawing.Size(6, 6);
+            this.trackPwm.ThumbSize = new System.Drawing.Size(24, 16);
+            this.trackPwm.TickAdd = 0F;
+            this.trackPwm.TickColor = System.Drawing.Color.White;
+            this.trackPwm.TickDivide = 0F;
+            this.trackPwm.Value = new decimal(new int[] {
+            50,
+            0,
+            0,
+            0});
+            this.trackPwm.Scroll += new System.Windows.Forms.ScrollEventHandler(this.colorSlider1_Scroll);
+            this.trackPwm.MouseDown += new System.Windows.Forms.MouseEventHandler(this.trackPwm_MouseDown);
+            this.trackPwm.MouseUp += new System.Windows.Forms.MouseEventHandler(this.trackPwm_MouseUp);
             // 
             // txtPwmTrack
             // 
@@ -4438,7 +4773,7 @@ namespace AQMS
             this.panel13.Controls.Add(this.rbManual);
             this.panel13.Controls.Add(this.rbOtomatis);
             this.panel13.Controls.Add(this.label12);
-            this.panel13.Location = new System.Drawing.Point(583, 11);
+            this.panel13.Location = new System.Drawing.Point(587, 6);
             this.panel13.Margin = new System.Windows.Forms.Padding(8, 3, 0, 3);
             this.panel13.Name = "panel13";
             this.panel13.Size = new System.Drawing.Size(250, 130);
@@ -4493,7 +4828,7 @@ namespace AQMS
             this.panel12.Controls.Add(this.label30);
             this.panel12.Controls.Add(this.label1);
             this.panel12.Controls.Add(this.label21);
-            this.panel12.Location = new System.Drawing.Point(582, 660);
+            this.panel12.Location = new System.Drawing.Point(586, 655);
             this.panel12.Margin = new System.Windows.Forms.Padding(8, 3, 0, 3);
             this.panel12.Name = "panel12";
             this.panel12.Size = new System.Drawing.Size(406, 146);
@@ -4611,7 +4946,7 @@ namespace AQMS
             this.panel10.Controls.Add(this.checkBoxKelembaban);
             this.panel10.Controls.Add(this.checkBoxSuhu);
             this.panel10.Controls.Add(this.label20);
-            this.panel10.Location = new System.Drawing.Point(306, 11);
+            this.panel10.Location = new System.Drawing.Point(310, 6);
             this.panel10.Margin = new System.Windows.Forms.Padding(8, 3, 0, 3);
             this.panel10.Name = "panel10";
             this.panel10.Size = new System.Drawing.Size(273, 646);
@@ -4858,7 +5193,7 @@ namespace AQMS
             this.panel7.Controls.Add(this.pbApp);
             this.panel7.Controls.Add(this.label10);
             this.panel7.Controls.Add(this.label19);
-            this.panel7.Location = new System.Drawing.Point(11, 266);
+            this.panel7.Location = new System.Drawing.Point(15, 261);
             this.panel7.Margin = new System.Windows.Forms.Padding(8, 3, 0, 3);
             this.panel7.Name = "panel7";
             this.panel7.Size = new System.Drawing.Size(289, 332);
@@ -5076,355 +5411,10 @@ namespace AQMS
             this.timerWaktuCharge.Interval = 1000;
             this.timerWaktuCharge.Tick += new System.EventHandler(this.timerWaktuCharge_Tick);
             // 
-            // iDDataGridViewTextBoxColumn
+            // timer2
             // 
-            this.iDDataGridViewTextBoxColumn.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.DisplayedCells;
-            this.iDDataGridViewTextBoxColumn.DataPropertyName = "ID";
-            this.iDDataGridViewTextBoxColumn.HeaderText = "ID";
-            this.iDDataGridViewTextBoxColumn.Name = "iDDataGridViewTextBoxColumn";
-            this.iDDataGridViewTextBoxColumn.ReadOnly = true;
-            this.iDDataGridViewTextBoxColumn.Width = 47;
-            // 
-            // rawdataDataGridViewTextBoxColumn
-            // 
-            this.rawdataDataGridViewTextBoxColumn.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.DisplayedCells;
-            this.rawdataDataGridViewTextBoxColumn.DataPropertyName = "raw_data";
-            this.rawdataDataGridViewTextBoxColumn.HeaderText = "Raw Data";
-            this.rawdataDataGridViewTextBoxColumn.Name = "rawdataDataGridViewTextBoxColumn";
-            this.rawdataDataGridViewTextBoxColumn.ReadOnly = true;
-            this.rawdataDataGridViewTextBoxColumn.Width = 91;
-            // 
-            // createdatDataGridViewTextBoxColumn
-            // 
-            this.createdatDataGridViewTextBoxColumn.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.DisplayedCells;
-            this.createdatDataGridViewTextBoxColumn.DataPropertyName = "created_at";
-            this.createdatDataGridViewTextBoxColumn.HeaderText = "Datetime";
-            this.createdatDataGridViewTextBoxColumn.Name = "createdatDataGridViewTextBoxColumn";
-            this.createdatDataGridViewTextBoxColumn.ReadOnly = true;
-            this.createdatDataGridViewTextBoxColumn.Width = 90;
-            // 
-            // namapetugasDataGridViewTextBoxColumn
-            // 
-            this.namapetugasDataGridViewTextBoxColumn.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.DisplayedCells;
-            this.namapetugasDataGridViewTextBoxColumn.DataPropertyName = "nama_petugas";
-            this.namapetugasDataGridViewTextBoxColumn.HeaderText = "Nama Petugas";
-            this.namapetugasDataGridViewTextBoxColumn.Name = "namapetugasDataGridViewTextBoxColumn";
-            this.namapetugasDataGridViewTextBoxColumn.ReadOnly = true;
-            this.namapetugasDataGridViewTextBoxColumn.Width = 122;
-            // 
-            // useridDataGridViewTextBoxColumn
-            // 
-            this.useridDataGridViewTextBoxColumn.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.DisplayedCells;
-            this.useridDataGridViewTextBoxColumn.DataPropertyName = "user_id";
-            this.useridDataGridViewTextBoxColumn.HeaderText = "user_id";
-            this.useridDataGridViewTextBoxColumn.Name = "useridDataGridViewTextBoxColumn";
-            this.useridDataGridViewTextBoxColumn.ReadOnly = true;
-            this.useridDataGridViewTextBoxColumn.Visible = false;
-            this.useridDataGridViewTextBoxColumn.Width = 66;
-            // 
-            // no2DataGridViewTextBoxColumn1
-            // 
-            this.no2DataGridViewTextBoxColumn1.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.DisplayedCells;
-            this.no2DataGridViewTextBoxColumn1.DataPropertyName = "no2";
-            this.no2DataGridViewTextBoxColumn1.HeaderText = "NO2";
-            this.no2DataGridViewTextBoxColumn1.Name = "no2DataGridViewTextBoxColumn1";
-            this.no2DataGridViewTextBoxColumn1.ReadOnly = true;
-            this.no2DataGridViewTextBoxColumn1.Width = 60;
-            // 
-            // so2DataGridViewTextBoxColumn1
-            // 
-            this.so2DataGridViewTextBoxColumn1.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.DisplayedCells;
-            this.so2DataGridViewTextBoxColumn1.DataPropertyName = "so2";
-            this.so2DataGridViewTextBoxColumn1.HeaderText = "SO2";
-            this.so2DataGridViewTextBoxColumn1.Name = "so2DataGridViewTextBoxColumn1";
-            this.so2DataGridViewTextBoxColumn1.ReadOnly = true;
-            this.so2DataGridViewTextBoxColumn1.Width = 57;
-            // 
-            // o3DataGridViewTextBoxColumn1
-            // 
-            this.o3DataGridViewTextBoxColumn1.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.DisplayedCells;
-            this.o3DataGridViewTextBoxColumn1.DataPropertyName = "o3";
-            this.o3DataGridViewTextBoxColumn1.HeaderText = "O3";
-            this.o3DataGridViewTextBoxColumn1.Name = "o3DataGridViewTextBoxColumn1";
-            this.o3DataGridViewTextBoxColumn1.ReadOnly = true;
-            this.o3DataGridViewTextBoxColumn1.Width = 50;
-            // 
-            // coDataGridViewTextBoxColumn1
-            // 
-            this.coDataGridViewTextBoxColumn1.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.DisplayedCells;
-            this.coDataGridViewTextBoxColumn1.DataPropertyName = "co";
-            this.coDataGridViewTextBoxColumn1.HeaderText = "CO";
-            this.coDataGridViewTextBoxColumn1.Name = "coDataGridViewTextBoxColumn1";
-            this.coDataGridViewTextBoxColumn1.ReadOnly = true;
-            this.coDataGridViewTextBoxColumn1.Width = 51;
-            // 
-            // hcDataGridViewTextBoxColumn1
-            // 
-            this.hcDataGridViewTextBoxColumn1.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.DisplayedCells;
-            this.hcDataGridViewTextBoxColumn1.DataPropertyName = "hc";
-            this.hcDataGridViewTextBoxColumn1.HeaderText = "HC";
-            this.hcDataGridViewTextBoxColumn1.Name = "hcDataGridViewTextBoxColumn1";
-            this.hcDataGridViewTextBoxColumn1.ReadOnly = true;
-            this.hcDataGridViewTextBoxColumn1.Width = 51;
-            // 
-            // entityRawDataBindingSource
-            // 
-            this.entityRawDataBindingSource.DataSource = typeof(AQMS.EntityRawData);
-            // 
-            // idDataGridViewTextBoxColumn1
-            // 
-            this.idDataGridViewTextBoxColumn1.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.DisplayedCells;
-            this.idDataGridViewTextBoxColumn1.DataPropertyName = "id";
-            this.idDataGridViewTextBoxColumn1.HeaderText = "ID";
-            this.idDataGridViewTextBoxColumn1.Name = "idDataGridViewTextBoxColumn1";
-            this.idDataGridViewTextBoxColumn1.ReadOnly = true;
-            this.idDataGridViewTextBoxColumn1.Width = 47;
-            // 
-            // namauserDataGridViewTextBoxColumn
-            // 
-            this.namauserDataGridViewTextBoxColumn.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.DisplayedCells;
-            this.namauserDataGridViewTextBoxColumn.DataPropertyName = "nama_user";
-            this.namauserDataGridViewTextBoxColumn.HeaderText = "Nama User";
-            this.namauserDataGridViewTextBoxColumn.Name = "namauserDataGridViewTextBoxColumn";
-            this.namauserDataGridViewTextBoxColumn.ReadOnly = true;
-            // 
-            // emailDataGridViewTextBoxColumn
-            // 
-            this.emailDataGridViewTextBoxColumn.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.DisplayedCells;
-            this.emailDataGridViewTextBoxColumn.DataPropertyName = "email";
-            this.emailDataGridViewTextBoxColumn.HeaderText = "Email";
-            this.emailDataGridViewTextBoxColumn.Name = "emailDataGridViewTextBoxColumn";
-            this.emailDataGridViewTextBoxColumn.ReadOnly = true;
-            this.emailDataGridViewTextBoxColumn.Width = 67;
-            // 
-            // aktifitasDataGridViewTextBoxColumn
-            // 
-            this.aktifitasDataGridViewTextBoxColumn.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.DisplayedCells;
-            this.aktifitasDataGridViewTextBoxColumn.DataPropertyName = "aktifitas";
-            this.aktifitasDataGridViewTextBoxColumn.HeaderText = "Aktifitas";
-            this.aktifitasDataGridViewTextBoxColumn.Name = "aktifitasDataGridViewTextBoxColumn";
-            this.aktifitasDataGridViewTextBoxColumn.ReadOnly = true;
-            this.aktifitasDataGridViewTextBoxColumn.Width = 85;
-            // 
-            // waktuDataGridViewTextBoxColumn
-            // 
-            this.waktuDataGridViewTextBoxColumn.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.DisplayedCells;
-            this.waktuDataGridViewTextBoxColumn.DataPropertyName = "waktu";
-            this.waktuDataGridViewTextBoxColumn.HeaderText = "Waktu";
-            this.waktuDataGridViewTextBoxColumn.Name = "waktuDataGridViewTextBoxColumn";
-            this.waktuDataGridViewTextBoxColumn.ReadOnly = true;
-            this.waktuDataGridViewTextBoxColumn.Width = 72;
-            // 
-            // entityUserLogBindingSource
-            // 
-            this.entityUserLogBindingSource.DataSource = typeof(AQMS.EntityUserLog);
-            // 
-            // idDataGridViewTextBoxColumn2
-            // 
-            this.idDataGridViewTextBoxColumn2.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.DisplayedCells;
-            this.idDataGridViewTextBoxColumn2.DataPropertyName = "id";
-            this.idDataGridViewTextBoxColumn2.HeaderText = "ID";
-            this.idDataGridViewTextBoxColumn2.Name = "idDataGridViewTextBoxColumn2";
-            this.idDataGridViewTextBoxColumn2.ReadOnly = true;
-            this.idDataGridViewTextBoxColumn2.Width = 47;
-            // 
-            // namapetugasDataGridViewTextBoxColumn1
-            // 
-            this.namapetugasDataGridViewTextBoxColumn1.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.DisplayedCells;
-            this.namapetugasDataGridViewTextBoxColumn1.DataPropertyName = "nama_petugas";
-            this.namapetugasDataGridViewTextBoxColumn1.HeaderText = "Nama Petugas";
-            this.namapetugasDataGridViewTextBoxColumn1.Name = "namapetugasDataGridViewTextBoxColumn1";
-            this.namapetugasDataGridViewTextBoxColumn1.ReadOnly = true;
-            this.namapetugasDataGridViewTextBoxColumn1.Width = 112;
-            // 
-            // suhuDataGridViewTextBoxColumn
-            // 
-            this.suhuDataGridViewTextBoxColumn.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.DisplayedCells;
-            this.suhuDataGridViewTextBoxColumn.DataPropertyName = "suhu";
-            this.suhuDataGridViewTextBoxColumn.HeaderText = "Suhu";
-            this.suhuDataGridViewTextBoxColumn.Name = "suhuDataGridViewTextBoxColumn";
-            this.suhuDataGridViewTextBoxColumn.ReadOnly = true;
-            this.suhuDataGridViewTextBoxColumn.Width = 64;
-            // 
-            // kelembabanDataGridViewTextBoxColumn
-            // 
-            this.kelembabanDataGridViewTextBoxColumn.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.DisplayedCells;
-            this.kelembabanDataGridViewTextBoxColumn.DataPropertyName = "kelembaban";
-            this.kelembabanDataGridViewTextBoxColumn.HeaderText = "Kelembaban";
-            this.kelembabanDataGridViewTextBoxColumn.Name = "kelembabanDataGridViewTextBoxColumn";
-            this.kelembabanDataGridViewTextBoxColumn.ReadOnly = true;
-            this.kelembabanDataGridViewTextBoxColumn.Width = 109;
-            // 
-            // tekananDataGridViewTextBoxColumn
-            // 
-            this.tekananDataGridViewTextBoxColumn.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.DisplayedCells;
-            this.tekananDataGridViewTextBoxColumn.DataPropertyName = "tekanan";
-            this.tekananDataGridViewTextBoxColumn.HeaderText = "Tekanan";
-            this.tekananDataGridViewTextBoxColumn.Name = "tekananDataGridViewTextBoxColumn";
-            this.tekananDataGridViewTextBoxColumn.ReadOnly = true;
-            this.tekananDataGridViewTextBoxColumn.Width = 84;
-            // 
-            // arahanginDataGridViewTextBoxColumn
-            // 
-            this.arahanginDataGridViewTextBoxColumn.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.DisplayedCells;
-            this.arahanginDataGridViewTextBoxColumn.DataPropertyName = "arah_angin";
-            this.arahanginDataGridViewTextBoxColumn.HeaderText = "Arah angin";
-            this.arahanginDataGridViewTextBoxColumn.Name = "arahanginDataGridViewTextBoxColumn";
-            this.arahanginDataGridViewTextBoxColumn.ReadOnly = true;
-            this.arahanginDataGridViewTextBoxColumn.Width = 93;
-            // 
-            // kecepatananginDataGridViewTextBoxColumn
-            // 
-            this.kecepatananginDataGridViewTextBoxColumn.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.DisplayedCells;
-            this.kecepatananginDataGridViewTextBoxColumn.DataPropertyName = "kecepatan_angin";
-            this.kecepatananginDataGridViewTextBoxColumn.HeaderText = "Kecepatan angin";
-            this.kecepatananginDataGridViewTextBoxColumn.Name = "kecepatananginDataGridViewTextBoxColumn";
-            this.kecepatananginDataGridViewTextBoxColumn.ReadOnly = true;
-            this.kecepatananginDataGridViewTextBoxColumn.Width = 123;
-            // 
-            // no2DataGridViewTextBoxColumn
-            // 
-            this.no2DataGridViewTextBoxColumn.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.DisplayedCells;
-            this.no2DataGridViewTextBoxColumn.DataPropertyName = "no2";
-            this.no2DataGridViewTextBoxColumn.HeaderText = "NO2";
-            this.no2DataGridViewTextBoxColumn.Name = "no2DataGridViewTextBoxColumn";
-            this.no2DataGridViewTextBoxColumn.ReadOnly = true;
-            this.no2DataGridViewTextBoxColumn.Width = 60;
-            // 
-            // o3DataGridViewTextBoxColumn
-            // 
-            this.o3DataGridViewTextBoxColumn.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.DisplayedCells;
-            this.o3DataGridViewTextBoxColumn.DataPropertyName = "o3";
-            this.o3DataGridViewTextBoxColumn.HeaderText = "O3";
-            this.o3DataGridViewTextBoxColumn.Name = "o3DataGridViewTextBoxColumn";
-            this.o3DataGridViewTextBoxColumn.ReadOnly = true;
-            this.o3DataGridViewTextBoxColumn.Width = 50;
-            // 
-            // coDataGridViewTextBoxColumn
-            // 
-            this.coDataGridViewTextBoxColumn.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.DisplayedCells;
-            this.coDataGridViewTextBoxColumn.DataPropertyName = "co";
-            this.coDataGridViewTextBoxColumn.HeaderText = "CO";
-            this.coDataGridViewTextBoxColumn.Name = "coDataGridViewTextBoxColumn";
-            this.coDataGridViewTextBoxColumn.ReadOnly = true;
-            this.coDataGridViewTextBoxColumn.Width = 51;
-            // 
-            // so2DataGridViewTextBoxColumn
-            // 
-            this.so2DataGridViewTextBoxColumn.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.DisplayedCells;
-            this.so2DataGridViewTextBoxColumn.DataPropertyName = "so2";
-            this.so2DataGridViewTextBoxColumn.HeaderText = "SO2";
-            this.so2DataGridViewTextBoxColumn.Name = "so2DataGridViewTextBoxColumn";
-            this.so2DataGridViewTextBoxColumn.ReadOnly = true;
-            this.so2DataGridViewTextBoxColumn.Width = 57;
-            // 
-            // hcDataGridViewTextBoxColumn
-            // 
-            this.hcDataGridViewTextBoxColumn.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.DisplayedCells;
-            this.hcDataGridViewTextBoxColumn.DataPropertyName = "hc";
-            this.hcDataGridViewTextBoxColumn.HeaderText = "HC";
-            this.hcDataGridViewTextBoxColumn.Name = "hcDataGridViewTextBoxColumn";
-            this.hcDataGridViewTextBoxColumn.ReadOnly = true;
-            this.hcDataGridViewTextBoxColumn.Width = 51;
-            // 
-            // pm25DataGridViewTextBoxColumn
-            // 
-            this.pm25DataGridViewTextBoxColumn.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.DisplayedCells;
-            this.pm25DataGridViewTextBoxColumn.DataPropertyName = "pm2_5";
-            this.pm25DataGridViewTextBoxColumn.HeaderText = "PM2.5";
-            this.pm25DataGridViewTextBoxColumn.Name = "pm25DataGridViewTextBoxColumn";
-            this.pm25DataGridViewTextBoxColumn.ReadOnly = true;
-            this.pm25DataGridViewTextBoxColumn.Width = 71;
-            // 
-            // pm10DataGridViewTextBoxColumn
-            // 
-            this.pm10DataGridViewTextBoxColumn.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.DisplayedCells;
-            this.pm10DataGridViewTextBoxColumn.DataPropertyName = "pm10";
-            this.pm10DataGridViewTextBoxColumn.HeaderText = "PM10";
-            this.pm10DataGridViewTextBoxColumn.Name = "pm10DataGridViewTextBoxColumn";
-            this.pm10DataGridViewTextBoxColumn.ReadOnly = true;
-            this.pm10DataGridViewTextBoxColumn.Width = 67;
-            // 
-            // waktuDataGridViewTextBoxColumn1
-            // 
-            this.waktuDataGridViewTextBoxColumn1.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.DisplayedCells;
-            this.waktuDataGridViewTextBoxColumn1.DataPropertyName = "waktu";
-            this.waktuDataGridViewTextBoxColumn1.HeaderText = "Waktu";
-            this.waktuDataGridViewTextBoxColumn1.Name = "waktuDataGridViewTextBoxColumn1";
-            this.waktuDataGridViewTextBoxColumn1.ReadOnly = true;
-            this.waktuDataGridViewTextBoxColumn1.Width = 72;
-            // 
-            // entityDataBindingSource
-            // 
-            this.entityDataBindingSource.DataSource = typeof(AQMS.EntityData);
-            // 
-            // trackPwm
-            // 
-            this.trackPwm.BackColor = System.Drawing.Color.Transparent;
-            this.trackPwm.BarInnerColor = System.Drawing.Color.White;
-            this.trackPwm.BarPenColorBottom = System.Drawing.Color.White;
-            this.trackPwm.BarPenColorTop = System.Drawing.Color.FromArgb(((int)(((byte)(23)))), ((int)(((byte)(38)))), ((int)(((byte)(88)))));
-            this.trackPwm.BorderRoundRectSize = new System.Drawing.Size(8, 8);
-            this.trackPwm.ElapsedInnerColor = System.Drawing.Color.FromArgb(((int)(((byte)(93)))), ((int)(((byte)(116)))), ((int)(((byte)(235)))));
-            this.trackPwm.ElapsedPenColorBottom = System.Drawing.Color.FromArgb(((int)(((byte)(93)))), ((int)(((byte)(116)))), ((int)(((byte)(235)))));
-            this.trackPwm.ElapsedPenColorTop = System.Drawing.Color.FromArgb(((int)(((byte)(93)))), ((int)(((byte)(116)))), ((int)(((byte)(235)))));
-            this.trackPwm.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F);
-            this.trackPwm.ForeColor = System.Drawing.Color.White;
-            this.trackPwm.LargeChange = new decimal(new int[] {
-            5,
-            0,
-            0,
-            0});
-            this.trackPwm.Location = new System.Drawing.Point(20, 120);
-            this.trackPwm.Maximum = new decimal(new int[] {
-            100,
-            0,
-            0,
-            0});
-            this.trackPwm.Minimum = new decimal(new int[] {
-            0,
-            0,
-            0,
-            0});
-            this.trackPwm.MouseEffects = false;
-            this.trackPwm.Name = "trackPwm";
-            this.trackPwm.Orientation = System.Windows.Forms.Orientation.Vertical;
-            this.trackPwm.ScaleDivisions = new decimal(new int[] {
-            20,
-            0,
-            0,
-            0});
-            this.trackPwm.ScaleSubDivisions = new decimal(new int[] {
-            2,
-            0,
-            0,
-            0});
-            this.trackPwm.ShowDivisionsText = true;
-            this.trackPwm.ShowSmallScale = true;
-            this.trackPwm.Size = new System.Drawing.Size(97, 514);
-            this.trackPwm.SmallChange = new decimal(new int[] {
-            1,
-            0,
-            0,
-            0});
-            this.trackPwm.TabIndex = 99;
-            this.trackPwm.Text = "colorSlider1";
-            this.trackPwm.ThumbInnerColor = System.Drawing.Color.FromArgb(((int)(((byte)(93)))), ((int)(((byte)(116)))), ((int)(((byte)(235)))));
-            this.trackPwm.ThumbOuterColor = System.Drawing.Color.FromArgb(((int)(((byte)(93)))), ((int)(((byte)(116)))), ((int)(((byte)(235)))));
-            this.trackPwm.ThumbPenColor = System.Drawing.Color.FromArgb(((int)(((byte)(23)))), ((int)(((byte)(38)))), ((int)(((byte)(88)))));
-            this.trackPwm.ThumbRoundRectSize = new System.Drawing.Size(6, 6);
-            this.trackPwm.ThumbSize = new System.Drawing.Size(24, 16);
-            this.trackPwm.TickAdd = 0F;
-            this.trackPwm.TickColor = System.Drawing.Color.White;
-            this.trackPwm.TickDivide = 0F;
-            this.trackPwm.Value = new decimal(new int[] {
-            50,
-            0,
-            0,
-            0});
-            this.trackPwm.Scroll += new System.Windows.Forms.ScrollEventHandler(this.colorSlider1_Scroll);
-            this.trackPwm.MouseDown += new System.Windows.Forms.MouseEventHandler(this.trackPwm_MouseDown);
-            this.trackPwm.MouseUp += new System.Windows.Forms.MouseEventHandler(this.trackPwm_MouseUp);
+            this.timer2.Interval = 1800000;
+            this.timer2.Tick += new System.EventHandler(this.timer2_Tick);
             // 
             // entityRawDataBindingSource1
             // 
@@ -5471,13 +5461,12 @@ namespace AQMS
             this.panel36.ResumeLayout(false);
             this.panel6.ResumeLayout(false);
             this.panel18.ResumeLayout(false);
-            this.panel9.ResumeLayout(false);
-            this.panel3.ResumeLayout(false);
             this.panel14.ResumeLayout(false);
             this.panel25.ResumeLayout(false);
             this.panel17.ResumeLayout(false);
             this.panel24.ResumeLayout(false);
             this.tableLayoutPanel2.ResumeLayout(false);
+            this.tableLayoutPanel2.PerformLayout();
             this.panel8.ResumeLayout(false);
             this.panel29.ResumeLayout(false);
             this.panel33.ResumeLayout(false);
@@ -5497,6 +5486,7 @@ namespace AQMS
             this.panel32.ResumeLayout(false);
             this.panel32.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.entityRawDataBindingSource)).EndInit();
             this.tableLayoutPanel3.ResumeLayout(false);
             this.panel37.ResumeLayout(false);
             this.panel23.ResumeLayout(false);
@@ -5506,18 +5496,17 @@ namespace AQMS
             ((System.ComponentModel.ISupportInitialize)(this.dgZeroLog)).EndInit();
             this.panel43.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.dgUserLog)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.entityUserLogBindingSource)).EndInit();
             this.report.ResumeLayout(false);
             this.tableLayoutPanel6.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.dgDataReport)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.entityDataBindingSource)).EndInit();
             this.panel11.ResumeLayout(false);
             this.panel11.PerformLayout();
             this.panel49.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.chartGas)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.chartWeather)).EndInit();
             this.settings.ResumeLayout(false);
-            this.panel48.ResumeLayout(false);
-            this.panel48.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown3)).EndInit();
             this.panel50.ResumeLayout(false);
             this.panel47.ResumeLayout(false);
             this.panel47.PerformLayout();
@@ -5560,6 +5549,8 @@ namespace AQMS
             this.panel51.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDown4)).EndInit();
             this.panel39.ResumeLayout(false);
+            this.panel39.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown3)).EndInit();
             this.panelPwmOtomatis.ResumeLayout(false);
             this.panelPwmOtomatis.PerformLayout();
             this.panelTrack.ResumeLayout(false);
@@ -5575,9 +5566,6 @@ namespace AQMS
             this.tabPage1.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pbAbout)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.entityRawDataBindingSource)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.entityUserLogBindingSource)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.entityDataBindingSource)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.entityRawDataBindingSource1)).EndInit();
             this.ResumeLayout(false);
 
@@ -5628,10 +5616,6 @@ namespace AQMS
         private System.Windows.Forms.Label labelSuhu;
         private System.Windows.Forms.Panel panel18;
         private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.Panel panel9;
-        private System.Windows.Forms.Label labelTekanan;
-        private System.Windows.Forms.Panel panel3;
-        private System.Windows.Forms.Label label70;
         private System.Windows.Forms.Panel panel14;
         private System.Windows.Forms.Label labelKecepatanAngin;
         private System.Windows.Forms.Panel panel25;
@@ -5943,7 +5927,6 @@ namespace AQMS
         private System.Windows.Forms.Label label15;
         private System.Windows.Forms.Button button4;
         private System.Windows.Forms.Timer timerWaktuCharge;
-        private System.Windows.Forms.Panel panel48;
         private System.Windows.Forms.Button button8;
         private System.Windows.Forms.NumericUpDown numericUpDown3;
         private System.Windows.Forms.Label label32;
@@ -5953,6 +5936,10 @@ namespace AQMS
         private System.Windows.Forms.Label label33;
         private System.Windows.Forms.Label label34;
         private System.Windows.Forms.Button button12;
+        private System.Windows.Forms.Label label42;
+        private System.Windows.Forms.Label label46;
+        private System.Windows.Forms.ComboBox cbxReset;
+        private System.Windows.Forms.Timer timer2;
     }
 }
 

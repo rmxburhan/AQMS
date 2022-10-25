@@ -63,13 +63,13 @@
       <Value Profile="(Default)">0</Value>
     </Setting>
     <Setting Name="pwmOtomatis" Type="System.Int64" Scope="User">
-      <Value Profile="(Default)">65</Value>
+      <Value Profile="(Default)">30</Value>
     </Setting>
     <Setting Name="pwmTrack" Type="System.Decimal" Scope="User">
-      <Value Profile="(Default)">65</Value>
+      <Value Profile="(Default)">30</Value>
     </Setting>
     <Setting Name="aboutUs" Type="System.String" Scope="User">
-      <Value Profile="(Default)">Aplikasi monitoring kualitas cuaca</Value>
+      <Value Profile="(Default)">Aplikasi monitoring kualitas udara dan Partikel udara</Value>
     </Setting>
     <Setting Name="offsetNo2" Type="System.Double" Scope="User">
       <Value Profile="(Default)">0</Value>
@@ -199,6 +199,9 @@
     </Setting>
     <Setting Name="timerTunggu" Type="System.Int32" Scope="User">
       <Value Profile="(Default)">0</Value>
+    </Setting>
+    <Setting Name="reset" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">False</Value>
     </Setting>
   </Settings>
 </SettingsFile>

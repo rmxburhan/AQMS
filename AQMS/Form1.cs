@@ -293,6 +293,7 @@ namespace AQMS
             }
             catch (Exception)
             {
+            
             }
         }
 
@@ -300,7 +301,6 @@ namespace AQMS
         {
             try
             {
-              
                 labelRawSerial.Text = datas;
                 string[] dataIn = datas.Trim().Split(',');
                 Console.WriteLine(datas);
@@ -315,7 +315,11 @@ namespace AQMS
                 }
                 catch { return; }
                 #endregion
-
+                if (timerRequest.Enabled == true)
+                {
+                    timerRequest.Stop();
+                }
+                Console.WriteLine("TMR1 " + timerRequest.Enabled);
                 string teganganIn = dataIn[6];
                 double persen_baterai = (Convert.ToDouble(teganganIn) / 12) * 100;
                 string persen = String.Format("{0:0}", persen_baterai);
@@ -365,7 +369,7 @@ namespace AQMS
                 {
                     if (!(pwm > 73 && pwm < 80))
                     {
-                        serialPortUtama.Write($"setPWM,75,*");
+                        serialPortUtama.Write($"setPWM,30,*");
                     }
                 }
 
@@ -387,11 +391,11 @@ namespace AQMS
                 double[] ugM3 = await task;
                 #endregion
 
-                int no2 = Convert.ToInt32(ugM3[0]);
-                int so2 = Convert.ToInt32(ugM3[1]);
-                int o3 = Convert.ToInt32(ugM3[2]);
-                int co = Convert.ToInt32(ugM3[3]);
-                int hc = Convert.ToInt32(ugM3[4]);
+                double no2 = Convert.ToDouble(String.Format("{0:0.000}",ugM3[0]));
+                double so2 = Convert.ToDouble(String.Format("{0:0.000}", ugM3[1]));
+                double o3 = Convert.ToDouble(String.Format("{0:0.000}",ugM3[2]));
+                double co = Convert.ToDouble(String.Format("{0:0.000}",ugM3[3]));
+                double hc = Convert.ToDouble(String.Format("{0:0.000}",ugM3[4]));
 
                 string arahAnginIn = finalData[5].ToString();
                 double kecepatanAnginIn = ((finalData[6] >= Convert.ToDouble(Properties.Settings.Default.bawahKecepatan)) && finalData[6]<= Convert.ToDouble(Properties.Settings.Default.atasKecepatan) ? Convert.ToDouble(finalData[6]) * 1.609344 : 0);
@@ -456,7 +460,7 @@ namespace AQMS
                             }
                             if (response.StatusCode == System.Net.HttpStatusCode.BadRequest)
                             {
-                                var responseMessage  = await response.Content.ReadAsStringAsync();
+                                var responseMessage = await response.Content.ReadAsStringAsync();
                                 JObject keyValuePairs = JObject.Parse(responseMessage);
                                 if (keyValuePairs["code"].ToString() == "ERR")
                                 {
@@ -485,6 +489,7 @@ namespace AQMS
                             }
                         }
                     }
+                    
                 }
                 catch (Exception)
                 {
@@ -508,41 +513,59 @@ namespace AQMS
                         _chartGasses.chart2.Series[3].Points.RemoveAt(0);
                         _chartGasses.chart2.Series[4].Points.RemoveAt(0);
                     }
-                    double[] point = new double[5];
-                    point[0] = Convert.ToDouble(dataIn[0]) * 1000;
-                    point[1] = Convert.ToDouble(dataIn[1]) * 1000;
-                    point[2] = Convert.ToDouble(dataIn[2]) * 1000;
-                    point[3] = Convert.ToDouble(dataIn[3]) * 1000;
-                    point[4] = Convert.ToDouble(dataIn[4]) * 1000;
-               
-                    _chartGasses.addPoint(point, time.ToString("HH:mm:ss"));
 
+                    if (label116.Text == "ppm")
+                    {
+                        double[] point = new double[5];
+                        point[0] = Convert.ToDouble(dataIn[0]);
+                        point[1] = Convert.ToDouble(dataIn[1]);
+                        point[2] = Convert.ToDouble(dataIn[2]);
+                        point[3] = Convert.ToDouble(dataIn[3]);
+                        point[4] = Convert.ToDouble(dataIn[4]);
+                        _chartGasses.addPoint(point, time.ToString("HH:mm:ss"));
+                    }
+                    else if (label116.Text == "µg/m3")
+                    {
+                        double[] point = new double[5];
+                        point[0] = Convert.ToDouble(no2);
+                        point[1] = Convert.ToDouble(so2);
+                        point[2] = Convert.ToDouble(o3);
+                        point[3] = Convert.ToDouble(co);
+                        point[4] = Convert.ToDouble(hc);
+                        _chartGasses.addPoint(point, time.ToString("HH:mm:ss"));
+                    }
                 }
 
                 if (chart2.Series[0].Points.Count > ChartLimit) { chart2.Series[0].Points.RemoveAt(0); chart2.Series[1].Points.RemoveAt(0); chart2.Series[2].Points.RemoveAt(0); chart2.Series[3].Points.RemoveAt(0); }
-
-                #region mencari nilai tertinggi
-
-                #endregion
 
                 #endregion
 
                 showPPM(dataIn[0], dataIn[1], dataIn[2], dataIn[3], dataIn[4]);
                 showValue(suhuIn.ToString(), kelembabanIn.ToString(), String.Format("{0:0.00}", kecepatanAnginIn), tekananUdaraIn.ToString(), arahAnginIn, no2.ToString(), o3.ToString(), co.ToString(), so2.ToString(), hc.ToString(), PM25.ToString(), PM10.ToString(), teganganIn, arusIn, dayaIn, datas, teganganIn, solarRadiasi);
+                if (timerRequest.Enabled == false)
+                {
+                    timerRequest.Start();
+                }
+                Console.WriteLine("TMR2 " + timerRequest.Enabled);
             }
             catch (Exception ex)
             {
                 //MessageBox.Show(ex.Message);
+                if (timerRequest.Enabled == false)
+                {
+                    timerRequest.Start();
+                }
+                Console.WriteLine("TMR3 " + timerRequest.Enabled);
             }
         }
 
         private void showPPM(string no2, string so2, string o3, string co, string hc)
         {
-            ppmNO2.Text = String.Format("{0:0.00}", Convert.ToDouble(no2)) + " ppm";
-            ppmSO2.Text = String.Format("{0:0.00}", Convert.ToDouble(so2)) + " ppm";
-            ppmO3.Text = String.Format("{0:0.00}", Convert.ToDouble(o3)) + " ppm";
-            ppmCO.Text = String.Format("{0:0.00}", Convert.ToDouble(co)) + " ppm";
-            ppmHC.Text = String.Format("{0:0.00}", Convert.ToDouble(hc)) + " ppm";
+            ppmNO2.Text = String.Format("{0:0.000}", Convert.ToDouble(no2)) + " ppm";
+            ppmSO2.Text = String.Format("{0:0.000}", Convert.ToDouble(so2)) + " ppm";
+            ppmO3.Text = String.Format("{0:0.000}", Convert.ToDouble(o3)) + " ppm";
+            ppmCO.Text = String.Format("{0:0.000}", Convert.ToDouble(co)) + " ppm";
+            ppmHC.Text = String.Format("{0:0.000}", Convert.ToDouble(hc)) + " ppm";
         }
 
         class rawDataPost
@@ -641,7 +664,7 @@ namespace AQMS
             labelSuhu.Text = suhu + " °C";
             labelKelembaban.Text = kelembaban + "%";
             labelKecepatanAngin.Text = kecepatan_angin + "km/h";
-            labelTekanan.Text = tekanan + " mbar";
+            //labelTekanan.Text = tekanan + " mbar";
             //string arahAngin = konversiDerajatKeArahAngin(arahangin);
             labelArahAngin.Text = arahangin + "° Dari utara";
             //Show gas
@@ -756,7 +779,6 @@ namespace AQMS
                         MessageBox.Show("Fitur dinonaktifkan");
                         return;
                     }
-
                     serialPortUtama.PortName = Properties.Settings.Default.portAlat;
                     serialPortUtama.BaudRate = 9600;
                     serialPortUtama.Open();
@@ -799,6 +821,14 @@ namespace AQMS
                         timerRequest.Stop();
                         btnSendRequest.Enabled = true;
                     }
+                    if (Properties.Settings.Default.reset == true)
+                    {
+                        timer2.Start();
+                    }
+                    else
+                    {
+                        timer2.Stop();
+                    }
                     connectState();
                 }
                 catch (Exception ex)
@@ -835,6 +865,7 @@ namespace AQMS
                     disconnectState();
                     timerRequest.Stop();
                     timerRequestMap.Stop();
+                    timer2.Stop();
                 }
                 insertData($"UPDATE tbl_perangkat SET portAlat = '{Properties.Settings.Default.portAlat}', portGps = '{Properties.Settings.Default.portGps}', lat = '{Properties.Settings.Default.lat}', lng = '{Properties.Settings.Default.lng}', pwmTrack = '{Properties.Settings.Default.pwmTrack}', pwmAuto = '{Properties.Settings.Default.pwmOtomatis}', timerCharge = '{Properties.Settings.Default.timerCharge}' WHERE id = '1';");
                 try
@@ -866,7 +897,7 @@ namespace AQMS
                 }
                 catch
                 {
-                    return; 
+                    return;
                 }
             }
             catch (Exception ex)
@@ -1055,6 +1086,7 @@ namespace AQMS
             btnConnect.Enabled = false;
             btnConnect.BackColor = Color.LightGray;
             timerWaktuTunggu.Start();
+            cbxReset.SelectedIndex = (Properties.Settings.Default.reset == true ? 1 : 0);
             //textBox3.Text = LoginStatus.namaUser;
             //timerMap.Start();
         }
@@ -1403,6 +1435,7 @@ namespace AQMS
             checkBoxSO2.Checked = true;
             checkBoxHC.Checked = true;
             checkBoxPM25.Checked = true;
+            checkBoxSolar.Checked = true;
             checkBoxPM10.Checked = true;
         }
 
@@ -1420,6 +1453,7 @@ namespace AQMS
             checkBoxHC.Checked = false;
             checkBoxPM25.Checked = false;
             checkBoxPM10.Checked = false;
+            checkBoxSolar.Checked = false;
         }
 
         private void btnSavePwmOtomatis_Click(object sender, EventArgs e)
@@ -1570,7 +1604,7 @@ namespace AQMS
                 }
                 catch (Exception ex)
                 {
-                    MessageBox.Show(ex.Message);
+                    //MessageBox.Show(ex.Message);
                 }
             }
         }
@@ -1614,13 +1648,12 @@ namespace AQMS
                     longituderesult = String.Format("{0:0.0000000}", Convert.ToDouble(longitudeReal.ToString()));
                 }
 
-
                 Properties.Settings.Default.lat = latitudeResult;
                 Properties.Settings.Default.lng = longituderesult;
                 Properties.Settings.Default.Save();
                 labelLatitude.Text = latitudeResult;
                 labelLongitude.Text = longituderesult;
-                if (done)
+                if (done == true)
                 {
                     try
                     {
@@ -1638,19 +1671,20 @@ namespace AQMS
                                 if (response.IsSuccessStatusCode)
                                 {
                                     var responseMessage = await response.Content.ReadAsStringAsync();
-                                    Console.WriteLine(responseMessage);
+                                    Console.WriteLine("GPS suc" + responseMessage);
                                     done = false;
                                 }
                                 else
                                 {
                                     var responseMessage = await response.Content.ReadAsStringAsync();
-                                    Console.WriteLine(responseMessage);
+                                    Console.WriteLine("GPS err" + responseMessage);
                                 }
                             }
                         }
                     }
-                    catch
+                    catch (Exception ex)
                     {
+                        Console.Write("GPs err" + ex.Message);
                     }
                 }
                 timerRequestMap.Interval = 60000;
@@ -1862,23 +1896,23 @@ namespace AQMS
             if (label116.Text == "µg/m3")
             {
                 label116.Text = "ppm";
-                //_chartGasses.chart2.Series[0].Points.Clear();
-                //_chartGasses.chart2.Series[1].Points.Clear();
-                //_chartGasses.chart2.Series[2].Points.Clear();
-                //_chartGasses.chart2.Series[3].Points.Clear();
-                //_chartGasses.chart2.Series[4].Points.Clear();
-                //_chartGasses.chart2.ChartAreas[0].AxisY.LabelStyle.Format = "{0:0.00} ppm";
+                _chartGasses.chart2.Series[0].Points.Clear();
+                _chartGasses.chart2.Series[1].Points.Clear();
+                _chartGasses.chart2.Series[2].Points.Clear();
+                _chartGasses.chart2.Series[3].Points.Clear();
+                _chartGasses.chart2.Series[4].Points.Clear();
+                _chartGasses.chart2.ChartAreas[0].AxisY.LabelStyle.Format = "{0:0.000} ppm";
                 ShowPPM();
             }
             else if (label116.Text == "ppm")
             {
                 label116.Text = "µg/m3";
-                //_chartGasses.chart2.Series[0].Points.Clear();
-                //_chartGasses.chart2.Series[1].Points.Clear();
-                //_chartGasses.chart2.Series[2].Points.Clear();
-                //_chartGasses.chart2.Series[3].Points.Clear();
-                //_chartGasses.chart2.Series[4].Points.Clear();
-                //_chartGasses.chart2.ChartAreas[0].AxisY.LabelStyle.Format = "{0:0.0} µg/m3";
+                _chartGasses.chart2.Series[0].Points.Clear();
+                _chartGasses.chart2.Series[1].Points.Clear();
+                _chartGasses.chart2.Series[2].Points.Clear();
+                _chartGasses.chart2.Series[3].Points.Clear();
+                _chartGasses.chart2.Series[4].Points.Clear();
+                _chartGasses.chart2.ChartAreas[0].AxisY.LabelStyle.Format = "{0} µg/m3";
                 ShowMikro();
             }
         }
@@ -1914,6 +1948,7 @@ namespace AQMS
 
         private void button4_Click(object sender, EventArgs e)
         {
+            if (serialPortUtama.IsOpen || serialPortGps.IsOpen)
             if (serialPortUtama.IsOpen || serialPortGps.IsOpen)
             {
                 MessageBox.Show("Matikan engine terlebih dahulu", "Information", MessageBoxButtons.OK, MessageBoxIcon.Information);
@@ -2056,8 +2091,11 @@ namespace AQMS
         {
             if (label15.Text == "OFF")
             {
-                serialPortUtama.Write("CHARGE,1,*");
-                label15.Text = "ON";
+                if (timerWaktuCharge.Enabled == false)
+                {
+                    serialPortUtama.Write("CHARGE,1,*");
+                    label15.Text = "ON";
+                }
             }
             else if(label15.Text == "ON")
             {
@@ -2096,10 +2134,17 @@ namespace AQMS
         {
             try
             {
-                Properties.Settings.Default.interval = Convert.ToInt32(numericUpDown3.Value);
-                Properties.Settings.Default.Save();
-                insertLog("Melakukan pengaturan interval");
-                MessageBox.Show("Interval updated", "Information", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                if (numericUpDown3.Value >= 1 && numericUpDown3.Value <= 60)
+                {
+                    Properties.Settings.Default.interval = Convert.ToInt32(numericUpDown3.Value);
+                    Properties.Settings.Default.Save();
+                    insertLog("Melakukan pengaturan interval");
+                    MessageBox.Show("Interval updated", "Information", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                }
+                else
+                {
+                    MessageBox.Show("Interval pengambilan data minimal 1 menit dan maksimal 60 menit", "Information", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                }
             }
             catch (Exception)
             {
@@ -2110,8 +2155,20 @@ namespace AQMS
         private void button12_Click(object sender, EventArgs e)
         {
             Properties.Settings.Default.timerCharge = Convert.ToInt32(numericUpDown4.Value);
+            Properties.Settings.Default.reset = (cbxReset.SelectedIndex == 0 ? false : true);
             Properties.Settings.Default.Save();
             insertLog("Mengubah pengaturan timer waktu charging");
+            MessageBox.Show("Data berhasil disimpan");
+        }
+
+        private void timer2_Tick(object sender, EventArgs e)
+        {
+            if (serialPortUtama.IsOpen && label15.Text != "ON")
+            {
+                serialPortUtama.Write("reset,*");
+                Thread.Sleep(1000);
+                serialPortUtama.Write($"setPWM,{Properties.Settings.Default.pwmTrack},*");
+            }
         }
 
         private void btnSimpanGPS_Click(object sender, EventArgs e)
@@ -2146,7 +2203,7 @@ namespace AQMS
     
         private void timerRequest_Tick(object sender, EventArgs e)
         {
-            timerRequest.Interval = Properties.Settings.Default.interval * 1000; 
+            timerRequest.Interval = Properties.Settings.Default.interval * 1000 * 60; 
             if (serialPortUtama.IsOpen)
             {
                 if (serialPortUtama.BytesToWrite < 1)
@@ -2155,7 +2212,6 @@ namespace AQMS
                 }
             }
         }
-
         private async void btnCheckUpdates_Click(object sender, EventArgs e)
         {
             try
@@ -2172,6 +2228,7 @@ namespace AQMS
                             string data = await response.Content.ReadAsStringAsync();
                             if (data != null)
                             {
+                                Console.WriteLine(data);
                                 JObject keys = JObject.Parse(data);
                                 string[] ver = Convert.ToString(keys["app_ver"]["version"]).Split('.');
                                 downloadFileUrl = keys["link"].ToString();

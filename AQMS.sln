@@ -20,8 +20,8 @@ Global
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {B8D14F16-4B3C-48E0-A240-EBA0D7496ACF}
-		Spices_ObfuscateProject = 0
 		Spices_ProjectFileName = C:\Users\School System\Documents\AQMS PIPO\AQMS\AQMS.iloprj
+		Spices_ObfuscateProject = 0
+		SolutionGuid = {B8D14F16-4B3C-48E0-A240-EBA0D7496ACF}
 	EndGlobalSection
 EndGlobal

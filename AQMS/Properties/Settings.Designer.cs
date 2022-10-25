@@ -265,7 +265,7 @@ namespace AQMS.Properties {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("65")]
+        [global::System.Configuration.DefaultSettingValueAttribute("30")]
         public long pwmOtomatis {
             get {
                 return ((long)(this["pwmOtomatis"]));
@@ -277,7 +277,7 @@ namespace AQMS.Properties {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("65")]
+        [global::System.Configuration.DefaultSettingValueAttribute("30")]
         public decimal pwmTrack {
             get {
                 return ((decimal)(this["pwmTrack"]));
@@ -289,7 +289,7 @@ namespace AQMS.Properties {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("Aplikasi monitoring kualitas cuaca")]
+        [global::System.Configuration.DefaultSettingValueAttribute("Aplikasi monitoring kualitas udara dan Partikel udara")]
         public string aboutUs {
             get {
                 return ((string)(this["aboutUs"]));
@@ -812,6 +812,18 @@ namespace AQMS.Properties {
             }
             set {
                 this["timerTunggu"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("False")]
+        public bool reset {
+            get {
+                return ((bool)(this["reset"]));
+            }
+            set {
+                this["reset"] = value;
             }
         }
     }
