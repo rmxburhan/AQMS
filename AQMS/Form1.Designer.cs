@@ -31,18 +31,18 @@ namespace AQMS
         {
             this.components = new System.ComponentModel.Container();
             System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea1 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
-            System.Windows.Forms.DataVisualization.Charting.Legend legend1 = new System.Windows.Forms.DataVisualization.Charting.Legend();
-            System.Windows.Forms.DataVisualization.Charting.Series series1 = new System.Windows.Forms.DataVisualization.Charting.Series();
-            System.Windows.Forms.DataVisualization.Charting.Series series2 = new System.Windows.Forms.DataVisualization.Charting.Series();
-            System.Windows.Forms.DataVisualization.Charting.Series series3 = new System.Windows.Forms.DataVisualization.Charting.Series();
-            System.Windows.Forms.DataVisualization.Charting.Series series4 = new System.Windows.Forms.DataVisualization.Charting.Series();
-            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea2 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
             System.Windows.Forms.DataVisualization.Charting.StripLine stripLine1 = new System.Windows.Forms.DataVisualization.Charting.StripLine();
             System.Windows.Forms.DataVisualization.Charting.StripLine stripLine2 = new System.Windows.Forms.DataVisualization.Charting.StripLine();
             System.Windows.Forms.DataVisualization.Charting.StripLine stripLine3 = new System.Windows.Forms.DataVisualization.Charting.StripLine();
             System.Windows.Forms.DataVisualization.Charting.StripLine stripLine4 = new System.Windows.Forms.DataVisualization.Charting.StripLine();
             System.Windows.Forms.DataVisualization.Charting.StripLine stripLine5 = new System.Windows.Forms.DataVisualization.Charting.StripLine();
+            System.Windows.Forms.DataVisualization.Charting.Legend legend1 = new System.Windows.Forms.DataVisualization.Charting.Legend();
+            System.Windows.Forms.DataVisualization.Charting.Series series1 = new System.Windows.Forms.DataVisualization.Charting.Series();
+            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea2 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
             System.Windows.Forms.DataVisualization.Charting.Legend legend2 = new System.Windows.Forms.DataVisualization.Charting.Legend();
+            System.Windows.Forms.DataVisualization.Charting.Series series2 = new System.Windows.Forms.DataVisualization.Charting.Series();
+            System.Windows.Forms.DataVisualization.Charting.Series series3 = new System.Windows.Forms.DataVisualization.Charting.Series();
+            System.Windows.Forms.DataVisualization.Charting.Series series4 = new System.Windows.Forms.DataVisualization.Charting.Series();
             System.Windows.Forms.DataVisualization.Charting.Series series5 = new System.Windows.Forms.DataVisualization.Charting.Series();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
@@ -104,36 +104,14 @@ namespace AQMS
             this.button6 = new System.Windows.Forms.Button();
             this.button5 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
-            this.chart2 = new System.Windows.Forms.DataVisualization.Charting.Chart();
             this.chart3 = new System.Windows.Forms.DataVisualization.Charting.Chart();
+            this.chart2 = new System.Windows.Forms.DataVisualization.Charting.Chart();
             this.tableLayoutPanel12 = new System.Windows.Forms.TableLayoutPanel();
-            this.panel45 = new System.Windows.Forms.Panel();
-            this.labelSolarRadiasi = new System.Windows.Forms.Label();
-            this.panel46 = new System.Windows.Forms.Panel();
-            this.label84 = new System.Windows.Forms.Label();
-            this.panel35 = new System.Windows.Forms.Panel();
-            this.labelKelembaban = new System.Windows.Forms.Label();
-            this.panel36 = new System.Windows.Forms.Panel();
-            this.label4 = new System.Windows.Forms.Label();
-            this.panel6 = new System.Windows.Forms.Panel();
-            this.labelSuhu = new System.Windows.Forms.Label();
-            this.panel18 = new System.Windows.Forms.Panel();
-            this.label3 = new System.Windows.Forms.Label();
-            this.panel14 = new System.Windows.Forms.Panel();
-            this.labelKecepatanAngin = new System.Windows.Forms.Label();
-            this.panel25 = new System.Windows.Forms.Panel();
-            this.label7 = new System.Windows.Forms.Label();
-            this.panel17 = new System.Windows.Forms.Panel();
-            this.labelArahAngin = new System.Windows.Forms.Label();
-            this.panel24 = new System.Windows.Forms.Panel();
-            this.label6 = new System.Windows.Forms.Label();
-            this.labelDateTime = new System.Windows.Forms.Label();
-            this.tableLayoutPanel2 = new System.Windows.Forms.TableLayoutPanel();
-            this.panel8 = new System.Windows.Forms.Panel();
-            this.ppmPM25 = new System.Windows.Forms.Label();
-            this.labelPM25 = new System.Windows.Forms.Label();
-            this.panel29 = new System.Windows.Forms.Panel();
-            this.label13 = new System.Windows.Forms.Label();
+            this.panel2 = new System.Windows.Forms.Panel();
+            this.ppmCO = new System.Windows.Forms.Label();
+            this.labelCO = new System.Windows.Forms.Label();
+            this.panel19 = new System.Windows.Forms.Panel();
+            this.label73 = new System.Windows.Forms.Label();
             this.panel33 = new System.Windows.Forms.Panel();
             this.ppmO3 = new System.Windows.Forms.Label();
             this.labelO3 = new System.Windows.Forms.Label();
@@ -149,21 +127,43 @@ namespace AQMS
             this.labelNO2 = new System.Windows.Forms.Label();
             this.panel20 = new System.Windows.Forms.Panel();
             this.label71 = new System.Windows.Forms.Label();
-            this.panel5 = new System.Windows.Forms.Panel();
-            this.label117 = new System.Windows.Forms.Label();
-            this.labelPM10 = new System.Windows.Forms.Label();
-            this.panel27 = new System.Windows.Forms.Panel();
-            this.label = new System.Windows.Forms.Label();
-            this.panel2 = new System.Windows.Forms.Panel();
-            this.ppmCO = new System.Windows.Forms.Label();
-            this.labelCO = new System.Windows.Forms.Label();
-            this.panel19 = new System.Windows.Forms.Panel();
-            this.label73 = new System.Windows.Forms.Label();
             this.panel4 = new System.Windows.Forms.Panel();
             this.ppmHC = new System.Windows.Forms.Label();
             this.labelHC = new System.Windows.Forms.Label();
             this.panel26 = new System.Windows.Forms.Panel();
             this.label85 = new System.Windows.Forms.Label();
+            this.labelDateTime = new System.Windows.Forms.Label();
+            this.tableLayoutPanel2 = new System.Windows.Forms.TableLayoutPanel();
+            this.panel45 = new System.Windows.Forms.Panel();
+            this.labelSolarRadiasi = new System.Windows.Forms.Label();
+            this.panel46 = new System.Windows.Forms.Panel();
+            this.label84 = new System.Windows.Forms.Label();
+            this.panel8 = new System.Windows.Forms.Panel();
+            this.ppmPM25 = new System.Windows.Forms.Label();
+            this.labelPM25 = new System.Windows.Forms.Label();
+            this.panel29 = new System.Windows.Forms.Panel();
+            this.label13 = new System.Windows.Forms.Label();
+            this.panel6 = new System.Windows.Forms.Panel();
+            this.labelSuhu = new System.Windows.Forms.Label();
+            this.panel18 = new System.Windows.Forms.Panel();
+            this.label3 = new System.Windows.Forms.Label();
+            this.panel35 = new System.Windows.Forms.Panel();
+            this.labelKelembaban = new System.Windows.Forms.Label();
+            this.panel36 = new System.Windows.Forms.Panel();
+            this.label4 = new System.Windows.Forms.Label();
+            this.panel14 = new System.Windows.Forms.Panel();
+            this.labelKecepatanAngin = new System.Windows.Forms.Label();
+            this.panel25 = new System.Windows.Forms.Panel();
+            this.label7 = new System.Windows.Forms.Label();
+            this.panel5 = new System.Windows.Forms.Panel();
+            this.label117 = new System.Windows.Forms.Label();
+            this.labelPM10 = new System.Windows.Forms.Label();
+            this.panel27 = new System.Windows.Forms.Panel();
+            this.label = new System.Windows.Forms.Label();
+            this.panel17 = new System.Windows.Forms.Panel();
+            this.labelArahAngin = new System.Windows.Forms.Label();
+            this.panel24 = new System.Windows.Forms.Panel();
+            this.label6 = new System.Windows.Forms.Label();
             this.label42 = new System.Windows.Forms.Label();
             this.panel16 = new System.Windows.Forms.Panel();
             this.rawData = new System.Windows.Forms.TabPage();
@@ -440,34 +440,34 @@ namespace AQMS
             ((System.ComponentModel.ISupportInitialize)(this.logoApp)).BeginInit();
             this.tableLayoutPanel4.SuspendLayout();
             this.panel40.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.chart2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.chart3)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.chart2)).BeginInit();
             this.tableLayoutPanel12.SuspendLayout();
-            this.panel45.SuspendLayout();
-            this.panel46.SuspendLayout();
-            this.panel35.SuspendLayout();
-            this.panel36.SuspendLayout();
-            this.panel6.SuspendLayout();
-            this.panel18.SuspendLayout();
-            this.panel14.SuspendLayout();
-            this.panel25.SuspendLayout();
-            this.panel17.SuspendLayout();
-            this.panel24.SuspendLayout();
-            this.tableLayoutPanel2.SuspendLayout();
-            this.panel8.SuspendLayout();
-            this.panel29.SuspendLayout();
+            this.panel2.SuspendLayout();
+            this.panel19.SuspendLayout();
             this.panel33.SuspendLayout();
             this.panel34.SuspendLayout();
             this.panel28.SuspendLayout();
             this.panel31.SuspendLayout();
             this.panel1.SuspendLayout();
             this.panel20.SuspendLayout();
-            this.panel5.SuspendLayout();
-            this.panel27.SuspendLayout();
-            this.panel2.SuspendLayout();
-            this.panel19.SuspendLayout();
             this.panel4.SuspendLayout();
             this.panel26.SuspendLayout();
+            this.tableLayoutPanel2.SuspendLayout();
+            this.panel45.SuspendLayout();
+            this.panel46.SuspendLayout();
+            this.panel8.SuspendLayout();
+            this.panel29.SuspendLayout();
+            this.panel6.SuspendLayout();
+            this.panel18.SuspendLayout();
+            this.panel35.SuspendLayout();
+            this.panel36.SuspendLayout();
+            this.panel14.SuspendLayout();
+            this.panel25.SuspendLayout();
+            this.panel5.SuspendLayout();
+            this.panel27.SuspendLayout();
+            this.panel17.SuspendLayout();
+            this.panel24.SuspendLayout();
             this.rawData.SuspendLayout();
             this.tableLayoutPanel5.SuspendLayout();
             this.panel32.SuspendLayout();
@@ -922,6 +922,7 @@ namespace AQMS
             this.labelBattery.TabIndex = 68;
             this.labelBattery.Text = "100%";
             this.labelBattery.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.labelBattery.Visible = false;
             // 
             // panel41
             // 
@@ -937,6 +938,7 @@ namespace AQMS
             this.panel41.Name = "panel41";
             this.panel41.Size = new System.Drawing.Size(199, 60);
             this.panel41.TabIndex = 57;
+            this.panel41.Visible = false;
             // 
             // label63
             // 
@@ -1026,7 +1028,7 @@ namespace AQMS
             this.label37.AutoSize = true;
             this.label37.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label37.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(8)))), ((int)(((byte)(20)))), ((int)(((byte)(52)))));
-            this.label37.Location = new System.Drawing.Point(800, 47);
+            this.label37.Location = new System.Drawing.Point(822, 48);
             this.label37.Name = "label37";
             this.label37.Size = new System.Drawing.Size(33, 13);
             this.label37.TabIndex = 54;
@@ -1040,13 +1042,14 @@ namespace AQMS
             this.panel44.Name = "panel44";
             this.panel44.Size = new System.Drawing.Size(30, 39);
             this.panel44.TabIndex = 65;
+            this.panel44.Visible = false;
             // 
             // label36
             // 
             this.label36.AutoSize = true;
             this.label36.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label36.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(8)))), ((int)(((byte)(20)))), ((int)(((byte)(52)))));
-            this.label36.Location = new System.Drawing.Point(800, 33);
+            this.label36.Location = new System.Drawing.Point(822, 34);
             this.label36.Name = "label36";
             this.label36.Size = new System.Drawing.Size(29, 13);
             this.label36.TabIndex = 53;
@@ -1058,7 +1061,7 @@ namespace AQMS
             this.labelLatitude.AutoSize = true;
             this.labelLatitude.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.labelLatitude.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(8)))), ((int)(((byte)(20)))), ((int)(((byte)(52)))));
-            this.labelLatitude.Location = new System.Drawing.Point(847, 31);
+            this.labelLatitude.Location = new System.Drawing.Point(869, 32);
             this.labelLatitude.Name = "labelLatitude";
             this.labelLatitude.Size = new System.Drawing.Size(62, 13);
             this.labelLatitude.TabIndex = 52;
@@ -1070,7 +1073,7 @@ namespace AQMS
             this.labelLongitude.AutoSize = true;
             this.labelLongitude.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.labelLongitude.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(8)))), ((int)(((byte)(20)))), ((int)(((byte)(52)))));
-            this.labelLongitude.Location = new System.Drawing.Point(847, 48);
+            this.labelLongitude.Location = new System.Drawing.Point(869, 49);
             this.labelLongitude.Name = "labelLongitude";
             this.labelLongitude.Size = new System.Drawing.Size(70, 13);
             this.labelLongitude.TabIndex = 51;
@@ -1119,8 +1122,8 @@ namespace AQMS
             this.panel40.Controls.Add(this.button6);
             this.panel40.Controls.Add(this.button5);
             this.panel40.Controls.Add(this.button2);
-            this.panel40.Controls.Add(this.chart2);
             this.panel40.Controls.Add(this.chart3);
+            this.panel40.Controls.Add(this.chart2);
             this.panel40.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel40.Location = new System.Drawing.Point(5, 5);
             this.panel40.Margin = new System.Windows.Forms.Padding(5);
@@ -1189,102 +1192,29 @@ namespace AQMS
             this.button2.Visible = false;
             this.button2.Click += new System.EventHandler(this.button2_Click_2);
             // 
-            // chart2
-            // 
-            this.chart2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(23)))), ((int)(((byte)(38)))), ((int)(((byte)(88)))));
-            chartArea1.AxisX.Interval = 1D;
-            chartArea1.AxisX.IsLabelAutoFit = false;
-            chartArea1.AxisX.LabelStyle.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            chartArea1.AxisX.LabelStyle.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(237)))), ((int)(((byte)(237)))), ((int)(((byte)(237)))));
-            chartArea1.AxisX.LineColor = System.Drawing.Color.FromArgb(((int)(((byte)(237)))), ((int)(((byte)(237)))), ((int)(((byte)(237)))));
-            chartArea1.AxisX.MajorGrid.LineColor = System.Drawing.Color.FromArgb(((int)(((byte)(44)))), ((int)(((byte)(69)))), ((int)(((byte)(157)))));
-            chartArea1.AxisX.MajorGrid.LineWidth = 0;
-            chartArea1.AxisX.MajorTickMark.LineColor = System.Drawing.Color.FromArgb(((int)(((byte)(237)))), ((int)(((byte)(237)))), ((int)(((byte)(237)))));
-            chartArea1.AxisX.MaximumAutoSize = 95F;
-            chartArea1.AxisX.MinorGrid.LineColor = System.Drawing.Color.FromArgb(((int)(((byte)(237)))), ((int)(((byte)(237)))), ((int)(((byte)(237)))));
-            chartArea1.AxisX.MinorTickMark.LineColor = System.Drawing.Color.FromArgb(((int)(((byte)(237)))), ((int)(((byte)(237)))), ((int)(((byte)(237)))));
-            chartArea1.AxisX.TitleForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(68)))), ((int)(((byte)(68)))), ((int)(((byte)(68)))));
-            chartArea1.AxisY.IsLabelAutoFit = false;
-            chartArea1.AxisY.LabelStyle.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.5F);
-            chartArea1.AxisY.LabelStyle.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(237)))), ((int)(((byte)(237)))), ((int)(((byte)(237)))));
-            chartArea1.AxisY.LineColor = System.Drawing.Color.FromArgb(((int)(((byte)(237)))), ((int)(((byte)(237)))), ((int)(((byte)(237)))));
-            chartArea1.AxisY.MajorGrid.LineColor = System.Drawing.Color.FromArgb(((int)(((byte)(44)))), ((int)(((byte)(69)))), ((int)(((byte)(157)))));
-            chartArea1.AxisY.MajorTickMark.LineColor = System.Drawing.Color.FromArgb(((int)(((byte)(237)))), ((int)(((byte)(237)))), ((int)(((byte)(237)))));
-            chartArea1.AxisY.MinorGrid.LineColor = System.Drawing.Color.FromArgb(((int)(((byte)(237)))), ((int)(((byte)(237)))), ((int)(((byte)(237)))));
-            chartArea1.AxisY.MinorTickMark.LineColor = System.Drawing.Color.FromArgb(((int)(((byte)(237)))), ((int)(((byte)(237)))), ((int)(((byte)(237)))));
-            chartArea1.AxisY.TitleForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(237)))), ((int)(((byte)(237)))), ((int)(((byte)(237)))));
-            chartArea1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(23)))), ((int)(((byte)(38)))), ((int)(((byte)(88)))));
-            chartArea1.Name = "ChartArea1";
-            this.chart2.ChartAreas.Add(chartArea1);
-            this.chart2.Dock = System.Windows.Forms.DockStyle.Fill;
-            legend1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(63)))), ((int)(((byte)(140)))));
-            legend1.Docking = System.Windows.Forms.DataVisualization.Charting.Docking.Top;
-            legend1.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            legend1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(237)))), ((int)(((byte)(237)))), ((int)(((byte)(237)))));
-            legend1.IsTextAutoFit = false;
-            legend1.Name = "Legend1";
-            legend1.TitleAlignment = System.Drawing.StringAlignment.Near;
-            this.chart2.Legends.Add(legend1);
-            this.chart2.Location = new System.Drawing.Point(0, 0);
-            this.chart2.Margin = new System.Windows.Forms.Padding(5);
-            this.chart2.Name = "chart2";
-            series1.BorderWidth = 2;
-            series1.ChartArea = "ChartArea1";
-            series1.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Spline;
-            series1.Legend = "Legend1";
-            series1.Name = "Suhu";
-            series2.BorderWidth = 2;
-            series2.ChartArea = "ChartArea1";
-            series2.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Spline;
-            series2.Color = System.Drawing.Color.LightGreen;
-            series2.Legend = "Legend1";
-            series2.Name = "Kelembaban";
-            series3.BorderWidth = 2;
-            series3.ChartArea = "ChartArea1";
-            series3.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Spline;
-            series3.Color = System.Drawing.Color.Violet;
-            series3.Legend = "Legend1";
-            series3.Name = "Kecepatan angin";
-            series4.BorderWidth = 2;
-            series4.ChartArea = "ChartArea1";
-            series4.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Spline;
-            series4.Color = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
-            series4.Enabled = false;
-            series4.Legend = "Legend1";
-            series4.Name = "Tekanan";
-            series4.ShadowColor = System.Drawing.Color.Fuchsia;
-            this.chart2.Series.Add(series1);
-            this.chart2.Series.Add(series2);
-            this.chart2.Series.Add(series3);
-            this.chart2.Series.Add(series4);
-            this.chart2.Size = new System.Drawing.Size(1006, 231);
-            this.chart2.TabIndex = 46;
-            this.chart2.Text = "chart2";
-            this.chart2.Visible = false;
-            // 
             // chart3
             // 
             this.chart3.BackColor = System.Drawing.SystemColors.Control;
-            chartArea2.AxisX.Interval = 1D;
-            chartArea2.AxisX.IsLabelAutoFit = false;
-            chartArea2.AxisX.LabelStyle.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            chartArea2.AxisX.LabelStyle.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(44)))), ((int)(((byte)(69)))), ((int)(((byte)(157)))));
-            chartArea2.AxisX.LineColor = System.Drawing.Color.FromArgb(((int)(((byte)(44)))), ((int)(((byte)(69)))), ((int)(((byte)(157)))));
-            chartArea2.AxisX.MajorGrid.LineColor = System.Drawing.Color.Transparent;
-            chartArea2.AxisX.MajorGrid.LineWidth = 0;
-            chartArea2.AxisX.MajorTickMark.LineColor = System.Drawing.Color.Transparent;
-            chartArea2.AxisX.MinorGrid.LineColor = System.Drawing.Color.Transparent;
-            chartArea2.AxisX.MinorTickMark.LineColor = System.Drawing.Color.Transparent;
-            chartArea2.AxisX.TitleForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(68)))), ((int)(((byte)(68)))), ((int)(((byte)(68)))));
-            chartArea2.AxisY.IsLabelAutoFit = false;
-            chartArea2.AxisY.LabelStyle.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.5F);
-            chartArea2.AxisY.LabelStyle.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(44)))), ((int)(((byte)(69)))), ((int)(((byte)(157)))));
-            chartArea2.AxisY.LineColor = System.Drawing.Color.FromArgb(((int)(((byte)(44)))), ((int)(((byte)(69)))), ((int)(((byte)(157)))));
-            chartArea2.AxisY.MajorGrid.LineColor = System.Drawing.Color.Transparent;
-            chartArea2.AxisY.MajorTickMark.LineColor = System.Drawing.Color.Transparent;
-            chartArea2.AxisY.Maximum = 500D;
-            chartArea2.AxisY.MinorGrid.LineColor = System.Drawing.Color.Transparent;
-            chartArea2.AxisY.MinorTickMark.LineColor = System.Drawing.Color.Transparent;
+            chartArea1.AxisX.Interval = 1D;
+            chartArea1.AxisX.IsLabelAutoFit = false;
+            chartArea1.AxisX.LabelStyle.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            chartArea1.AxisX.LabelStyle.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(44)))), ((int)(((byte)(69)))), ((int)(((byte)(157)))));
+            chartArea1.AxisX.LineColor = System.Drawing.Color.FromArgb(((int)(((byte)(44)))), ((int)(((byte)(69)))), ((int)(((byte)(157)))));
+            chartArea1.AxisX.MajorGrid.LineColor = System.Drawing.Color.Transparent;
+            chartArea1.AxisX.MajorGrid.LineWidth = 0;
+            chartArea1.AxisX.MajorTickMark.LineColor = System.Drawing.Color.Transparent;
+            chartArea1.AxisX.MinorGrid.LineColor = System.Drawing.Color.Transparent;
+            chartArea1.AxisX.MinorTickMark.LineColor = System.Drawing.Color.Transparent;
+            chartArea1.AxisX.TitleForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(68)))), ((int)(((byte)(68)))), ((int)(((byte)(68)))));
+            chartArea1.AxisY.IsLabelAutoFit = false;
+            chartArea1.AxisY.LabelStyle.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.5F);
+            chartArea1.AxisY.LabelStyle.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(44)))), ((int)(((byte)(69)))), ((int)(((byte)(157)))));
+            chartArea1.AxisY.LineColor = System.Drawing.Color.FromArgb(((int)(((byte)(44)))), ((int)(((byte)(69)))), ((int)(((byte)(157)))));
+            chartArea1.AxisY.MajorGrid.LineColor = System.Drawing.Color.Transparent;
+            chartArea1.AxisY.MajorTickMark.LineColor = System.Drawing.Color.Transparent;
+            chartArea1.AxisY.Maximum = 500D;
+            chartArea1.AxisY.MinorGrid.LineColor = System.Drawing.Color.Transparent;
+            chartArea1.AxisY.MinorTickMark.LineColor = System.Drawing.Color.Transparent;
             stripLine1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(204)))), ((int)(((byte)(0)))));
             stripLine1.StripWidth = 15D;
             stripLine2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(25)))), ((int)(((byte)(76)))), ((int)(((byte)(201)))));
@@ -1299,45 +1229,118 @@ namespace AQMS
             stripLine5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(34)))), ((int)(((byte)(34)))));
             stripLine5.IntervalOffset = 250D;
             stripLine5.StripWidth = 250D;
-            chartArea2.AxisY.StripLines.Add(stripLine1);
-            chartArea2.AxisY.StripLines.Add(stripLine2);
-            chartArea2.AxisY.StripLines.Add(stripLine3);
-            chartArea2.AxisY.StripLines.Add(stripLine4);
-            chartArea2.AxisY.StripLines.Add(stripLine5);
-            chartArea2.AxisY.TitleForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(237)))), ((int)(((byte)(237)))), ((int)(((byte)(237)))));
-            chartArea2.BackColor = System.Drawing.SystemColors.Control;
-            chartArea2.Name = "ChartArea1";
-            chartArea2.Position.Auto = false;
-            chartArea2.Position.Height = 84.89313F;
-            chartArea2.Position.Width = 97.5F;
-            chartArea2.Position.X = 1F;
-            chartArea2.Position.Y = 12.10687F;
-            this.chart3.ChartAreas.Add(chartArea2);
+            chartArea1.AxisY.StripLines.Add(stripLine1);
+            chartArea1.AxisY.StripLines.Add(stripLine2);
+            chartArea1.AxisY.StripLines.Add(stripLine3);
+            chartArea1.AxisY.StripLines.Add(stripLine4);
+            chartArea1.AxisY.StripLines.Add(stripLine5);
+            chartArea1.AxisY.TitleForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(237)))), ((int)(((byte)(237)))), ((int)(((byte)(237)))));
+            chartArea1.BackColor = System.Drawing.SystemColors.Control;
+            chartArea1.Name = "ChartArea1";
+            chartArea1.Position.Auto = false;
+            chartArea1.Position.Height = 84.89313F;
+            chartArea1.Position.Width = 97.5F;
+            chartArea1.Position.X = 1F;
+            chartArea1.Position.Y = 12.10687F;
+            this.chart3.ChartAreas.Add(chartArea1);
             this.chart3.Dock = System.Windows.Forms.DockStyle.Fill;
-            legend2.BackColor = System.Drawing.Color.DimGray;
+            legend1.BackColor = System.Drawing.Color.DimGray;
+            legend1.Docking = System.Windows.Forms.DataVisualization.Charting.Docking.Top;
+            legend1.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            legend1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(237)))), ((int)(((byte)(237)))), ((int)(((byte)(237)))));
+            legend1.IsTextAutoFit = false;
+            legend1.Name = "Legend1";
+            legend1.TitleAlignment = System.Drawing.StringAlignment.Near;
+            this.chart3.Legends.Add(legend1);
+            this.chart3.Location = new System.Drawing.Point(0, 0);
+            this.chart3.Margin = new System.Windows.Forms.Padding(5);
+            this.chart3.Name = "chart3";
+            series1.BackSecondaryColor = System.Drawing.Color.Transparent;
+            series1.BorderColor = System.Drawing.Color.White;
+            series1.BorderWidth = 3;
+            series1.ChartArea = "ChartArea1";
+            series1.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Area;
+            series1.Color = System.Drawing.Color.Transparent;
+            series1.Legend = "Legend1";
+            series1.Name = "PM2.5";
+            this.chart3.Series.Add(series1);
+            this.chart3.Size = new System.Drawing.Size(1006, 231);
+            this.chart3.TabIndex = 47;
+            this.chart3.Text = " ";
+            this.chart3.Visible = false;
+            // 
+            // chart2
+            // 
+            this.chart2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(23)))), ((int)(((byte)(38)))), ((int)(((byte)(88)))));
+            chartArea2.AxisX.Interval = 1D;
+            chartArea2.AxisX.IsLabelAutoFit = false;
+            chartArea2.AxisX.LabelStyle.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            chartArea2.AxisX.LabelStyle.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(237)))), ((int)(((byte)(237)))), ((int)(((byte)(237)))));
+            chartArea2.AxisX.LineColor = System.Drawing.Color.FromArgb(((int)(((byte)(237)))), ((int)(((byte)(237)))), ((int)(((byte)(237)))));
+            chartArea2.AxisX.MajorGrid.LineColor = System.Drawing.Color.FromArgb(((int)(((byte)(44)))), ((int)(((byte)(69)))), ((int)(((byte)(157)))));
+            chartArea2.AxisX.MajorGrid.LineWidth = 0;
+            chartArea2.AxisX.MajorTickMark.LineColor = System.Drawing.Color.FromArgb(((int)(((byte)(237)))), ((int)(((byte)(237)))), ((int)(((byte)(237)))));
+            chartArea2.AxisX.MaximumAutoSize = 95F;
+            chartArea2.AxisX.MinorGrid.LineColor = System.Drawing.Color.FromArgb(((int)(((byte)(237)))), ((int)(((byte)(237)))), ((int)(((byte)(237)))));
+            chartArea2.AxisX.MinorTickMark.LineColor = System.Drawing.Color.FromArgb(((int)(((byte)(237)))), ((int)(((byte)(237)))), ((int)(((byte)(237)))));
+            chartArea2.AxisX.TitleForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(68)))), ((int)(((byte)(68)))), ((int)(((byte)(68)))));
+            chartArea2.AxisY.IsLabelAutoFit = false;
+            chartArea2.AxisY.LabelStyle.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.5F);
+            chartArea2.AxisY.LabelStyle.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(237)))), ((int)(((byte)(237)))), ((int)(((byte)(237)))));
+            chartArea2.AxisY.LineColor = System.Drawing.Color.FromArgb(((int)(((byte)(237)))), ((int)(((byte)(237)))), ((int)(((byte)(237)))));
+            chartArea2.AxisY.MajorGrid.LineColor = System.Drawing.Color.FromArgb(((int)(((byte)(44)))), ((int)(((byte)(69)))), ((int)(((byte)(157)))));
+            chartArea2.AxisY.MajorTickMark.LineColor = System.Drawing.Color.FromArgb(((int)(((byte)(237)))), ((int)(((byte)(237)))), ((int)(((byte)(237)))));
+            chartArea2.AxisY.MinorGrid.LineColor = System.Drawing.Color.FromArgb(((int)(((byte)(237)))), ((int)(((byte)(237)))), ((int)(((byte)(237)))));
+            chartArea2.AxisY.MinorTickMark.LineColor = System.Drawing.Color.FromArgb(((int)(((byte)(237)))), ((int)(((byte)(237)))), ((int)(((byte)(237)))));
+            chartArea2.AxisY.TitleForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(237)))), ((int)(((byte)(237)))), ((int)(((byte)(237)))));
+            chartArea2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(23)))), ((int)(((byte)(38)))), ((int)(((byte)(88)))));
+            chartArea2.Name = "ChartArea1";
+            this.chart2.ChartAreas.Add(chartArea2);
+            this.chart2.Dock = System.Windows.Forms.DockStyle.Fill;
+            legend2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(63)))), ((int)(((byte)(140)))));
             legend2.Docking = System.Windows.Forms.DataVisualization.Charting.Docking.Top;
             legend2.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             legend2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(237)))), ((int)(((byte)(237)))), ((int)(((byte)(237)))));
             legend2.IsTextAutoFit = false;
             legend2.Name = "Legend1";
             legend2.TitleAlignment = System.Drawing.StringAlignment.Near;
-            this.chart3.Legends.Add(legend2);
-            this.chart3.Location = new System.Drawing.Point(0, 0);
-            this.chart3.Margin = new System.Windows.Forms.Padding(5);
-            this.chart3.Name = "chart3";
-            series5.BackSecondaryColor = System.Drawing.Color.Transparent;
-            series5.BorderColor = System.Drawing.Color.White;
-            series5.BorderWidth = 3;
+            this.chart2.Legends.Add(legend2);
+            this.chart2.Location = new System.Drawing.Point(0, 0);
+            this.chart2.Margin = new System.Windows.Forms.Padding(5);
+            this.chart2.Name = "chart2";
+            series2.BorderWidth = 2;
+            series2.ChartArea = "ChartArea1";
+            series2.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Spline;
+            series2.Legend = "Legend1";
+            series2.Name = "Suhu";
+            series3.BorderWidth = 2;
+            series3.ChartArea = "ChartArea1";
+            series3.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Spline;
+            series3.Color = System.Drawing.Color.LightGreen;
+            series3.Legend = "Legend1";
+            series3.Name = "Kelembaban";
+            series4.BorderWidth = 2;
+            series4.ChartArea = "ChartArea1";
+            series4.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Spline;
+            series4.Color = System.Drawing.Color.Violet;
+            series4.Legend = "Legend1";
+            series4.Name = "Kecepatan angin";
+            series5.BorderWidth = 2;
             series5.ChartArea = "ChartArea1";
-            series5.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Area;
-            series5.Color = System.Drawing.Color.Transparent;
+            series5.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Spline;
+            series5.Color = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
+            series5.Enabled = false;
             series5.Legend = "Legend1";
-            series5.Name = "PM2.5";
-            this.chart3.Series.Add(series5);
-            this.chart3.Size = new System.Drawing.Size(1006, 231);
-            this.chart3.TabIndex = 47;
-            this.chart3.Text = " ";
-            this.chart3.Visible = false;
+            series5.Name = "Tekanan";
+            series5.ShadowColor = System.Drawing.Color.Fuchsia;
+            this.chart2.Series.Add(series2);
+            this.chart2.Series.Add(series3);
+            this.chart2.Series.Add(series4);
+            this.chart2.Series.Add(series5);
+            this.chart2.Size = new System.Drawing.Size(1006, 231);
+            this.chart2.TabIndex = 46;
+            this.chart2.Text = "chart2";
+            this.chart2.Visible = false;
             // 
             // tableLayoutPanel12
             // 
@@ -1358,340 +1361,71 @@ namespace AQMS
             this.tableLayoutPanel12.Name = "tableLayoutPanel12";
             this.tableLayoutPanel12.RowCount = 1;
             this.tableLayoutPanel12.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
-            this.tableLayoutPanel12.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
+            this.tableLayoutPanel12.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 104F));
             this.tableLayoutPanel12.Size = new System.Drawing.Size(1016, 104);
             this.tableLayoutPanel12.TabIndex = 44;
             // 
-            // panel45
+            // panel2
             // 
-            this.panel45.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(26)))), ((int)(((byte)(59)))), ((int)(((byte)(122)))));
-            this.panel45.Controls.Add(this.labelSolarRadiasi);
-            this.panel45.Controls.Add(this.panel46);
-            this.panel45.Location = new System.Drawing.Point(583, 3);
-            this.panel45.Name = "panel45";
-            this.tableLayoutPanel2.SetRowSpan(this.panel45, 2);
-            this.panel45.Size = new System.Drawing.Size(139, 98);
-            this.panel45.TabIndex = 9;
+            this.panel2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(108)))), ((int)(((byte)(28)))), ((int)(((byte)(0)))));
+            this.panel2.Controls.Add(this.ppmCO);
+            this.panel2.Controls.Add(this.labelCO);
+            this.panel2.Controls.Add(this.panel19);
+            this.panel2.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.panel2.Location = new System.Drawing.Point(612, 3);
+            this.panel2.Name = "panel2";
+            this.panel2.Size = new System.Drawing.Size(197, 98);
+            this.panel2.TabIndex = 6;
             // 
-            // labelSolarRadiasi
+            // ppmCO
             // 
-            this.labelSolarRadiasi.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.labelSolarRadiasi.Font = new System.Drawing.Font("Segoe UI", 12.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labelSolarRadiasi.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(237)))), ((int)(((byte)(237)))), ((int)(((byte)(237)))));
-            this.labelSolarRadiasi.Location = new System.Drawing.Point(0, 35);
-            this.labelSolarRadiasi.Name = "labelSolarRadiasi";
-            this.labelSolarRadiasi.Size = new System.Drawing.Size(139, 63);
-            this.labelSolarRadiasi.TabIndex = 12;
-            this.labelSolarRadiasi.Text = "0 W/m²";
-            this.labelSolarRadiasi.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.ppmCO.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(28)))), ((int)(((byte)(0)))));
+            this.ppmCO.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.ppmCO.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ppmCO.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(237)))), ((int)(((byte)(237)))), ((int)(((byte)(237)))));
+            this.ppmCO.Location = new System.Drawing.Point(0, 35);
+            this.ppmCO.Name = "ppmCO";
+            this.ppmCO.Size = new System.Drawing.Size(197, 63);
+            this.ppmCO.TabIndex = 14;
+            this.ppmCO.Text = "0 ppm";
+            this.ppmCO.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.ppmCO.Visible = false;
             // 
-            // panel46
+            // labelCO
             // 
-            this.panel46.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(44)))), ((int)(((byte)(69)))), ((int)(((byte)(157)))));
-            this.panel46.Controls.Add(this.label84);
-            this.panel46.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panel46.Location = new System.Drawing.Point(0, 0);
-            this.panel46.Margin = new System.Windows.Forms.Padding(5);
-            this.panel46.Name = "panel46";
-            this.panel46.Size = new System.Drawing.Size(139, 35);
-            this.panel46.TabIndex = 9;
+            this.labelCO.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.labelCO.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelCO.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(237)))), ((int)(((byte)(237)))), ((int)(((byte)(237)))));
+            this.labelCO.Location = new System.Drawing.Point(0, 35);
+            this.labelCO.Name = "labelCO";
+            this.labelCO.Size = new System.Drawing.Size(197, 63);
+            this.labelCO.TabIndex = 12;
+            this.labelCO.Text = "0 µg/m3.";
+            this.labelCO.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // label84
+            // panel19
             // 
-            this.label84.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.label84.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label84.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(237)))), ((int)(((byte)(237)))), ((int)(((byte)(237)))));
-            this.label84.Location = new System.Drawing.Point(0, 0);
-            this.label84.Name = "label84";
-            this.label84.Size = new System.Drawing.Size(139, 35);
-            this.label84.TabIndex = 3;
-            this.label84.Text = "SOLAR RADIASI";
-            this.label84.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.panel19.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(44)))), ((int)(((byte)(69)))), ((int)(((byte)(157)))));
+            this.panel19.Controls.Add(this.label73);
+            this.panel19.Dock = System.Windows.Forms.DockStyle.Top;
+            this.panel19.Location = new System.Drawing.Point(0, 0);
+            this.panel19.Margin = new System.Windows.Forms.Padding(5);
+            this.panel19.Name = "panel19";
+            this.panel19.Size = new System.Drawing.Size(197, 35);
+            this.panel19.TabIndex = 8;
             // 
-            // panel35
+            // label73
             // 
-            this.panel35.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(26)))), ((int)(((byte)(59)))), ((int)(((byte)(122)))));
-            this.panel35.Controls.Add(this.labelKelembaban);
-            this.panel35.Controls.Add(this.panel36);
-            this.panel35.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panel35.Location = new System.Drawing.Point(148, 3);
-            this.panel35.Name = "panel35";
-            this.tableLayoutPanel2.SetRowSpan(this.panel35, 2);
-            this.panel35.Size = new System.Drawing.Size(139, 98);
-            this.panel35.TabIndex = 8;
-            // 
-            // labelKelembaban
-            // 
-            this.labelKelembaban.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.labelKelembaban.Font = new System.Drawing.Font("Segoe UI", 12.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labelKelembaban.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(237)))), ((int)(((byte)(237)))), ((int)(((byte)(237)))));
-            this.labelKelembaban.Location = new System.Drawing.Point(0, 35);
-            this.labelKelembaban.Name = "labelKelembaban";
-            this.labelKelembaban.Size = new System.Drawing.Size(139, 63);
-            this.labelKelembaban.TabIndex = 12;
-            this.labelKelembaban.Text = "0 %";
-            this.labelKelembaban.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // panel36
-            // 
-            this.panel36.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(44)))), ((int)(((byte)(69)))), ((int)(((byte)(157)))));
-            this.panel36.Controls.Add(this.label4);
-            this.panel36.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panel36.Location = new System.Drawing.Point(0, 0);
-            this.panel36.Margin = new System.Windows.Forms.Padding(5);
-            this.panel36.Name = "panel36";
-            this.panel36.Size = new System.Drawing.Size(139, 35);
-            this.panel36.TabIndex = 9;
-            // 
-            // label4
-            // 
-            this.label4.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.label4.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(237)))), ((int)(((byte)(237)))), ((int)(((byte)(237)))));
-            this.label4.Location = new System.Drawing.Point(0, 0);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(139, 35);
-            this.label4.TabIndex = 2;
-            this.label4.Text = "KELEMBAPAN";
-            this.label4.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // panel6
-            // 
-            this.panel6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(26)))), ((int)(((byte)(59)))), ((int)(((byte)(122)))));
-            this.panel6.Controls.Add(this.labelSuhu);
-            this.panel6.Controls.Add(this.panel18);
-            this.panel6.Location = new System.Drawing.Point(3, 3);
-            this.panel6.Name = "panel6";
-            this.tableLayoutPanel2.SetRowSpan(this.panel6, 2);
-            this.panel6.Size = new System.Drawing.Size(139, 98);
-            this.panel6.TabIndex = 5;
-            // 
-            // labelSuhu
-            // 
-            this.labelSuhu.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.labelSuhu.Font = new System.Drawing.Font("Segoe UI", 12.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labelSuhu.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(237)))), ((int)(((byte)(237)))), ((int)(((byte)(237)))));
-            this.labelSuhu.Location = new System.Drawing.Point(0, 35);
-            this.labelSuhu.Name = "labelSuhu";
-            this.labelSuhu.Size = new System.Drawing.Size(139, 63);
-            this.labelSuhu.TabIndex = 12;
-            this.labelSuhu.Text = "0 °C";
-            this.labelSuhu.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // panel18
-            // 
-            this.panel18.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(44)))), ((int)(((byte)(69)))), ((int)(((byte)(157)))));
-            this.panel18.Controls.Add(this.label3);
-            this.panel18.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panel18.Location = new System.Drawing.Point(0, 0);
-            this.panel18.Margin = new System.Windows.Forms.Padding(5);
-            this.panel18.Name = "panel18";
-            this.panel18.Size = new System.Drawing.Size(139, 35);
-            this.panel18.TabIndex = 9;
-            // 
-            // label3
-            // 
-            this.label3.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.label3.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(237)))), ((int)(((byte)(237)))), ((int)(((byte)(237)))));
-            this.label3.Location = new System.Drawing.Point(0, 0);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(139, 35);
-            this.label3.TabIndex = 0;
-            this.label3.Text = "SUHU";
-            this.label3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // panel14
-            // 
-            this.panel14.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(26)))), ((int)(((byte)(59)))), ((int)(((byte)(122)))));
-            this.panel14.Controls.Add(this.labelKecepatanAngin);
-            this.panel14.Controls.Add(this.panel25);
-            this.panel14.Location = new System.Drawing.Point(438, 3);
-            this.panel14.Name = "panel14";
-            this.tableLayoutPanel2.SetRowSpan(this.panel14, 2);
-            this.panel14.Size = new System.Drawing.Size(139, 98);
-            this.panel14.TabIndex = 7;
-            // 
-            // labelKecepatanAngin
-            // 
-            this.labelKecepatanAngin.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.labelKecepatanAngin.Font = new System.Drawing.Font("Segoe UI", 12.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labelKecepatanAngin.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(237)))), ((int)(((byte)(237)))), ((int)(((byte)(237)))));
-            this.labelKecepatanAngin.Location = new System.Drawing.Point(0, 35);
-            this.labelKecepatanAngin.Name = "labelKecepatanAngin";
-            this.labelKecepatanAngin.Size = new System.Drawing.Size(139, 63);
-            this.labelKecepatanAngin.TabIndex = 12;
-            this.labelKecepatanAngin.Text = "0 km/h";
-            this.labelKecepatanAngin.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // panel25
-            // 
-            this.panel25.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(44)))), ((int)(((byte)(69)))), ((int)(((byte)(157)))));
-            this.panel25.Controls.Add(this.label7);
-            this.panel25.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panel25.Location = new System.Drawing.Point(0, 0);
-            this.panel25.Margin = new System.Windows.Forms.Padding(5);
-            this.panel25.Name = "panel25";
-            this.panel25.Size = new System.Drawing.Size(139, 35);
-            this.panel25.TabIndex = 9;
-            // 
-            // label7
-            // 
-            this.label7.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.label7.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label7.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(237)))), ((int)(((byte)(237)))), ((int)(((byte)(237)))));
-            this.label7.Location = new System.Drawing.Point(0, 0);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(139, 35);
-            this.label7.TabIndex = 3;
-            this.label7.Text = "KECEPATAN ANGIN";
-            this.label7.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // panel17
-            // 
-            this.panel17.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(26)))), ((int)(((byte)(59)))), ((int)(((byte)(122)))));
-            this.panel17.Controls.Add(this.labelArahAngin);
-            this.panel17.Controls.Add(this.panel24);
-            this.panel17.Location = new System.Drawing.Point(293, 3);
-            this.panel17.Name = "panel17";
-            this.tableLayoutPanel2.SetRowSpan(this.panel17, 2);
-            this.panel17.Size = new System.Drawing.Size(139, 98);
-            this.panel17.TabIndex = 7;
-            // 
-            // labelArahAngin
-            // 
-            this.labelArahAngin.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.labelArahAngin.Font = new System.Drawing.Font("Segoe UI", 12.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labelArahAngin.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(237)))), ((int)(((byte)(237)))), ((int)(((byte)(237)))));
-            this.labelArahAngin.Location = new System.Drawing.Point(0, 35);
-            this.labelArahAngin.Name = "labelArahAngin";
-            this.labelArahAngin.Size = new System.Drawing.Size(139, 63);
-            this.labelArahAngin.TabIndex = 12;
-            this.labelArahAngin.Text = "0° Dari utara";
-            this.labelArahAngin.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // panel24
-            // 
-            this.panel24.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(44)))), ((int)(((byte)(69)))), ((int)(((byte)(157)))));
-            this.panel24.Controls.Add(this.label6);
-            this.panel24.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panel24.Location = new System.Drawing.Point(0, 0);
-            this.panel24.Margin = new System.Windows.Forms.Padding(5);
-            this.panel24.Name = "panel24";
-            this.panel24.Size = new System.Drawing.Size(139, 35);
-            this.panel24.TabIndex = 9;
-            // 
-            // label6
-            // 
-            this.label6.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.label6.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label6.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(237)))), ((int)(((byte)(237)))), ((int)(((byte)(237)))));
-            this.label6.Location = new System.Drawing.Point(0, 0);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(139, 35);
-            this.label6.TabIndex = 1;
-            this.label6.Text = "ARAH ANGIN";
-            this.label6.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // labelDateTime
-            // 
-            this.labelDateTime.AutoSize = true;
-            this.labelDateTime.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labelDateTime.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(8)))), ((int)(((byte)(20)))), ((int)(((byte)(52)))));
-            this.labelDateTime.Location = new System.Drawing.Point(823, 6);
-            this.labelDateTime.Name = "labelDateTime";
-            this.labelDateTime.Size = new System.Drawing.Size(175, 13);
-            this.labelDateTime.TabIndex = 50;
-            this.labelDateTime.Text = "Selasa, 30 Agustus 2022 08:31:00";
-            this.labelDateTime.TextAlign = System.Drawing.ContentAlignment.TopRight;
-            // 
-            // tableLayoutPanel2
-            // 
-            this.tableLayoutPanel2.BackColor = System.Drawing.SystemColors.Control;
-            this.tableLayoutPanel2.ColumnCount = 7;
-            this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 14.28531F));
-            this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 14.28531F));
-            this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 14.28531F));
-            this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 14.28531F));
-            this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 14.28531F));
-            this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 14.28531F));
-            this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 14.28816F));
-            this.tableLayoutPanel2.Controls.Add(this.panel45, 4, 0);
-            this.tableLayoutPanel2.Controls.Add(this.panel8, 5, 0);
-            this.tableLayoutPanel2.Controls.Add(this.panel6, 0, 0);
-            this.tableLayoutPanel2.Controls.Add(this.panel35, 1, 0);
-            this.tableLayoutPanel2.Controls.Add(this.panel14, 3, 0);
-            this.tableLayoutPanel2.Controls.Add(this.panel5, 6, 0);
-            this.tableLayoutPanel2.Controls.Add(this.panel17, 2, 0);
-            this.tableLayoutPanel2.Controls.Add(this.label42, 5, 1);
-            this.tableLayoutPanel2.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.tableLayoutPanel2.Location = new System.Drawing.Point(0, 418);
-            this.tableLayoutPanel2.Name = "tableLayoutPanel2";
-            this.tableLayoutPanel2.RowCount = 2;
-            this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
-            this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
-            this.tableLayoutPanel2.Size = new System.Drawing.Size(1016, 104);
-            this.tableLayoutPanel2.TabIndex = 43;
-            // 
-            // panel8
-            // 
-            this.panel8.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(26)))), ((int)(((byte)(59)))), ((int)(((byte)(122)))));
-            this.panel8.Controls.Add(this.ppmPM25);
-            this.panel8.Controls.Add(this.labelPM25);
-            this.panel8.Controls.Add(this.panel29);
-            this.panel8.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panel8.Location = new System.Drawing.Point(728, 3);
-            this.panel8.Name = "panel8";
-            this.panel8.Size = new System.Drawing.Size(139, 78);
-            this.panel8.TabIndex = 10;
-            // 
-            // ppmPM25
-            // 
-            this.ppmPM25.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.ppmPM25.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.ppmPM25.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(237)))), ((int)(((byte)(237)))), ((int)(((byte)(237)))));
-            this.ppmPM25.Location = new System.Drawing.Point(0, 35);
-            this.ppmPM25.Name = "ppmPM25";
-            this.ppmPM25.Size = new System.Drawing.Size(139, 43);
-            this.ppmPM25.TabIndex = 14;
-            this.ppmPM25.Text = "0 ppm";
-            this.ppmPM25.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.ppmPM25.Visible = false;
-            // 
-            // labelPM25
-            // 
-            this.labelPM25.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.labelPM25.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labelPM25.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(237)))), ((int)(((byte)(237)))), ((int)(((byte)(237)))));
-            this.labelPM25.Location = new System.Drawing.Point(0, 35);
-            this.labelPM25.Name = "labelPM25";
-            this.labelPM25.Size = new System.Drawing.Size(139, 43);
-            this.labelPM25.TabIndex = 11;
-            this.labelPM25.Text = "0 µg/m3.";
-            this.labelPM25.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // panel29
-            // 
-            this.panel29.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(44)))), ((int)(((byte)(69)))), ((int)(((byte)(157)))));
-            this.panel29.Controls.Add(this.label13);
-            this.panel29.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panel29.Location = new System.Drawing.Point(0, 0);
-            this.panel29.Margin = new System.Windows.Forms.Padding(5);
-            this.panel29.Name = "panel29";
-            this.panel29.Size = new System.Drawing.Size(139, 35);
-            this.panel29.TabIndex = 10;
-            // 
-            // label13
-            // 
-            this.label13.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.label13.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label13.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(237)))), ((int)(((byte)(237)))), ((int)(((byte)(237)))));
-            this.label13.Location = new System.Drawing.Point(0, 0);
-            this.label13.Name = "label13";
-            this.label13.Size = new System.Drawing.Size(139, 35);
-            this.label13.TabIndex = 4;
-            this.label13.Text = "PM 2.5";
-            this.label13.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.label73.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(218)))), ((int)(((byte)(45)))), ((int)(((byte)(0)))));
+            this.label73.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.label73.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label73.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(237)))), ((int)(((byte)(237)))), ((int)(((byte)(237)))));
+            this.label73.Location = new System.Drawing.Point(0, 0);
+            this.label73.Name = "label73";
+            this.label73.Size = new System.Drawing.Size(197, 35);
+            this.label73.TabIndex = 1;
+            this.label73.Text = "CO";
+            this.label73.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // panel33
             // 
@@ -1880,128 +1614,6 @@ namespace AQMS
             this.label71.Text = "NO₂";
             this.label71.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // panel5
-            // 
-            this.panel5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(26)))), ((int)(((byte)(59)))), ((int)(((byte)(122)))));
-            this.panel5.Controls.Add(this.label117);
-            this.panel5.Controls.Add(this.labelPM10);
-            this.panel5.Controls.Add(this.panel27);
-            this.panel5.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panel5.Location = new System.Drawing.Point(873, 3);
-            this.panel5.Name = "panel5";
-            this.panel5.Size = new System.Drawing.Size(140, 78);
-            this.panel5.TabIndex = 7;
-            // 
-            // label117
-            // 
-            this.label117.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.label117.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label117.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(237)))), ((int)(((byte)(237)))), ((int)(((byte)(237)))));
-            this.label117.Location = new System.Drawing.Point(0, 35);
-            this.label117.Name = "label117";
-            this.label117.Size = new System.Drawing.Size(140, 43);
-            this.label117.TabIndex = 15;
-            this.label117.Text = "0 ppm";
-            this.label117.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.label117.Visible = false;
-            // 
-            // labelPM10
-            // 
-            this.labelPM10.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.labelPM10.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labelPM10.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(237)))), ((int)(((byte)(237)))), ((int)(((byte)(237)))));
-            this.labelPM10.Location = new System.Drawing.Point(0, 35);
-            this.labelPM10.Name = "labelPM10";
-            this.labelPM10.Size = new System.Drawing.Size(140, 43);
-            this.labelPM10.TabIndex = 12;
-            this.labelPM10.Text = "0 µg/m3.";
-            this.labelPM10.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // panel27
-            // 
-            this.panel27.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(44)))), ((int)(((byte)(69)))), ((int)(((byte)(157)))));
-            this.panel27.Controls.Add(this.label);
-            this.panel27.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panel27.Location = new System.Drawing.Point(0, 0);
-            this.panel27.Margin = new System.Windows.Forms.Padding(5);
-            this.panel27.Name = "panel27";
-            this.panel27.Size = new System.Drawing.Size(140, 35);
-            this.panel27.TabIndex = 9;
-            // 
-            // label
-            // 
-            this.label.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.label.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(237)))), ((int)(((byte)(237)))), ((int)(((byte)(237)))));
-            this.label.Location = new System.Drawing.Point(0, 0);
-            this.label.Name = "label";
-            this.label.Size = new System.Drawing.Size(140, 35);
-            this.label.TabIndex = 4;
-            this.label.Text = "PM 10";
-            this.label.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // panel2
-            // 
-            this.panel2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(108)))), ((int)(((byte)(28)))), ((int)(((byte)(0)))));
-            this.panel2.Controls.Add(this.ppmCO);
-            this.panel2.Controls.Add(this.labelCO);
-            this.panel2.Controls.Add(this.panel19);
-            this.panel2.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panel2.Location = new System.Drawing.Point(612, 3);
-            this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(197, 98);
-            this.panel2.TabIndex = 6;
-            // 
-            // ppmCO
-            // 
-            this.ppmCO.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(28)))), ((int)(((byte)(0)))));
-            this.ppmCO.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.ppmCO.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.ppmCO.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(237)))), ((int)(((byte)(237)))), ((int)(((byte)(237)))));
-            this.ppmCO.Location = new System.Drawing.Point(0, 35);
-            this.ppmCO.Name = "ppmCO";
-            this.ppmCO.Size = new System.Drawing.Size(197, 63);
-            this.ppmCO.TabIndex = 14;
-            this.ppmCO.Text = "0 ppm";
-            this.ppmCO.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.ppmCO.Visible = false;
-            // 
-            // labelCO
-            // 
-            this.labelCO.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.labelCO.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labelCO.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(237)))), ((int)(((byte)(237)))), ((int)(((byte)(237)))));
-            this.labelCO.Location = new System.Drawing.Point(0, 35);
-            this.labelCO.Name = "labelCO";
-            this.labelCO.Size = new System.Drawing.Size(197, 63);
-            this.labelCO.TabIndex = 12;
-            this.labelCO.Text = "0 µg/m3.";
-            this.labelCO.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // panel19
-            // 
-            this.panel19.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(44)))), ((int)(((byte)(69)))), ((int)(((byte)(157)))));
-            this.panel19.Controls.Add(this.label73);
-            this.panel19.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panel19.Location = new System.Drawing.Point(0, 0);
-            this.panel19.Margin = new System.Windows.Forms.Padding(5);
-            this.panel19.Name = "panel19";
-            this.panel19.Size = new System.Drawing.Size(197, 35);
-            this.panel19.TabIndex = 8;
-            // 
-            // label73
-            // 
-            this.label73.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(218)))), ((int)(((byte)(45)))), ((int)(((byte)(0)))));
-            this.label73.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.label73.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label73.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(237)))), ((int)(((byte)(237)))), ((int)(((byte)(237)))));
-            this.label73.Location = new System.Drawing.Point(0, 0);
-            this.label73.Name = "label73";
-            this.label73.Size = new System.Drawing.Size(197, 35);
-            this.label73.TabIndex = 1;
-            this.label73.Text = "CO";
-            this.label73.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
             // panel4
             // 
             this.panel4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(25)))), ((int)(((byte)(25)))), ((int)(((byte)(25)))));
@@ -2064,6 +1676,397 @@ namespace AQMS
             this.label85.Text = "HC";
             this.label85.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
+            // labelDateTime
+            // 
+            this.labelDateTime.AutoSize = true;
+            this.labelDateTime.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelDateTime.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(8)))), ((int)(((byte)(20)))), ((int)(((byte)(52)))));
+            this.labelDateTime.Location = new System.Drawing.Point(822, 6);
+            this.labelDateTime.Name = "labelDateTime";
+            this.labelDateTime.Size = new System.Drawing.Size(175, 13);
+            this.labelDateTime.TabIndex = 50;
+            this.labelDateTime.Text = "Selasa, 30 Agustus 2022 08:31:00";
+            this.labelDateTime.TextAlign = System.Drawing.ContentAlignment.TopRight;
+            // 
+            // tableLayoutPanel2
+            // 
+            this.tableLayoutPanel2.BackColor = System.Drawing.SystemColors.Control;
+            this.tableLayoutPanel2.ColumnCount = 7;
+            this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 14.28531F));
+            this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 14.28531F));
+            this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 14.28531F));
+            this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 14.28531F));
+            this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 14.28531F));
+            this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 14.28531F));
+            this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 14.28816F));
+            this.tableLayoutPanel2.Controls.Add(this.panel45, 4, 0);
+            this.tableLayoutPanel2.Controls.Add(this.panel8, 5, 0);
+            this.tableLayoutPanel2.Controls.Add(this.panel6, 0, 0);
+            this.tableLayoutPanel2.Controls.Add(this.panel35, 1, 0);
+            this.tableLayoutPanel2.Controls.Add(this.panel14, 3, 0);
+            this.tableLayoutPanel2.Controls.Add(this.panel5, 6, 0);
+            this.tableLayoutPanel2.Controls.Add(this.panel17, 2, 0);
+            this.tableLayoutPanel2.Controls.Add(this.label42, 5, 1);
+            this.tableLayoutPanel2.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.tableLayoutPanel2.Location = new System.Drawing.Point(0, 418);
+            this.tableLayoutPanel2.Name = "tableLayoutPanel2";
+            this.tableLayoutPanel2.RowCount = 2;
+            this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
+            this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
+            this.tableLayoutPanel2.Size = new System.Drawing.Size(1016, 104);
+            this.tableLayoutPanel2.TabIndex = 43;
+            // 
+            // panel45
+            // 
+            this.panel45.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(26)))), ((int)(((byte)(59)))), ((int)(((byte)(122)))));
+            this.panel45.Controls.Add(this.labelSolarRadiasi);
+            this.panel45.Controls.Add(this.panel46);
+            this.panel45.Location = new System.Drawing.Point(583, 3);
+            this.panel45.Name = "panel45";
+            this.tableLayoutPanel2.SetRowSpan(this.panel45, 2);
+            this.panel45.Size = new System.Drawing.Size(139, 98);
+            this.panel45.TabIndex = 9;
+            // 
+            // labelSolarRadiasi
+            // 
+            this.labelSolarRadiasi.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.labelSolarRadiasi.Font = new System.Drawing.Font("Segoe UI", 12.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelSolarRadiasi.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(237)))), ((int)(((byte)(237)))), ((int)(((byte)(237)))));
+            this.labelSolarRadiasi.Location = new System.Drawing.Point(0, 35);
+            this.labelSolarRadiasi.Name = "labelSolarRadiasi";
+            this.labelSolarRadiasi.Size = new System.Drawing.Size(139, 63);
+            this.labelSolarRadiasi.TabIndex = 12;
+            this.labelSolarRadiasi.Text = "0 W/m²";
+            this.labelSolarRadiasi.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // panel46
+            // 
+            this.panel46.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(44)))), ((int)(((byte)(69)))), ((int)(((byte)(157)))));
+            this.panel46.Controls.Add(this.label84);
+            this.panel46.Dock = System.Windows.Forms.DockStyle.Top;
+            this.panel46.Location = new System.Drawing.Point(0, 0);
+            this.panel46.Margin = new System.Windows.Forms.Padding(5);
+            this.panel46.Name = "panel46";
+            this.panel46.Size = new System.Drawing.Size(139, 35);
+            this.panel46.TabIndex = 9;
+            // 
+            // label84
+            // 
+            this.label84.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.label84.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label84.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(237)))), ((int)(((byte)(237)))), ((int)(((byte)(237)))));
+            this.label84.Location = new System.Drawing.Point(0, 0);
+            this.label84.Name = "label84";
+            this.label84.Size = new System.Drawing.Size(139, 35);
+            this.label84.TabIndex = 3;
+            this.label84.Text = "SOLAR RADIASI";
+            this.label84.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // panel8
+            // 
+            this.panel8.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(26)))), ((int)(((byte)(59)))), ((int)(((byte)(122)))));
+            this.panel8.Controls.Add(this.ppmPM25);
+            this.panel8.Controls.Add(this.labelPM25);
+            this.panel8.Controls.Add(this.panel29);
+            this.panel8.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.panel8.Location = new System.Drawing.Point(728, 3);
+            this.panel8.Name = "panel8";
+            this.panel8.Size = new System.Drawing.Size(139, 78);
+            this.panel8.TabIndex = 10;
+            // 
+            // ppmPM25
+            // 
+            this.ppmPM25.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.ppmPM25.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ppmPM25.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(237)))), ((int)(((byte)(237)))), ((int)(((byte)(237)))));
+            this.ppmPM25.Location = new System.Drawing.Point(0, 35);
+            this.ppmPM25.Name = "ppmPM25";
+            this.ppmPM25.Size = new System.Drawing.Size(139, 43);
+            this.ppmPM25.TabIndex = 14;
+            this.ppmPM25.Text = "0 ppm";
+            this.ppmPM25.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.ppmPM25.Visible = false;
+            // 
+            // labelPM25
+            // 
+            this.labelPM25.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.labelPM25.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelPM25.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(237)))), ((int)(((byte)(237)))), ((int)(((byte)(237)))));
+            this.labelPM25.Location = new System.Drawing.Point(0, 35);
+            this.labelPM25.Name = "labelPM25";
+            this.labelPM25.Size = new System.Drawing.Size(139, 43);
+            this.labelPM25.TabIndex = 11;
+            this.labelPM25.Text = "0 µg/m3.";
+            this.labelPM25.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // panel29
+            // 
+            this.panel29.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(44)))), ((int)(((byte)(69)))), ((int)(((byte)(157)))));
+            this.panel29.Controls.Add(this.label13);
+            this.panel29.Dock = System.Windows.Forms.DockStyle.Top;
+            this.panel29.Location = new System.Drawing.Point(0, 0);
+            this.panel29.Margin = new System.Windows.Forms.Padding(5);
+            this.panel29.Name = "panel29";
+            this.panel29.Size = new System.Drawing.Size(139, 35);
+            this.panel29.TabIndex = 10;
+            // 
+            // label13
+            // 
+            this.label13.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.label13.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label13.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(237)))), ((int)(((byte)(237)))), ((int)(((byte)(237)))));
+            this.label13.Location = new System.Drawing.Point(0, 0);
+            this.label13.Name = "label13";
+            this.label13.Size = new System.Drawing.Size(139, 35);
+            this.label13.TabIndex = 4;
+            this.label13.Text = "PM 2.5";
+            this.label13.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // panel6
+            // 
+            this.panel6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(26)))), ((int)(((byte)(59)))), ((int)(((byte)(122)))));
+            this.panel6.Controls.Add(this.labelSuhu);
+            this.panel6.Controls.Add(this.panel18);
+            this.panel6.Location = new System.Drawing.Point(3, 3);
+            this.panel6.Name = "panel6";
+            this.tableLayoutPanel2.SetRowSpan(this.panel6, 2);
+            this.panel6.Size = new System.Drawing.Size(139, 98);
+            this.panel6.TabIndex = 5;
+            // 
+            // labelSuhu
+            // 
+            this.labelSuhu.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.labelSuhu.Font = new System.Drawing.Font("Segoe UI", 12.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelSuhu.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(237)))), ((int)(((byte)(237)))), ((int)(((byte)(237)))));
+            this.labelSuhu.Location = new System.Drawing.Point(0, 35);
+            this.labelSuhu.Name = "labelSuhu";
+            this.labelSuhu.Size = new System.Drawing.Size(139, 63);
+            this.labelSuhu.TabIndex = 12;
+            this.labelSuhu.Text = "0 °C";
+            this.labelSuhu.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // panel18
+            // 
+            this.panel18.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(44)))), ((int)(((byte)(69)))), ((int)(((byte)(157)))));
+            this.panel18.Controls.Add(this.label3);
+            this.panel18.Dock = System.Windows.Forms.DockStyle.Top;
+            this.panel18.Location = new System.Drawing.Point(0, 0);
+            this.panel18.Margin = new System.Windows.Forms.Padding(5);
+            this.panel18.Name = "panel18";
+            this.panel18.Size = new System.Drawing.Size(139, 35);
+            this.panel18.TabIndex = 9;
+            // 
+            // label3
+            // 
+            this.label3.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.label3.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(237)))), ((int)(((byte)(237)))), ((int)(((byte)(237)))));
+            this.label3.Location = new System.Drawing.Point(0, 0);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(139, 35);
+            this.label3.TabIndex = 0;
+            this.label3.Text = "SUHU";
+            this.label3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // panel35
+            // 
+            this.panel35.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(26)))), ((int)(((byte)(59)))), ((int)(((byte)(122)))));
+            this.panel35.Controls.Add(this.labelKelembaban);
+            this.panel35.Controls.Add(this.panel36);
+            this.panel35.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.panel35.Location = new System.Drawing.Point(148, 3);
+            this.panel35.Name = "panel35";
+            this.tableLayoutPanel2.SetRowSpan(this.panel35, 2);
+            this.panel35.Size = new System.Drawing.Size(139, 98);
+            this.panel35.TabIndex = 8;
+            // 
+            // labelKelembaban
+            // 
+            this.labelKelembaban.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.labelKelembaban.Font = new System.Drawing.Font("Segoe UI", 12.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelKelembaban.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(237)))), ((int)(((byte)(237)))), ((int)(((byte)(237)))));
+            this.labelKelembaban.Location = new System.Drawing.Point(0, 35);
+            this.labelKelembaban.Name = "labelKelembaban";
+            this.labelKelembaban.Size = new System.Drawing.Size(139, 63);
+            this.labelKelembaban.TabIndex = 12;
+            this.labelKelembaban.Text = "0 %";
+            this.labelKelembaban.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // panel36
+            // 
+            this.panel36.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(44)))), ((int)(((byte)(69)))), ((int)(((byte)(157)))));
+            this.panel36.Controls.Add(this.label4);
+            this.panel36.Dock = System.Windows.Forms.DockStyle.Top;
+            this.panel36.Location = new System.Drawing.Point(0, 0);
+            this.panel36.Margin = new System.Windows.Forms.Padding(5);
+            this.panel36.Name = "panel36";
+            this.panel36.Size = new System.Drawing.Size(139, 35);
+            this.panel36.TabIndex = 9;
+            // 
+            // label4
+            // 
+            this.label4.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.label4.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(237)))), ((int)(((byte)(237)))), ((int)(((byte)(237)))));
+            this.label4.Location = new System.Drawing.Point(0, 0);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(139, 35);
+            this.label4.TabIndex = 2;
+            this.label4.Text = "KELEMBAPAN";
+            this.label4.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // panel14
+            // 
+            this.panel14.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(26)))), ((int)(((byte)(59)))), ((int)(((byte)(122)))));
+            this.panel14.Controls.Add(this.labelKecepatanAngin);
+            this.panel14.Controls.Add(this.panel25);
+            this.panel14.Location = new System.Drawing.Point(438, 3);
+            this.panel14.Name = "panel14";
+            this.tableLayoutPanel2.SetRowSpan(this.panel14, 2);
+            this.panel14.Size = new System.Drawing.Size(139, 98);
+            this.panel14.TabIndex = 7;
+            // 
+            // labelKecepatanAngin
+            // 
+            this.labelKecepatanAngin.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.labelKecepatanAngin.Font = new System.Drawing.Font("Segoe UI", 12.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelKecepatanAngin.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(237)))), ((int)(((byte)(237)))), ((int)(((byte)(237)))));
+            this.labelKecepatanAngin.Location = new System.Drawing.Point(0, 35);
+            this.labelKecepatanAngin.Name = "labelKecepatanAngin";
+            this.labelKecepatanAngin.Size = new System.Drawing.Size(139, 63);
+            this.labelKecepatanAngin.TabIndex = 12;
+            this.labelKecepatanAngin.Text = "0 km/h";
+            this.labelKecepatanAngin.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // panel25
+            // 
+            this.panel25.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(44)))), ((int)(((byte)(69)))), ((int)(((byte)(157)))));
+            this.panel25.Controls.Add(this.label7);
+            this.panel25.Dock = System.Windows.Forms.DockStyle.Top;
+            this.panel25.Location = new System.Drawing.Point(0, 0);
+            this.panel25.Margin = new System.Windows.Forms.Padding(5);
+            this.panel25.Name = "panel25";
+            this.panel25.Size = new System.Drawing.Size(139, 35);
+            this.panel25.TabIndex = 9;
+            // 
+            // label7
+            // 
+            this.label7.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.label7.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label7.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(237)))), ((int)(((byte)(237)))), ((int)(((byte)(237)))));
+            this.label7.Location = new System.Drawing.Point(0, 0);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(139, 35);
+            this.label7.TabIndex = 3;
+            this.label7.Text = "KECEPATAN ANGIN";
+            this.label7.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // panel5
+            // 
+            this.panel5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(26)))), ((int)(((byte)(59)))), ((int)(((byte)(122)))));
+            this.panel5.Controls.Add(this.label117);
+            this.panel5.Controls.Add(this.labelPM10);
+            this.panel5.Controls.Add(this.panel27);
+            this.panel5.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.panel5.Location = new System.Drawing.Point(873, 3);
+            this.panel5.Name = "panel5";
+            this.panel5.Size = new System.Drawing.Size(140, 78);
+            this.panel5.TabIndex = 7;
+            // 
+            // label117
+            // 
+            this.label117.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.label117.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label117.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(237)))), ((int)(((byte)(237)))), ((int)(((byte)(237)))));
+            this.label117.Location = new System.Drawing.Point(0, 35);
+            this.label117.Name = "label117";
+            this.label117.Size = new System.Drawing.Size(140, 43);
+            this.label117.TabIndex = 15;
+            this.label117.Text = "0 ppm";
+            this.label117.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.label117.Visible = false;
+            // 
+            // labelPM10
+            // 
+            this.labelPM10.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.labelPM10.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelPM10.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(237)))), ((int)(((byte)(237)))), ((int)(((byte)(237)))));
+            this.labelPM10.Location = new System.Drawing.Point(0, 35);
+            this.labelPM10.Name = "labelPM10";
+            this.labelPM10.Size = new System.Drawing.Size(140, 43);
+            this.labelPM10.TabIndex = 12;
+            this.labelPM10.Text = "0 µg/m3.";
+            this.labelPM10.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // panel27
+            // 
+            this.panel27.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(44)))), ((int)(((byte)(69)))), ((int)(((byte)(157)))));
+            this.panel27.Controls.Add(this.label);
+            this.panel27.Dock = System.Windows.Forms.DockStyle.Top;
+            this.panel27.Location = new System.Drawing.Point(0, 0);
+            this.panel27.Margin = new System.Windows.Forms.Padding(5);
+            this.panel27.Name = "panel27";
+            this.panel27.Size = new System.Drawing.Size(140, 35);
+            this.panel27.TabIndex = 9;
+            // 
+            // label
+            // 
+            this.label.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.label.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(237)))), ((int)(((byte)(237)))), ((int)(((byte)(237)))));
+            this.label.Location = new System.Drawing.Point(0, 0);
+            this.label.Name = "label";
+            this.label.Size = new System.Drawing.Size(140, 35);
+            this.label.TabIndex = 4;
+            this.label.Text = "PM 10";
+            this.label.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // panel17
+            // 
+            this.panel17.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(26)))), ((int)(((byte)(59)))), ((int)(((byte)(122)))));
+            this.panel17.Controls.Add(this.labelArahAngin);
+            this.panel17.Controls.Add(this.panel24);
+            this.panel17.Location = new System.Drawing.Point(293, 3);
+            this.panel17.Name = "panel17";
+            this.tableLayoutPanel2.SetRowSpan(this.panel17, 2);
+            this.panel17.Size = new System.Drawing.Size(139, 98);
+            this.panel17.TabIndex = 7;
+            // 
+            // labelArahAngin
+            // 
+            this.labelArahAngin.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.labelArahAngin.Font = new System.Drawing.Font("Segoe UI", 12.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelArahAngin.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(237)))), ((int)(((byte)(237)))), ((int)(((byte)(237)))));
+            this.labelArahAngin.Location = new System.Drawing.Point(0, 35);
+            this.labelArahAngin.Name = "labelArahAngin";
+            this.labelArahAngin.Size = new System.Drawing.Size(139, 63);
+            this.labelArahAngin.TabIndex = 12;
+            this.labelArahAngin.Text = "0° Dari utara";
+            this.labelArahAngin.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // panel24
+            // 
+            this.panel24.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(44)))), ((int)(((byte)(69)))), ((int)(((byte)(157)))));
+            this.panel24.Controls.Add(this.label6);
+            this.panel24.Dock = System.Windows.Forms.DockStyle.Top;
+            this.panel24.Location = new System.Drawing.Point(0, 0);
+            this.panel24.Margin = new System.Windows.Forms.Padding(5);
+            this.panel24.Name = "panel24";
+            this.panel24.Size = new System.Drawing.Size(139, 35);
+            this.panel24.TabIndex = 9;
+            // 
+            // label6
+            // 
+            this.label6.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.label6.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label6.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(237)))), ((int)(((byte)(237)))), ((int)(((byte)(237)))));
+            this.label6.Location = new System.Drawing.Point(0, 0);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(139, 35);
+            this.label6.TabIndex = 1;
+            this.label6.Text = "ARAH ANGIN";
+            this.label6.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
             // label42
             // 
             this.label42.AutoSize = true;
@@ -2083,6 +2086,7 @@ namespace AQMS
             this.panel16.Name = "panel16";
             this.panel16.Size = new System.Drawing.Size(16, 21);
             this.panel16.TabIndex = 67;
+            this.panel16.Visible = false;
             // 
             // rawData
             // 
@@ -2462,7 +2466,7 @@ namespace AQMS
             this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button1.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(237)))), ((int)(((byte)(237)))), ((int)(((byte)(237)))));
-            this.button1.Location = new System.Drawing.Point(354, 64);
+            this.button1.Location = new System.Drawing.Point(387, 64);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(144, 29);
             this.button1.TabIndex = 8;
@@ -2562,9 +2566,9 @@ namespace AQMS
             // 
             this.dtpToZero.CalendarFont = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.dtpToZero.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.dtpToZero.Location = new System.Drawing.Point(188, 68);
+            this.dtpToZero.Location = new System.Drawing.Point(200, 68);
             this.dtpToZero.Name = "dtpToZero";
-            this.dtpToZero.Size = new System.Drawing.Size(160, 25);
+            this.dtpToZero.Size = new System.Drawing.Size(181, 25);
             this.dtpToZero.TabIndex = 11;
             // 
             // dtpFromZero
@@ -2573,7 +2577,7 @@ namespace AQMS
             this.dtpFromZero.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.dtpFromZero.Location = new System.Drawing.Point(11, 68);
             this.dtpFromZero.Name = "dtpFromZero";
-            this.dtpFromZero.Size = new System.Drawing.Size(160, 25);
+            this.dtpFromZero.Size = new System.Drawing.Size(181, 25);
             this.dtpFromZero.TabIndex = 10;
             // 
             // label14
@@ -2581,7 +2585,7 @@ namespace AQMS
             this.label14.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(23)))), ((int)(((byte)(38)))), ((int)(((byte)(88)))));
             this.label14.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label14.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(237)))), ((int)(((byte)(237)))), ((int)(((byte)(237)))));
-            this.label14.Location = new System.Drawing.Point(185, 40);
+            this.label14.Location = new System.Drawing.Point(200, 40);
             this.label14.Name = "label14";
             this.label14.Size = new System.Drawing.Size(184, 29);
             this.label14.TabIndex = 9;
@@ -2638,7 +2642,7 @@ namespace AQMS
             this.btnUserLog.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnUserLog.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnUserLog.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(237)))), ((int)(((byte)(237)))), ((int)(((byte)(237)))));
-            this.btnUserLog.Location = new System.Drawing.Point(354, 65);
+            this.btnUserLog.Location = new System.Drawing.Point(387, 67);
             this.btnUserLog.Name = "btnUserLog";
             this.btnUserLog.Size = new System.Drawing.Size(144, 27);
             this.btnUserLog.TabIndex = 14;
@@ -2723,9 +2727,9 @@ namespace AQMS
             // 
             this.dtpToLog.CalendarFont = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.dtpToLog.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.dtpToLog.Location = new System.Drawing.Point(188, 67);
+            this.dtpToLog.Location = new System.Drawing.Point(200, 69);
             this.dtpToLog.Name = "dtpToLog";
-            this.dtpToLog.Size = new System.Drawing.Size(160, 25);
+            this.dtpToLog.Size = new System.Drawing.Size(181, 25);
             this.dtpToLog.TabIndex = 17;
             // 
             // dtpFromLog
@@ -2734,7 +2738,7 @@ namespace AQMS
             this.dtpFromLog.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.dtpFromLog.Location = new System.Drawing.Point(13, 69);
             this.dtpFromLog.Name = "dtpFromLog";
-            this.dtpFromLog.Size = new System.Drawing.Size(160, 25);
+            this.dtpFromLog.Size = new System.Drawing.Size(179, 25);
             this.dtpFromLog.TabIndex = 16;
             // 
             // label22
@@ -2742,7 +2746,7 @@ namespace AQMS
             this.label22.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(23)))), ((int)(((byte)(38)))), ((int)(((byte)(88)))));
             this.label22.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label22.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(237)))), ((int)(((byte)(237)))), ((int)(((byte)(237)))));
-            this.label22.Location = new System.Drawing.Point(185, 40);
+            this.label22.Location = new System.Drawing.Point(197, 40);
             this.label22.Name = "label22";
             this.label22.Size = new System.Drawing.Size(184, 26);
             this.label22.TabIndex = 15;
@@ -3321,7 +3325,7 @@ namespace AQMS
             this.panel50.Controls.Add(this.labelRawGps);
             this.panel50.Controls.Add(this.labelRawSerial);
             this.panel50.Controls.Add(this.label127);
-            this.panel50.Location = new System.Drawing.Point(18, 655);
+            this.panel50.Location = new System.Drawing.Point(22, 664);
             this.panel50.Margin = new System.Windows.Forms.Padding(8, 3, 0, 3);
             this.panel50.Name = "panel50";
             this.panel50.Size = new System.Drawing.Size(565, 146);
@@ -3417,7 +3421,7 @@ namespace AQMS
             this.panel47.Controls.Add(this.label109);
             this.panel47.Controls.Add(this.tableLayoutPanel10);
             this.panel47.Controls.Add(this.label83);
-            this.panel47.Location = new System.Drawing.Point(18, 804);
+            this.panel47.Location = new System.Drawing.Point(22, 813);
             this.panel47.Margin = new System.Windows.Forms.Padding(8, 3, 0, 3);
             this.panel47.Name = "panel47";
             this.panel47.Size = new System.Drawing.Size(973, 502);
@@ -3979,7 +3983,7 @@ namespace AQMS
             this.label83.Padding = new System.Windows.Forms.Padding(25, 0, 0, 0);
             this.label83.Size = new System.Drawing.Size(973, 45);
             this.label83.TabIndex = 5;
-            this.label83.Text = "Batas setting";
+            this.label83.Text = "Allowed range";
             this.label83.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
             // tabControl2
@@ -3987,7 +3991,7 @@ namespace AQMS
             this.tabControl2.Controls.Add(this.tabPage2);
             this.tabControl2.Controls.Add(this.tabPage3);
             this.tabControl2.Controls.Add(this.tabPage4);
-            this.tabControl2.Location = new System.Drawing.Point(15, 3);
+            this.tabControl2.Location = new System.Drawing.Point(19, 12);
             this.tabControl2.Name = "tabControl2";
             this.tabControl2.SelectedIndex = 0;
             this.tabControl2.Size = new System.Drawing.Size(294, 256);
@@ -4043,7 +4047,7 @@ namespace AQMS
             this.label87.Name = "label87";
             this.label87.Size = new System.Drawing.Size(280, 48);
             this.label87.TabIndex = 5;
-            this.label87.Text = "Port Alat setting";
+            this.label87.Text = "Pengaturan port";
             this.label87.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // label88
@@ -4166,7 +4170,7 @@ namespace AQMS
             this.label29.Name = "label29";
             this.label29.Size = new System.Drawing.Size(263, 53);
             this.label29.TabIndex = 30;
-            this.label29.Text = "Port GPS setting";
+            this.label29.Text = "Pengaturan lokasi";
             this.label29.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // label81
@@ -4280,9 +4284,9 @@ namespace AQMS
             // 
             this.cbxReset.FormattingEnabled = true;
             this.cbxReset.Items.AddRange(new object[] {
-            "Noanaktif",
+            "Nonaktif",
             "Aktif"});
-            this.cbxReset.Location = new System.Drawing.Point(17, 153);
+            this.cbxReset.Location = new System.Drawing.Point(19, 153);
             this.cbxReset.Name = "cbxReset";
             this.cbxReset.Size = new System.Drawing.Size(233, 25);
             this.cbxReset.TabIndex = 36;
@@ -4371,7 +4375,7 @@ namespace AQMS
             this.panel39.Controls.Add(this.rbDataManual);
             this.panel39.Controls.Add(this.rbDataOtomatis);
             this.panel39.Controls.Add(this.label44);
-            this.panel39.Location = new System.Drawing.Point(587, 405);
+            this.panel39.Location = new System.Drawing.Point(591, 414);
             this.panel39.Margin = new System.Windows.Forms.Padding(8, 3, 0, 3);
             this.panel39.Name = "panel39";
             this.panel39.Size = new System.Drawing.Size(251, 244);
@@ -4479,7 +4483,7 @@ namespace AQMS
             this.btnCheckUpdates.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnCheckUpdates.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnCheckUpdates.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(237)))), ((int)(((byte)(237)))), ((int)(((byte)(237)))));
-            this.btnCheckUpdates.Location = new System.Drawing.Point(15, 597);
+            this.btnCheckUpdates.Location = new System.Drawing.Point(19, 606);
             this.btnCheckUpdates.Name = "btnCheckUpdates";
             this.btnCheckUpdates.Size = new System.Drawing.Size(290, 55);
             this.btnCheckUpdates.TabIndex = 29;
@@ -4499,7 +4503,7 @@ namespace AQMS
             this.panelPwmOtomatis.Controls.Add(this.txtInputSensor1);
             this.panelPwmOtomatis.Controls.Add(this.label25);
             this.panelPwmOtomatis.Controls.Add(this.label24);
-            this.panelPwmOtomatis.Location = new System.Drawing.Point(587, 142);
+            this.panelPwmOtomatis.Location = new System.Drawing.Point(591, 151);
             this.panelPwmOtomatis.Margin = new System.Windows.Forms.Padding(8, 3, 0, 3);
             this.panelPwmOtomatis.Name = "panelPwmOtomatis";
             this.panelPwmOtomatis.Size = new System.Drawing.Size(250, 259);
@@ -4609,7 +4613,7 @@ namespace AQMS
             this.label24.Name = "label24";
             this.label24.Size = new System.Drawing.Size(250, 40);
             this.label24.TabIndex = 5;
-            this.label24.Text = "PWM Otomastis input setting";
+            this.label24.Text = "Pengaturan PWM Otomatis";
             this.label24.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // panelTrack
@@ -4621,7 +4625,7 @@ namespace AQMS
             this.panelTrack.Controls.Add(this.txtPwmTrack);
             this.panelTrack.Controls.Add(this.label45);
             this.panelTrack.Controls.Add(this.label23);
-            this.panelTrack.Location = new System.Drawing.Point(841, 6);
+            this.panelTrack.Location = new System.Drawing.Point(845, 15);
             this.panelTrack.Margin = new System.Windows.Forms.Padding(8, 3, 0, 3);
             this.panelTrack.Name = "panelTrack";
             this.panelTrack.Size = new System.Drawing.Size(151, 646);
@@ -4773,7 +4777,7 @@ namespace AQMS
             this.panel13.Controls.Add(this.rbManual);
             this.panel13.Controls.Add(this.rbOtomatis);
             this.panel13.Controls.Add(this.label12);
-            this.panel13.Location = new System.Drawing.Point(587, 6);
+            this.panel13.Location = new System.Drawing.Point(591, 15);
             this.panel13.Margin = new System.Windows.Forms.Padding(8, 3, 0, 3);
             this.panel13.Name = "panel13";
             this.panel13.Size = new System.Drawing.Size(250, 130);
@@ -4828,7 +4832,7 @@ namespace AQMS
             this.panel12.Controls.Add(this.label30);
             this.panel12.Controls.Add(this.label1);
             this.panel12.Controls.Add(this.label21);
-            this.panel12.Location = new System.Drawing.Point(586, 655);
+            this.panel12.Location = new System.Drawing.Point(590, 664);
             this.panel12.Margin = new System.Windows.Forms.Padding(8, 3, 0, 3);
             this.panel12.Name = "panel12";
             this.panel12.Size = new System.Drawing.Size(406, 146);
@@ -4946,7 +4950,7 @@ namespace AQMS
             this.panel10.Controls.Add(this.checkBoxKelembaban);
             this.panel10.Controls.Add(this.checkBoxSuhu);
             this.panel10.Controls.Add(this.label20);
-            this.panel10.Location = new System.Drawing.Point(310, 6);
+            this.panel10.Location = new System.Drawing.Point(314, 15);
             this.panel10.Margin = new System.Windows.Forms.Padding(8, 3, 0, 3);
             this.panel10.Name = "panel10";
             this.panel10.Size = new System.Drawing.Size(273, 646);
@@ -5180,7 +5184,7 @@ namespace AQMS
             this.label20.Name = "label20";
             this.label20.Size = new System.Drawing.Size(273, 40);
             this.label20.TabIndex = 5;
-            this.label20.Text = "Sensor & Battery settings";
+            this.label20.Text = "Pengaturan sensor dan baterai";
             this.label20.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // panel7
@@ -5193,7 +5197,7 @@ namespace AQMS
             this.panel7.Controls.Add(this.pbApp);
             this.panel7.Controls.Add(this.label10);
             this.panel7.Controls.Add(this.label19);
-            this.panel7.Location = new System.Drawing.Point(15, 261);
+            this.panel7.Location = new System.Drawing.Point(19, 270);
             this.panel7.Margin = new System.Windows.Forms.Padding(8, 3, 0, 3);
             this.panel7.Name = "panel7";
             this.panel7.Size = new System.Drawing.Size(289, 332);
@@ -5389,7 +5393,7 @@ namespace AQMS
             // 
             // timerRequest
             // 
-            this.timerRequest.Interval = 3000;
+            this.timerRequest.Interval = 5000;
             this.timerRequest.Tick += new System.EventHandler(this.timerRequest_Tick);
             // 
             // timerRequestMap
@@ -5452,35 +5456,35 @@ namespace AQMS
             ((System.ComponentModel.ISupportInitialize)(this.logoApp)).EndInit();
             this.tableLayoutPanel4.ResumeLayout(false);
             this.panel40.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.chart2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.chart3)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.chart2)).EndInit();
             this.tableLayoutPanel12.ResumeLayout(false);
-            this.panel45.ResumeLayout(false);
-            this.panel46.ResumeLayout(false);
-            this.panel35.ResumeLayout(false);
-            this.panel36.ResumeLayout(false);
-            this.panel6.ResumeLayout(false);
-            this.panel18.ResumeLayout(false);
-            this.panel14.ResumeLayout(false);
-            this.panel25.ResumeLayout(false);
-            this.panel17.ResumeLayout(false);
-            this.panel24.ResumeLayout(false);
-            this.tableLayoutPanel2.ResumeLayout(false);
-            this.tableLayoutPanel2.PerformLayout();
-            this.panel8.ResumeLayout(false);
-            this.panel29.ResumeLayout(false);
+            this.panel2.ResumeLayout(false);
+            this.panel19.ResumeLayout(false);
             this.panel33.ResumeLayout(false);
             this.panel34.ResumeLayout(false);
             this.panel28.ResumeLayout(false);
             this.panel31.ResumeLayout(false);
             this.panel1.ResumeLayout(false);
             this.panel20.ResumeLayout(false);
-            this.panel5.ResumeLayout(false);
-            this.panel27.ResumeLayout(false);
-            this.panel2.ResumeLayout(false);
-            this.panel19.ResumeLayout(false);
             this.panel4.ResumeLayout(false);
             this.panel26.ResumeLayout(false);
+            this.tableLayoutPanel2.ResumeLayout(false);
+            this.tableLayoutPanel2.PerformLayout();
+            this.panel45.ResumeLayout(false);
+            this.panel46.ResumeLayout(false);
+            this.panel8.ResumeLayout(false);
+            this.panel29.ResumeLayout(false);
+            this.panel6.ResumeLayout(false);
+            this.panel18.ResumeLayout(false);
+            this.panel35.ResumeLayout(false);
+            this.panel36.ResumeLayout(false);
+            this.panel14.ResumeLayout(false);
+            this.panel25.ResumeLayout(false);
+            this.panel5.ResumeLayout(false);
+            this.panel27.ResumeLayout(false);
+            this.panel17.ResumeLayout(false);
+            this.panel24.ResumeLayout(false);
             this.rawData.ResumeLayout(false);
             this.tableLayoutPanel5.ResumeLayout(false);
             this.panel32.ResumeLayout(false);

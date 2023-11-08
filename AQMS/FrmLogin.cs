@@ -4,6 +4,7 @@ using System;
 using System.Data;
 using System.Data.SQLite;
 using System.Diagnostics;
+using System.Management;
 using System.Net.Http;
 using System.Text;
 using System.Threading;
@@ -23,52 +24,52 @@ namespace AQMS
             {
                 logoApp.ImageLocation = Application.StartupPath + Properties.Settings.Default.imgaePath;
             }
-            txtPassword.GotFocus += OnFocus;
-            txtUsername.GotFocus += On1Focus;
-            txtPassword.LostFocus += OnDefocus;
-            txtUsername.LostFocus += On1Defocus;
+            //txtPassword.GotFocus += OnFocus;
+            //txtUsername.GotFocus += On1Focus;
+            //txtPassword.LostFocus += OnDefocus;
+            //txtUsername.LostFocus += On1Defocus;
         }
-        private void OnFocus(object sender, EventArgs e)
-        {
-            var arrProcs = Process.GetProcessesByName("osk");
-            if (arrProcs.Length != 0)
-            {
-                panel1.Location = new System.Drawing.Point(242, -150);
-                text1 = (TextBox)sender;
-                return;
-            }
-            else
-            {
-                Thread.Sleep(200);
-                panel1.Location = new System.Drawing.Point(242, -150);
-            }
-        }
-        private void On1Focus(object sender, EventArgs e)
-        {
-            var arrProcs = Process.GetProcessesByName("osk");
-            if (arrProcs.Length != 0)
-            {
-                panel1.Location = new System.Drawing.Point(242, -150);
-                return;
-            }
-            else
-            {
-                Thread.Sleep(200);
-                panel1.Location = new System.Drawing.Point(242, -150);
-            }
-            text1 = (TextBox)sender;
-        }
+        //private void OnFocus(object sender, EventArgs e)
+        //{
+        //    var arrProcs = Process.GetProcessesByName("osk");
+        //    if (arrProcs.Length != 0)
+        //    {
+        //        panel1.Location = new System.Drawing.Point(242, -150);
+        //        text1 = (TextBox)sender;
+        //        return;
+        //    }
+        //    else
+        //    {
+        //        Thread.Sleep(200);
+        //        panel1.Location = new System.Drawing.Point(242, -150);
+        //    }
+        //}
+        //private void On1Focus(object sender, EventArgs e)
+        //{
+        //    var arrProcs = Process.GetProcessesByName("osk");
+        //    if (arrProcs.Length != 0)
+        //    {
+        //        panel1.Location = new System.Drawing.Point(242, -150);
+        //        return;
+        //    }
+        //    else
+        //    {
+        //        Thread.Sleep(200);
+        //        panel1.Location = new System.Drawing.Point(242, -150);
+        //    }
+        //    text1 = (TextBox)sender;
+        //}
 
-        private void OnDefocus(object sender, EventArgs e)
-        {
-            panel1.Location = new System.Drawing.Point(242, 55);
-            text1 = null;
-        }
-        private void On1Defocus(object sender, EventArgs e)
-        {
-            panel1.Location = new System.Drawing.Point(242, 55);
-            text1 = null;
-        }
+        //private void OnDefocus(object sender, EventArgs e)
+        //{
+        //    panel1.Location = new System.Drawing.Point(242, 55);
+        //    text1 = null;
+        //}
+        //private void On1Defocus(object sender, EventArgs e)
+        //{
+        //    panel1.Location = new System.Drawing.Point(242, 55);
+        //    text1 = null;
+        //}
 
         class loginRaw
         {
@@ -112,7 +113,7 @@ namespace AQMS
 
         private void FrmLogin_Load(object sender, EventArgs e)
         {
-            timer1.Start();
+            //timer1.Start();
             if (Properties.Settings.Default.apiUrl == "")
             {
                 Properties.Settings.Default.apiUrl = "http://103.139.192.125";
@@ -204,8 +205,8 @@ namespace AQMS
                                     {
                                         LoginStatus.tanggalAktivasi = jObject["device"]["activation_date"].ToString();
                                         LoginStatus.tanggalKedaluwarsa = jObject["device"]["expires_date"].ToString();
-                                        TimeSpan span = Convert.ToDateTime(LoginStatus.tanggalKedaluwarsa).Subtract(Convert.ToDateTime(LoginStatus.tanggalAktivasi));
-                                        LoginStatus.sisaTanggal = span.TotalDays.ToString();
+                                        TimeSpan span = Convert.ToDateTime(LoginStatus.tanggalKedaluwarsa).Subtract(DateTime.Now);
+                                        LoginStatus.sisaTanggal = Convert.ToInt32(span.TotalDays).ToString();
                                     } else if (LoginStatus.role == "superuser")
                                     {
                                         MessageBox.Show("Tidak diizinkan login dengan akun tersebut", "Information", MessageBoxButtons.OK, MessageBoxIcon.Information);
@@ -266,6 +267,27 @@ namespace AQMS
         private void txtUsername_TextChanged(object sender, EventArgs e)
         {
 
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+                ManagementBaseObject mboShutdown = null;
+                ManagementClass mcWin32 = new ManagementClass("Win32_OperatingSystem");
+                mcWin32.Get();
+
+                // You can't shutdown without security privileges
+                mcWin32.Scope.Options.EnablePrivileges = true;
+                ManagementBaseObject mboShutdownParams =
+                         mcWin32.GetMethodParameters("Win32Shutdown");
+
+                // Flag 1 means we want to shut down the system. Use "2" to reboot.
+                mboShutdownParams["Flags"] = "1";
+                mboShutdownParams["Reserved"] = "0";
+                foreach (ManagementObject manObj in mcWin32.GetInstances())
+                {
+                    mboShutdown = manObj.InvokeMethod("Win32Shutdown",
+                                                   mboShutdownParams, null);
+                }
         }
     }
 }

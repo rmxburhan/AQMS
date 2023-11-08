@@ -293,7 +293,6 @@ namespace AQMS
             }
             catch (Exception)
             {
-            
             }
         }
 
@@ -766,7 +765,8 @@ namespace AQMS
             }
         }
 
-        private void btnConnect_Click(object sender, EventArgs e)
+
+        private async void btnConnect_Click(object sender, EventArgs e)
         {
             //countDataReceived = 0;
             waktuAwal = DateTime.Now;
@@ -779,39 +779,47 @@ namespace AQMS
                         MessageBox.Show("Fitur dinonaktifkan");
                         return;
                     }
+                    if (!serialPortUtama.IsOpen)
+                    {
+
                     serialPortUtama.PortName = Properties.Settings.Default.portAlat;
                     serialPortUtama.BaudRate = 9600;
                     serialPortUtama.Open();
+                    }
 
-                    if (serialPortGps.IsOpen == false)
+                    if (!serialPortGps.IsOpen)
                     {
                         serialPortGps.PortName = Properties.Settings.Default.portGps;
-                        serialPortGps.BaudRate = 9600;
+                        serialPortGps.BaudRate = 19200;
+                        serialPortGps.DataBits = 8;
+                        serialPortGps.Parity = Parity.None;
+                        serialPortGps.StopBits = StopBits.One;
+
+                        serialPortGps.Handshake = Handshake.None;
                         serialPortGps.ReadTimeout = 1000;
+                        serialPortGps.WriteTimeout = 1000;
                         var task = Task.Run(() =>
                         {
                             try
                             {
                                 serialPortGps.Open();
-                                serialPortGps.DiscardInBuffer();
-                                serialPortGps.DiscardOutBuffer();
                                 serialPortGps.DataReceived += serialPortGps_DataReceived;
+                                if (serialPortGps.IsOpen)
+                                {
+                                    timerRequestMap.Start();
+                                }
                             }
                             catch (Exception ex)
                             {
-                                MessageBox.Show($"Error : {ex.Message}\nGPS tidak aktif lokasi akan diambil dari lokasi terakhir", "Port GPS error", MessageBoxButtons.OK, MessageBoxIcon.Warning);
                             }
                         });
-                        task.Wait();
-                        if (serialPortGps.IsOpen)
-                        {
-                            timerRequestMap.Start();
-                        }
                     }
+                    
                     if (serialPortUtama.IsOpen)
                     {
                         serialPortUtama.Write($"setPWM,{Properties.Settings.Default.pwmTrack},*");
                     }
+
                     if (serialPortUtama.IsOpen && rbDataOtomatis.Checked)
                     {
                         timerRequest.Start();
@@ -996,7 +1004,7 @@ namespace AQMS
 
         private void timerDate_Tick(object sender, EventArgs e)
         {
-            labelDateTime.Text = $"{DateTime.Now.ToString("D", ci)} {DateTime.Now.ToLongTimeString()}";
+            labelDateTime.Text = $"{DateTime.Now.ToString("dddd, dd MMMM yyyy HH:mm:ss", ci)}";
         }
 
         void firstSetup()
@@ -1588,24 +1596,25 @@ namespace AQMS
         private delegate void ShowLatLng(string gpgga);
         private void serialPortGps_DataReceived(object sender, SerialDataReceivedEventArgs e)
         {
-            if (bacaMap == true)
+
+            try
             {
-                try
+                datas = serialPortGps.ReadLine();
+                //Console.WriteLine(datas);
+                string[] halo = datas.Split('\n');
+                string[] gpgga = halo[0].ToString().Split(',');
+                if (gpgga[0] == "$GPGGA")
                 {
-                    datas = serialPortGps.ReadLine();
-                    //Console.WriteLine(datas);
-                    string[] halo = datas.Split('\n');
-                    string[] gpgga = halo[0].ToString().Split(',');
-                    if (gpgga[0] == "$GPGGA")
+                    if (bacaMap == true)
                     {
                         this.BeginInvoke(new ShowLatLng(_serialPortGps_DataReceived), new object[] { halo[0].ToString() });
                         bacaMap = false;
                     }
                 }
-                catch (Exception ex)
-                {
-                    //MessageBox.Show(ex.Message);
-                }
+            }
+            catch 
+            {
+                return;
             }
         }
 
@@ -1687,7 +1696,7 @@ namespace AQMS
                         Console.Write("GPs err" + ex.Message);
                     }
                 }
-                timerRequestMap.Interval = 60000;
+                timerRequestMap.Interval = 60000 * 5;
             }
             catch
             {
@@ -1721,7 +1730,6 @@ namespace AQMS
                 {
                     Properties.Settings.Default.lat = numericUpDown1.Value.ToString();
                     Properties.Settings.Default.lng = numericUpDown2.Value.ToString();
-                    Properties.Settings.Default.Save();
                     Properties.Settings.Default.Save();
                     label28.Text = $"Port yang digunakan = {Properties.Settings.Default.portGps}";
                     insertLog("Mengubah pengaturan GPS");
@@ -1927,7 +1935,7 @@ namespace AQMS
             chartGas.Hide();
             chartWeather.Show();
         }
-        int waktu = 10;
+        int waktu = 180;
         private void timerWaktuTunggu_Tick(object sender, EventArgs e)
         {
             count++;
@@ -1948,15 +1956,30 @@ namespace AQMS
 
         private void button4_Click(object sender, EventArgs e)
         {
-            if (serialPortUtama.IsOpen || serialPortGps.IsOpen)
-            if (serialPortUtama.IsOpen || serialPortGps.IsOpen)
+            try
             {
-                MessageBox.Show("Matikan engine terlebih dahulu", "Information", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                if (serialPortUtama.IsOpen || serialPortGps.IsOpen)
+                if (serialPortUtama.IsOpen || serialPortGps.IsOpen)
+                {
+                    MessageBox.Show("Matikan engine terlebih dahulu", "Information", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                    return;
+                }
+                if (!serialPortUtama.IsOpen)
+                {
+                    serialPortUtama.Open();
+                    Thread.Sleep(1000);
+                    serialPortUtama.Write("setPWM,0,*");
+                    Thread.Sleep(500);
+                    serialPortUtama.Close();
+                }
+                waktuAkhir = DateTime.Now;
+                _login.Show();
+                this.Close();
+            }
+            catch 
+            {
                 return;
             }
-            waktuAkhir = DateTime.Now;
-            _login.Show();
-            this.Close();
         }
 
         public void ShutDownSystem()
@@ -2026,7 +2049,7 @@ namespace AQMS
         public void onClosing()
         {
             TimeSpan span = waktuAkhir.Subtract(Convert.ToDateTime(LoginStatus.loginTime));
-            konsumsi_batery = String.Format("{0:0.00}", ((float)(voltaseAwal - voltaseAkhir) / (span.TotalSeconds / 3600)));
+            konsumsi_batery = String.Format("{0:0.00}", ((float)(voltaseAwal - voltaseAkhir) / span.TotalHours));
             insertData($"UPDATE log_perangkat set logout_time = '{waktuAkhir.ToString("yyyy-MM-dd HH:mm:ss")}', konsumsi_baterai = '{konsumsi_batery} V/Jam' , durasi_penggunaan = '{String.Format("{0:0.00}", (double)(span.TotalMinutes / 60))} Jam' WHERE login_time = '{LoginStatus.loginTime}'; UPDATE tbl_perangkat SET portAlat = '{Properties.Settings.Default.portAlat}', portGps = '{Properties.Settings.Default.portGps}', lat = '{Properties.Settings.Default.lat}', lng = '{Properties.Settings.Default.lng}', pwmTrack = '{Properties.Settings.Default.pwmTrack}', pwmAuto = '{Properties.Settings.Default.pwmOtomatis}', timerCharge = '{Properties.Settings.Default.timerCharge}' WHERE id = '1';");
             var task = Task.Run(async () =>
             {
@@ -2070,39 +2093,28 @@ namespace AQMS
 
         private void button4_Click_1(object sender, EventArgs e)
         {
-            //if (serialPortUtama.IsOpen)
+            //if (label15.Text == "ON")
             //{
-            //    setCharge();
-            //}
-            //else
-            //{
-            //    serialPortUtama.Open();
-            //    setCharge();
-            //    serialPortUtama.Close();
-            //    if (!timerWaktuTunggu.Enabled)
+            //    if (serialPortUtama.IsOpen)
             //    {
-            //        btnConnect.Enabled = true;
+            //        timerWaktuCharge.Stop();
+            //        labelTunggu.Hide();
+            //        progressBar2.Hide();
+            //        labelSensorMenyala.Show();
+            //        countCharge = 0;
+            //        btnDisconnect.Enabled = true;
+            //        serialPortUtama.Write($"setPWM,{Properties.Settings.Default.pwmTrack},*");
+            //        label15.Text = "OFF";
+            //        if (serialPortUtama.IsOpen)
+            //        {
+            //            serialPortUtama.Write("CHARGE,0,*");
+            //            timerRequest.Start();
+            //        }
             //    }
             //}
         }
 
 
-        void setCharge()
-        {
-            if (label15.Text == "OFF")
-            {
-                if (timerWaktuCharge.Enabled == false)
-                {
-                    serialPortUtama.Write("CHARGE,1,*");
-                    label15.Text = "ON";
-                }
-            }
-            else if(label15.Text == "ON")
-            {
-                serialPortUtama.Write("CHARGE,0,*");
-                label15.Text = "OFF";
-            }
-        }
         int countCharge = 0;
         private void timerWaktuCharge_Tick(object sender, EventArgs e)
         {
@@ -2119,7 +2131,7 @@ namespace AQMS
                 countCharge = 0;
                 btnDisconnect.Enabled = true;
                 serialPortUtama.Write($"setPWM,{Properties.Settings.Default.pwmTrack},*");
-                label15.Text = "ON"; 
+                label15.Text = "OFF"; 
                 if (serialPortUtama.IsOpen)
                 {
                     serialPortUtama.Write("CHARGE,0,*");
